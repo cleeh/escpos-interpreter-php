@@ -1,0 +1,25 @@
+{
+  "name": "rockatoo/escpos-interpreter-php",
+  "type": "library",
+  "description": "escpos thermal printer interpreter for php",
+  "keywords": [
+    "esc",
+    "pos",
+    "thermal",
+    "printer"
+  ],
+  "homepage": "https://github.com/rockatoo/escpos-interpreter-php",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "rockatoo",
+      "email": "codemaniac73@gmail.com",
+      "role": "develop"
+    },
+    {
+      "name": "khk37601",
+      "email": "khk37601@gmail.com",
+      "role": "develop"
+    }
+  ]
+}
