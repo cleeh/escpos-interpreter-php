@@ -43,8 +43,11 @@ abstract class AbstractCommand implements CommandInterface
   }
   public function toHexString()
   {
-    throw new Error('Not implemented');
-    return '';
+    $hexString = '';
+    foreach($this->data as $decimal){
+      $hexString .= dechex($decimal);
+    }
+    return $hexString;
   }
   public function toCodeString()
   {

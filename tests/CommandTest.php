@@ -38,8 +38,8 @@ class CommandTest extends TestCase
   }
   public function testToHexString()
   {
-    $command = new Command($this->arrayData);
-    $this->fail('Test implementation is needed');
+    $command = new Command($this->stringData);
+    $this->assertSame("1b2130", $command->toHexString());
   }
   public function testToCodeString()
   {
