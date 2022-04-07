@@ -8,11 +8,13 @@ class CommandTest extends TestCase
 {
   protected $arrayData;
   protected $stringData;
+  protected $codeString;
 
   public function setUp(): void
   {
     $this->arrayData = array(27, 33, 48);
     $this->stringData = '!0';
+    $this->codeString = 'ESC ! 0';
   }
 
   public function testInitializeCommand()
@@ -42,6 +44,6 @@ class CommandTest extends TestCase
   public function testToCodeString()
   {
     $command = new Command($this->arrayData);
-    $this->assertSame($this->arrayData, $command->toIntArray());
+    $this->assertSame($this->codeString, $command->toIntArray());
   }
 }
