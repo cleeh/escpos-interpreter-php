@@ -44,6 +44,6 @@ class CommandTest extends TestCase
   public function testToCodeString()
   {
     $command = new Command($this->arrayData);
-    $this->assertSame($this->codeString, $command->toIntArray());
+    $this->assertSame($this->codeString, $command->toCodeString());
   }
 }

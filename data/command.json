@@ -50,7 +50,9 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "min": 1,
+        "max": 255
       }
     ]
   },
@@ -64,7 +66,9 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "min": 1,
+        "max": 255
       }
     ]
   },
@@ -104,7 +108,10 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "min": 0,
+        "max": 255
+        // TODO(rockatoo): default value...? (0)
       }
     ]
   },
@@ -118,7 +125,9 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "min": 0,
+        "max": 255
       }
     ]
   },
@@ -132,7 +141,16 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        // TODO(rockatoo): 각 값이 무슨 역할을 하는지 기재할 필요가 있는지 고민 필요
+        "range": [
+          0,
+          1,
+          2,
+          48,
+          49,
+          50
+        ]
       }
     ]
   },
@@ -146,7 +164,15 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "range": [
+          0,
+          1,
+          2,
+          48,
+          49,
+          50
+        ]
       }
     ]
   },
@@ -160,7 +186,9 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "min": 0,
+        "max": 255
       }
     ]
   },
@@ -174,7 +202,9 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "min": 0,
+        "max": 255
       }
     ]
   },
@@ -188,7 +218,17 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "range": [
+          0,
+          1,
+          2,
+          3,
+          48,
+          49,
+          50,
+          51
+        ]
       }
     ]
   },
@@ -202,10 +242,14 @@
     ],
     "params": [
       {
-        "name": "nL"
+        "name": "nL",
+        "min": 0,
+        "max": 255
       },
       {
-        "name": "nH"
+        "name": "nH",
+        "min": 0,
+        "max": 255
       }
     ]
   },
@@ -220,8 +264,13 @@
     "params": [
       {
         "name": "n",
-        // TODO(rockatoo): 좀 자세하게 적을까 고민 중 (매개 변수가 NULL을 만날 때까지 이어짐 -> 개수가 제한이 없음)
-        "until": 0
+        "min": 1,
+        "max": 72,
+        "until": [
+          0,
+          255
+        ],
+        "limit": 8
       }
     ]
   },
@@ -244,7 +293,9 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "min": 0,
+        "max": 127
       }
     ]
   },
@@ -258,7 +309,9 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "min": 0,
+        "max": 48
       }
     ]
   },
@@ -272,7 +325,15 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "range": [
+          0,
+          1,
+          2,
+          48,
+          49,
+          50
+        ]
       }
     ]
   },
@@ -286,7 +347,14 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "nL",
+        "min": 0,
+        "max": 255
+      },
+      {
+        "name": "nH",
+        "min": 0,
+        "max": 255
       }
     ]
   },
@@ -300,18 +368,31 @@
     ],
     "params": [
       {
-        "name": "m"
+        "name": "m",
+        "range": [
+          0,
+          1,
+          32,
+          33
+        ]
       },
       {
-        "name": "nL"
+        "name": "nL",
+        "min": 0,
+        "max": 255
       },
       {
-        "name": "nH"
+        "name": "nH",
+        "min": 0,
+        "max": 3
       },
       {
         "name": "d",
-        // TODO(rockatoo): 언제까지 이어지는지 알 수 있는 기준을 찾아야 함
-        // "until": ""
+        "min": 0,
+        "max": 255,
+        "count": "nL + nH * 256",
+        "limit": 1023
+        // TODO(rockatoo): 프린터마다 개수 차이가 심해보인다.
       }
     ]
   },
@@ -325,15 +406,20 @@
     ],
     "params": [
       {
-        "name": "x"
+        "name": "x",
+        "min": 1,
+        "max": 72
       },
       {
-        "name": "y"
+        "name": "y",
+        "min": 1,
+        "max": 20
       },
       {
         "name": "d",
-        // TODO(rockatoo): 언제까지 이어지는지 알 수 있는 기준을 찾아야 함
-        // "until": ""
+        "min": 0,
+        "max": 255,
+        "count": "x * y * 8"
       }
     ]
   },
@@ -347,7 +433,13 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "range": [
+          0,
+          1,
+          2,
+          3
+        ]
       }
     ]
   },
@@ -361,7 +453,10 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "min": 0,
+        "max": 15
+        // TODO(rockatoo): 음...? range로 해야하나...?
       }
     ]
   },
@@ -375,7 +470,9 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "min": 12,
+        "max": 160
       }
     ]
   },
@@ -389,7 +486,10 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "min": 1,
+        "max": 4
+        // TODO(rockatoo): range로 해야할지 min-max로 해야할지 고민
       }
     ]
   },
@@ -403,7 +503,15 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "range": [
+          0,
+          1,
+          2,
+          48,
+          49,
+          50
+        ]
       }
     ]
   },
@@ -417,7 +525,13 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "range": [
+          0,
+          1,
+          48,
+          49
+        ]
       }
     ]
   },
@@ -431,8 +545,26 @@
     ],
     "params": [
       {
-        "name": "m"
-        // TODO(rockatoo): 언제 끝나는지 모름
+        "name": "m",
+        "range": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73
+        ]
+        // TODO(rockatoo): m의 범위에 따라 메커니즘이 크게 바뀐다. (0~6), (65~78) ... 일단 건너뛴다.
       }
     ]
   },
@@ -446,7 +578,12 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "range": [
+          0,
+          1,
+          2
+        ]
       }
     ]
   },
@@ -459,14 +596,21 @@
       90
     ],
     "params": [
+      // TODO(rockatoo): 프린터마다 매개변수의 형태와 개수가 다르다? 확인 필요
       {
-        "name": "m"
+        "name": "m",
+        "min": 1,
+        "max": 30
       },
       {
-        "name": "n"
+        "name": "n",
+        "min": 0,
+        "max": 8
       },
       {
-        "name": "k"
+        "name": "k",
+        "min": 3,
+        "max": 4
       },
       {
         "name": "sL"
@@ -485,14 +629,17 @@
     "code": "GS '",
     "hex": "1d27",
     "array": [
-      27,
+      29,
       39
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "min": 0,
+        "max": 8
       },
       // TODO(rockatoo): 연속해서 계속 나옴... 하지만, n번까지 나옴
+      // TODO(rockatoo): 
       {
         "name": "x1sL"
       },
@@ -512,12 +659,14 @@
     "code": "GS \"",
     "hex": "1d22",
     "array": [
-      27,
+      29,
       34
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "min": 0,
+        "max": 1
       },
       {
         "name": "xL"
@@ -527,7 +676,9 @@
       },
       {
         "name": "c",
-        "until": 0 // TODO(rockatoo): NULL 나올 때까지 반복
+        "until": [
+          0
+        ]
       }
     ]
   },
@@ -571,12 +722,14 @@
     "code": "ESC t",
     "hex": "1b74",
     "array": [
-      28,
+      27,
       116
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "min": 0,
+        "max": 50 // TODO(rockatoo): 255까지도 가능할 것 같다 (252 ~ 255도 존재)
       }
     ]
   },
@@ -585,12 +738,14 @@
     "code": "ESC R",
     "hex": "1b52",
     "array": [
-      28,
+      27,
       82
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "min": 0,
+        "max": 13
       }
     ]
   },
@@ -603,15 +758,21 @@
       102
     ],
     "params": [
-      // TODO(rockatoo): 이거 매개변수 이름 제대로 된 거 맞나?...
+      // TODO(rockatoo): 매개변수 이름이 특이한데, 특정 포스기만 가지는 명령어인듯 하다. 추가 조사 필요
       {
-        "name": "id"
+        "name": "id",
+        "min": 0,
+        "max": 255
       },
       {
-        "name": "nL"
+        "name": "nL",
+        "min": 0,
+        "max": 255
       },
       {
-        "name": "nH"
+        "name": "nH",
+        "min": 0,
+        "max": 255
       },
       {
         "name": "crc16L"
@@ -620,9 +781,9 @@
         "name": "crc16H"
       },
       {
-        "name": "d"
-        // TODO(rockatoo): n개 반복인데, n이 안 보임
-      },
+        "name": "d",
+        "count": "nL + nH * 256"
+      }
     ]
   },
   {
@@ -634,7 +795,7 @@
       113
     ],
     "params": [
-      // TODO(rockatoo): 이거 매개변수 이름 제대로 된 거 맞나?...
+      // TODO(rockatoo): 이 명령어 또한 특정 포스 프린터만 가지고 있는 명령어로 추정. 정확한 사용법도 불명
       {
         "name": "id"
       }
@@ -665,11 +826,13 @@
     ],
     "params": [
       {
-        "name": "k"
+        "name": "k",
+        "min": 1,
+        "max": 7
       },
       {
-        // k번 반복
-        "name": "n"
+        "name": "n",
+        "count": "k"
       }
     ]
   }
