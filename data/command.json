@@ -1,0 +1,676 @@
+[
+  {
+    "description": "Initialize printer",
+    "code": "ESC @",
+    "hex": "1b40",
+    "array": [
+      27,
+      64
+    ]
+  },
+  {
+    "description": "Print and feed paper 1 lines",
+    "code": "FF",
+    "hex": "0c",
+    "array": [
+      12
+    ]
+  },
+  {
+    "description": "Print and paper feed to the right black bar",
+    "code": "SO",
+    "hex": "0e",
+    "array": [
+      14
+    ]
+  },
+  {
+    "description": "Line feed",
+    "code": "LF",
+    "hex": "0a",
+    "array": [
+      10
+    ]
+  },
+  {
+    "description": "Print and carriage return",
+    "code": "CR",
+    "hex": "0d",
+    "array": [
+      13
+    ]
+  },
+  {
+    "description": "Print and Paper Feed",
+    "code": "ESC J",
+    "hex": "1b4a",
+    "array": [
+      27,
+      74
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Print and feed paper n lines",
+    "code": "ESC d",
+    "hex": "1b64",
+    "array": [
+      27,
+      100
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Horizontal tab",
+    "code": "HT",
+    "hex": "09",
+    "array": [
+      9
+    ]
+  },
+  {
+    "description": "Print and paper feed to the label gap",
+    "code": "GS FF",
+    "hex": "1d0c",
+    "array": [
+      29,
+      12
+    ]
+  },
+  {
+    "description": "Read the printer status",
+    "code": "GS 0x99",
+    "hex": "1d99",
+    "array": [
+      29,
+      153
+    ]
+  },
+  {
+    "description": "Select character printing mode",
+    "code": "ESC !",
+    "hex": "1b21",
+    "array": [
+      27,
+      33
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Select character size",
+    "code": "GS !",
+    "hex": "1d21",
+    "array": [
+      29,
+      33
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Select character font",
+    "code": "ESC M",
+    "hex": "1b4d",
+    "array": [
+      27,
+      77
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Specify/cancels underline mode",
+    "code": "ESC –",
+    "hex": "1b2d",
+    "array": [
+      27,
+      45
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Specify/cancel emphasized printing",
+    "code": "ESC E",
+    "hex": "1b45",
+    "array": [
+      27,
+      69
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Specify/cancel white/black inverted printing",
+    "code": "GS B",
+    "hex": "1d42",
+    "array": [
+      27,
+      66
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Specify/cancel char. 90 deg. clockwise rotation",
+    "code": "ESC V",
+    "hex": "1b56",
+    "array": [
+      27,
+      86
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Specify absolute position",
+    "code": "ESC $",
+    "hex": "1b24",
+    "array": [
+      27,
+      36
+    ],
+    "params": [
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      }
+    ]
+  },
+  {
+    "description": "Set horizontal tab position",
+    "code": "ESC D",
+    "hex": "1b44",
+    "array": [
+      27,
+      68
+    ],
+    "params": [
+      {
+        "name": "n",
+        // TODO(rockatoo): 좀 자세하게 적을까 고민 중 (매개 변수가 NULL을 만날 때까지 이어짐 -> 개수가 제한이 없음)
+        "until": 0
+      }
+    ]
+  },
+  {
+    "description": "Set default line spacing",
+    "code": "ESC 2",
+    "hex": "1b32",
+    "array": [
+      27,
+      50
+    ]
+  },
+  {
+    "description": "Set line feed amount",
+    "code": "ESC 3",
+    "hex": "1b33",
+    "array": [
+      27,
+      51
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Set character right space amount",
+    "code": "ESC SP",
+    "hex": "1b20",
+    "array": [
+      27,
+      32
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Position alignment",
+    "code": "ESC a",
+    "hex": "1b61",
+    "array": [
+      27,
+      97
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Set left margin",
+    "code": "GS L",
+    "hex": "1d4c",
+    "array": [
+      29,
+      76
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Specify bit image mode",
+    "code": "ESC *",
+    "hex": "1b2a",
+    "array": [
+      27,
+      42
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      },
+      {
+        "name": "d",
+        // TODO(rockatoo): 언제까지 이어지는지 알 수 있는 기준을 찾아야 함
+        // "until": ""
+      }
+    ]
+  },
+  {
+    "description": "Define download bit images",
+    "code": "GS *",
+    "hex": "1d2a",
+    "array": [
+      29,
+      42
+    ],
+    "params": [
+      {
+        "name": "x"
+      },
+      {
+        "name": "y"
+      },
+      {
+        "name": "d",
+        // TODO(rockatoo): 언제까지 이어지는지 알 수 있는 기준을 찾아야 함
+        // "until": ""
+      }
+    ]
+  },
+  {
+    "description": "Print download bit images",
+    "code": "GS /",
+    "hex": "1d2f",
+    "array": [
+      29,
+      47
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Print NV bit image",
+    "code": "FS P",
+    "hex": "1c50",
+    "array": [
+      28,
+      80
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Set bar code height",
+    "code": "GS h",
+    "hex": "1d68",
+    "array": [
+      29,
+      104
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Set bar code horizontal size",
+    "code": "GS w",
+    "hex": "1d77",
+    "array": [
+      29,
+      119
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Select HRI character print position",
+    "code": "GS H",
+    "hex": "1d48",
+    "array": [
+      29,
+      72
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Select HRI character font",
+    "code": "GS f",
+    "hex": "1d66",
+    "array": [
+      29,
+      102
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Print bar code",
+    "code": "GS k",
+    "hex": "1d6b",
+    "array": [
+      29,
+      107
+    ],
+    "params": [
+      {
+        "name": "m"
+        // TODO(rockatoo): 언제 끝나는지 모름
+      }
+    ]
+  },
+  {
+    "description": "Select the 2D bar code",
+    "code": "GS Z",
+    "hex": "1d5a",
+    "array": [
+      29,
+      90
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Print the 2D bar code",
+    "code": "ESC Z",
+    "hex": "1b5a",
+    "array": [
+      27,
+      90
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "name": "n"
+      },
+      {
+        "name": "k"
+      },
+      {
+        "name": "sL"
+      },
+      {
+        "name": "sH"
+      },
+      {
+        "name": "d"
+        // TODO(rockatoo): N개만큼 나온다?
+      }
+    ]
+  },
+  {
+    "description": "Print curve",
+    "code": "GS '",
+    "hex": "1d27",
+    "array": [
+      27,
+      39
+    ],
+    "params": [
+      {
+        "name": "n"
+      },
+      // TODO(rockatoo): 연속해서 계속 나옴... 하지만, n번까지 나옴
+      {
+        "name": "x1sL"
+      },
+      {
+        "name": "x1sH"
+      },
+      {
+        "name": "x1eL"
+      },
+      {
+        "name": "x1eH"
+      }
+    ]
+  },
+  {
+    "description": "Print character on the curve",
+    "code": "GS \"",
+    "hex": "1d22",
+    "array": [
+      27,
+      34
+    ],
+    "params": [
+      {
+        "name": "n"
+      },
+      {
+        "name": "xL"
+      },
+      {
+        "name": "xH"
+      },
+      {
+        "name": "c",
+        "until": 0 // TODO(rockatoo): NULL 나올 때까지 반복
+      }
+    ]
+  },
+  {
+    "description": "Specify Chinese character mode",
+    "code": "FS &",
+    "hex": "1c26",
+    "array": [
+      28,
+      38
+    ]
+  },
+  {
+    "description": "Cancel Chinese character mode",
+    "code": "FS .",
+    "hex": "1c2e",
+    "array": [
+      28,
+      46
+    ]
+  },
+  {
+    "description": "Print Unicode code character",
+    "code": "FS U",
+    "hex": "1c55",
+    "array": [
+      28,
+      85
+    ],
+    "params": [
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      }
+    ]
+  },
+  {
+    "description": "Select character code page",
+    "code": "ESC t",
+    "hex": "1b74",
+    "array": [
+      28,
+      116
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Select international characters",
+    "code": "ESC R",
+    "hex": "1b52",
+    "array": [
+      28,
+      82
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "In frame mode data transmission",
+    "code": "US f",
+    "hex": "1f66",
+    "array": [
+      31,
+      102
+    ],
+    "params": [
+      // TODO(rockatoo): 이거 매개변수 이름 제대로 된 거 맞나?...
+      {
+        "name": "id"
+      },
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      },
+      {
+        "name": "crc16L"
+      },
+      {
+        "name": "crc16H"
+      },
+      {
+        "name": "d"
+        // TODO(rockatoo): n개 반복인데, n이 안 보임
+      },
+    ]
+  },
+  {
+    "description": "Frame status query",
+    "code": "US q",
+    "hex": "1f71",
+    "array": [
+      31,
+      113
+    ],
+    "params": [
+      // TODO(rockatoo): 이거 매개변수 이름 제대로 된 거 맞나?...
+      {
+        "name": "id"
+      }
+    ]
+  },
+  {
+    "description": "Read the Bluetooth password",
+    "code": "US s B r P",
+    "hex": "1f73427250",
+    "array": [
+      31,
+      115,
+      66,
+      114,
+      80
+    ]
+  },
+  {
+    "description": "Setup the Bluetooth password",
+    "code": "US s B s P k",
+    "hex": "1f73427250",
+    "array": [
+      31,
+      115,
+      66,
+      114,
+      80
+    ],
+    "params": [
+      {
+        "name": "k"
+      },
+      {
+        // k번 반복
+        "name": "n"
+      }
+    ]
+  }
+]
