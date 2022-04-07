@@ -44,8 +44,8 @@ abstract class AbstractCommand implements CommandInterface
   public function toHexString()
   {
     $hexString = '';
-    foreach($this->data as $value){
-      $hexString .= dechex($value);
+    foreach($this->data as $decimal){
+      $hexString .= dechex($decimal);
     }
     return $hexString;
   }
