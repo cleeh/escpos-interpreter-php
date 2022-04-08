@@ -50,7 +50,9 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "min": 0,
+        "max": 255
       }
     ]
   },
@@ -64,7 +66,9 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "min": 0,
+        "max": 255
       }
     ]
   },
@@ -104,7 +108,10 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "min": 0,
+        "max": 255
+        // TODO(rockatoo): default value...? (0)
       }
     ]
   },
@@ -118,7 +125,9 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "min": 0,
+        "max": 255
       }
     ]
   },
@@ -132,7 +141,16 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        // TODO(rockatoo): 각 값이 무슨 역할을 하는지 기재할 필요가 있는지 고민 필요
+        "range": [
+          0,
+          1,
+          2,
+          48,
+          49,
+          50
+        ]
       }
     ]
   },
@@ -146,7 +164,15 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "range": [
+          0,
+          1,
+          2,
+          48,
+          49,
+          50
+        ]
       }
     ]
   },
@@ -160,7 +186,9 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "min": 0,
+        "max": 255
       }
     ]
   },
@@ -174,7 +202,9 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "min": 0,
+        "max": 255
       }
     ]
   },
@@ -188,7 +218,17 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "range": [
+          0,
+          1,
+          2,
+          3,
+          48,
+          49,
+          50,
+          51
+        ]
       }
     ]
   },
@@ -202,10 +242,14 @@
     ],
     "params": [
       {
-        "name": "nL"
+        "name": "nL",
+        "min": 0,
+        "max": 255
       },
       {
-        "name": "nH"
+        "name": "nH",
+        "min": 0,
+        "max": 255
       }
     ]
   },
@@ -220,8 +264,13 @@
     "params": [
       {
         "name": "n",
-        // TODO(rockatoo): 좀 자세하게 적을까 고민 중 (매개 변수가 NULL을 만날 때까지 이어짐 -> 개수가 제한이 없음)
-        "until": 0
+        "min": 1,
+        "max": 255,
+        "until": [
+          0,
+          255
+        ],
+        "limit": 32
       }
     ]
   },
@@ -244,7 +293,9 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "min": 0,
+        "max": 255
       }
     ]
   },
@@ -258,7 +309,9 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "min": 0,
+        "max": 255
       }
     ]
   },
@@ -272,7 +325,15 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "range": [
+          0,
+          1,
+          2,
+          48,
+          49,
+          50
+        ]
       }
     ]
   },
@@ -286,7 +347,14 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "nL",
+        "min": 0,
+        "max": 255
+      },
+      {
+        "name": "nH",
+        "min": 0,
+        "max": 255
       }
     ]
   },
@@ -300,18 +368,31 @@
     ],
     "params": [
       {
-        "name": "m"
+        "name": "m",
+        "range": [
+          0,
+          1,
+          32,
+          33
+        ]
       },
       {
-        "name": "nL"
+        "name": "nL",
+        "min": 0,
+        "max": 255
       },
       {
-        "name": "nH"
+        "name": "nH",
+        "min": 0,
+        "max": 3
       },
       {
         "name": "d",
-        // TODO(rockatoo): 언제까지 이어지는지 알 수 있는 기준을 찾아야 함
-        // "until": ""
+        "min": 0,
+        "max": 255,
+        "count": "nL + nH * 256",
+        "limit": 1023
+        // TODO(rockatoo): 프린터마다 개수 차이가 심해보인다.
       }
     ]
   },
@@ -325,15 +406,20 @@
     ],
     "params": [
       {
-        "name": "x"
+        "name": "x",
+        "min": 1,
+        "max": 255
       },
       {
-        "name": "y"
+        "name": "y",
+        "min": 1,
+        "max": 48
       },
       {
         "name": "d",
-        // TODO(rockatoo): 언제까지 이어지는지 알 수 있는 기준을 찾아야 함
-        // "until": ""
+        "min": 0,
+        "max": 255,
+        "count": "x * y * 8"
       }
     ]
   },
@@ -347,21 +433,48 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "range": [
+          0,
+          1,
+          2,
+          3,
+          48,
+          49,
+          50,
+          51
+        ]
       }
     ]
   },
   {
     "description": "Print NV bit image",
-    "code": "FS P",
-    "hex": "1c50",
+    "code": "FS p",
+    "hex": "1c70",
     "array": [
       28,
-      80
+      112
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "min": 0,
+        "max": 255
+        // TODO(rockatoo): 음...? range로 해야하나...?
+      },
+      {
+        "name": "m",
+        "range": [
+          0,
+          1,
+          2,
+          3,
+          48,
+          49,
+          50,
+          51
+        ],
+        "optional": true // TODO(rockatoo): 포스 프린터마다 쓰일 수 있고 안 쓰일 수 있다. 골 아픈 녀석이다.
       }
     ]
   },
@@ -375,7 +488,9 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "min": 1,
+        "max": 255
       }
     ]
   },
@@ -389,7 +504,10 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "min": 1,
+        "max": 6
+        // TODO(rockatoo): range로 해야할지 min-max로 해야할지 고민
       }
     ]
   },
@@ -403,7 +521,17 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "range": [
+          0,
+          1,
+          2,
+          3,
+          48,
+          49,
+          50,
+          51
+        ]
       }
     ]
   },
@@ -417,7 +545,13 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "range": [
+          0,
+          1,
+          48,
+          49
+        ]
       }
     ]
   },
@@ -431,8 +565,26 @@
     ],
     "params": [
       {
-        "name": "m"
-        // TODO(rockatoo): 언제 끝나는지 모름
+        "name": "m",
+        "range": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73
+        ]
+        // TODO(rockatoo): m의 범위에 따라 메커니즘이 크게 바뀐다. (0~6), (65~78) ... 일단 건너뛴다.
       }
     ]
   },
@@ -446,7 +598,12 @@
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "range": [
+          0,
+          1,
+          2
+        ]
       }
     ]
   },
@@ -459,14 +616,21 @@
       90
     ],
     "params": [
+      // TODO(rockatoo): 프린터마다 매개변수의 형태와 개수가 다르다? 확인 필요
       {
-        "name": "m"
+        "name": "m",
+        "min": 1,
+        "max": 30
       },
       {
-        "name": "n"
+        "name": "n",
+        "min": 0,
+        "max": 8
       },
       {
-        "name": "k"
+        "name": "k",
+        "min": 3,
+        "max": 4
       },
       {
         "name": "sL"
@@ -485,14 +649,17 @@
     "code": "GS '",
     "hex": "1d27",
     "array": [
-      27,
+      29,
       39
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "min": 0,
+        "max": 8
       },
       // TODO(rockatoo): 연속해서 계속 나옴... 하지만, n번까지 나옴
+      // TODO(rockatoo): 
       {
         "name": "x1sL"
       },
@@ -512,12 +679,14 @@
     "code": "GS \"",
     "hex": "1d22",
     "array": [
-      27,
+      29,
       34
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "min": 0,
+        "max": 1
       },
       {
         "name": "xL"
@@ -527,7 +696,9 @@
       },
       {
         "name": "c",
-        "until": 0 // TODO(rockatoo): NULL 나올 때까지 반복
+        "until": [
+          0
+        ]
       }
     ]
   },
@@ -571,12 +742,14 @@
     "code": "ESC t",
     "hex": "1b74",
     "array": [
-      28,
+      27,
       116
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "min": 0,
+        "max": 255
       }
     ]
   },
@@ -585,12 +758,14 @@
     "code": "ESC R",
     "hex": "1b52",
     "array": [
-      28,
+      27,
       82
     ],
     "params": [
       {
-        "name": "n"
+        "name": "n",
+        "min": 0,
+        "max": 13
       }
     ]
   },
@@ -603,15 +778,21 @@
       102
     ],
     "params": [
-      // TODO(rockatoo): 이거 매개변수 이름 제대로 된 거 맞나?...
+      // TODO(rockatoo): 매개변수 이름이 특이한데, 특정 포스기만 가지는 명령어인듯 하다. 추가 조사 필요
       {
-        "name": "id"
+        "name": "id",
+        "min": 0,
+        "max": 255
       },
       {
-        "name": "nL"
+        "name": "nL",
+        "min": 0,
+        "max": 255
       },
       {
-        "name": "nH"
+        "name": "nH",
+        "min": 0,
+        "max": 255
       },
       {
         "name": "crc16L"
@@ -620,9 +801,9 @@
         "name": "crc16H"
       },
       {
-        "name": "d"
-        // TODO(rockatoo): n개 반복인데, n이 안 보임
-      },
+        "name": "d",
+        "count": "nL + nH * 256"
+      }
     ]
   },
   {
@@ -634,7 +815,7 @@
       113
     ],
     "params": [
-      // TODO(rockatoo): 이거 매개변수 이름 제대로 된 거 맞나?...
+      // TODO(rockatoo): 이 명령어 또한 특정 포스 프린터만 가지고 있는 명령어로 추정. 정확한 사용법도 불명
       {
         "name": "id"
       }
@@ -665,12 +846,995 @@
     ],
     "params": [
       {
-        "name": "k"
+        "name": "k",
+        "min": 1,
+        "max": 7
       },
       {
-        // k번 반복
+        "name": "n",
+        "count": "k"
+      }
+    ]
+  },
+  // --------- BREAKPOINT: 여기부터 다시 시작
+  {
+    "description": "Real time transmission of status",
+    "code": "DLE EOT",
+    "hex": "1004",
+    "array": [
+      16,
+      4
+    ],
+    "params": [
+      {
+        "name": "n",
+        "range": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "description": "Real time request to printer",
+    "code": "DLE ENQ",
+    "hex": "1005",
+    "array": [
+      16,
+      5
+    ],
+    "params": [
+      {
+        "name": "n",
+        "range": [
+          0,
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "description": "Cancel print data in page mode",
+    "code": "CAN",
+    "hex": "18",
+    "array": [
+      24
+    ]
+  },
+  {
+    "description": "Print page mode data",
+    "code": "ESC FF",
+    "hex": "1b0c",
+    "array": [
+      27,
+      12
+    ]
+  },
+  {
+    "description": "Designate/cancel download character set",
+    "code": "ESC %",
+    "hex": "1b25",
+    "array": [
+      27,
+      37
+    ],
+    "params": [
+      {
+        "name": "n",
+        "min": 0,
+        "max": 255
+      }
+    ]
+  },
+  {
+    "description": "Define download characters",
+    "code": "ESC &",
+    "hex": "1b26",
+    "array": [
+      27,
+      38
+    ],
+    "params": [
+      {
+        "name": "y"
+      },
+      {
+        "name": "c1"
+      },
+      {
+        "name": "c2"
+      },
+      {
+        // TODO(rockatoo): 굉장히 복잡해보이는 수식, 어떻게 넣어야할지 감이 잘 안 잡힌다.
+      }
+    ]
+  },
+  {
+    "description": "Designate/cancel underline",
+    "code": "ESC -",
+    "hex": "1b2d",
+    "array": [
+      27,
+      45
+    ],
+    "params": [
+      {
+        "name": "n",
+        "range": [
+          0,
+          1,
+          2,
+          48,
+          49,
+          50
+        ]
+      }
+    ]
+  },
+  {
+    "description": "Select peripheral equipment",
+    "code": "ESC =",
+    "hex": "1b3d",
+    "array": [
+      27,
+      61
+    ],
+    "params": [
+      {
+        "name": "n",
+        "range": [
+          0,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "description": "Delete download characters",
+    "code": "ESC ?",
+    "hex": "1b3f",
+    "array": [
+      27,
+      63
+    ],
+    "params": [
+      {
+        "name": "n",
+        "min": 32,
+        "max": 126
+      }
+    ]
+  },
+  {
+    "description": "Designate/cancel double print",
+    "code": "ESC G",
+    "hex": "1b47",
+    "array": [
+      27,
+      71
+    ],
+    "params": [
+      {
+        "name": "n",
+        "min": 0,
+        "max": 255
+      }
+    ]
+  },
+  {
+    "description": "Select page mode",
+    "code": "ESC L",
+    "hex": "1b4c",
+    "array": [
+      27,
+      76
+    ]
+  },
+  {
+    "description": "Select standard mode",
+    "code": "ESC S",
+    "hex": "1b53",
+    "array": [
+      27,
+      83
+    ]
+  },
+  {
+    "description": "Select character print direction in print mode",
+    "code": "ESC T",
+    "hex": "1b54",
+    "array": [
+      27,
+      84
+    ],
+    "params": [
+      {
+        "name": "n",
+        "range": [
+          0,
+          1,
+          2,
+          3,
+          48,
+          49,
+          50,
+          51
+        ]
+      }
+    ]
+  },
+  {
+    "description": "Set print range in page mode",
+    "code": "ESC W",
+    "hex": "1b57",
+    "array": [
+      27,
+      87
+    ],
+    "params": [
+      {
+        "name": "xL"
+      },
+      {
+        "name": "xH"
+      },
+      {
+        "name": "yL"
+      },
+      {
+        "name": "yH"
+      },
+      {
+        "name": "dxL"
+      },
+      {
+        "name": "dxH"
+      },
+      {
+        "name": "dyL"
+      },
+      {
+        "name": "dyH"
+      }
+    ]
+  },
+  {
+    "description": "Designate relative position",
+    "code": "ESC \\",
+    "hex": "1b5c",
+    "array": [
+      27,
+      92
+    ],
+    "params": [
+      {
+        "name": "nL",
+        "min": 0,
+        "max": 255
+      },
+      {
+        "name": "nH",
+        "min": 0,
+        "max": 255
+      }
+    ]
+  },
+  {
+    "description": "Select paper sensor(s) to output paper end signals",
+    "code": "ESC c 3",
+    "hex": "1b6333",
+    "array": [
+      27,
+      99,
+      51
+    ],
+    "params": [
+      {
+        "name": "n",
+        "min": 0,
+        "max": 255
+      }
+    ]
+  },
+  {
+    "description": "Select paper sensor(s) to stop printing",
+    "code": "ESC c 4",
+    "hex": "1b6334",
+    "array": [
+      27,
+      99,
+      52
+    ],
+    "params": [
+      {
+        "name": "n",
+        "min": 0,
+        "max": 255
+      }
+    ]
+  },
+  {
+    "description": "Enable/Disable panel buttons.",
+    "code": "ESC c 5",
+    "hex": "1b6335",
+    "array": [
+      27,
+      99,
+      53
+    ],
+    "params": [
+      {
+        "name": "n",
+        "min": 0,
+        "max": 255
+      }
+    ]
+  },
+  {
+    "description": "Designate pulse generation",
+    "code": "ESC p",
+    "hex": "1b70",
+    "array": [
+      27,
+      112
+    ],
+    "params": [
+      {
+        "name": "m",
+        "range": [
+          0,
+          1,
+          48,
+          49
+        ]
+      },
+      {
+        "name": "t1",
+        "min": 0,
+        "max": 255
+      },
+      {
+        "name": "t2",
+        "min": 0,
+        "max": 255
+      }
+    ]
+  },
+  {
+    "description": "Designate/cancel inverted printing",
+    "code": "ESC {",
+    "hex": "1b7b",
+    "array": [
+      27,
+      123
+    ],
+    "params": [
+      {
+        "name": "n",
+        "min": 0,
+        "max": 255
+      }
+    ]
+  },
+  {
+    "description": "Define NV bit image",
+    "code": "FS q",
+    "hex": "1c71",
+    "array": [
+      28,
+      113
+    ],
+    "params": [
+      {
+        "name": "n"
+      },
+      {
+        // TODO(rockatoo): 엄청 길다. 이게 효율적인 자료 형태인지 고민할 필요가 있다.
+        "args": [
+          {
+            "name": "xL"
+          },
+          {
+            "name": "xH"
+          },
+          {
+            "name": "yL"
+          },
+          {
+            "name": "yH"
+          },
+          {
+            "name": "d",
+            "count": "(xL + xH * 256) * (yL + yH * 256) * 8"
+          }
+        ],
+        "count": "n"
+      }
+    ]
+  },
+  {
+    "description": "Designate absolute position of vertical direction of characters in page mode",
+    "code": "GS $",
+    "hex": "1d24",
+    "array": [
+      29,
+      36
+    ],
+    "params": [
+      {
+        "name": "nL",
+        "min": 0,
+        "max": 255
+      },
+      {
+        "name": "nH",
+        "min": 0,
+        "max": 255
+      }
+    ]
+  },
+  {
+    "description": "Execute test print",
+    "code": "GS ( A",
+    "hex": "1d2841",
+    "array": [
+      29,
+      40,
+      65
+    ],
+    "params": [
+      {
+        "name": "pL"
+      },
+      {
+        "name": "pH"
+      },
+      {
+        "name": "n",
+        "range": [
+          0,
+          1,
+          2,
+          48,
+          49,
+          50
+        ]
+      },
+      {
+        "name": "m",
+        "range": [
+          1,
+          2,
+          3,
+          49,
+          50,
+          51
+        ]
+      }
+    ]
+  },
+  {
+    "description": "Edit user NV memory",
+    "code": "GS ( C",
+    "hex": "1d2843",
+    "array": [
+      29,
+      40,
+      67
+    ],
+    "params": [
+      {
+        "name": "pL"
+      },
+      {
+        "name": "pH"
+      },
+      {
+        "name": "m"
+      },
+      {
+        "name": "fn", // TODO(rockatoo): function 값에 따라 작동 방식과 메커니즘이 달라진다...
+        "range": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54
+        ]
+      },
+      {
+        "name": "b"
+      }
+      // TODO(rockatoo): 이 뒤부터는 매우 심하게 달라진다. 이름도 수도. 이에 대해 고민 필요
+    ]
+  },
+  {
+    "description": "Enable/disable real-time command",
+    "code": "GS ( D",
+    "hex": "1d2844",
+    "array": [
+      29,
+      40,
+      68
+    ],
+    "params": [
+      {
+        "name": "pL"
+      },
+      {
+        "name": "pH"
+      },
+      {
+        "name": "m"
+      },
+      {
+        "args": [
+          {
+            "name": "a",
+            "range": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "b",
+            "range": [
+              0,
+              1,
+              48,
+              49
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "Set user setup commands",
+    "code": "GS ( E",
+    "hex": "1d2845",
+    "array": [
+      29,
+      40,
+      69
+    ],
+    "params": [
+      {
+        "name": "pL"
+      },
+      {
+        "name": "pH"
+      },
+      {
+        "name": "fn"
+      }
+      // TODO(rockatoo): 무수히 많은 fn 값에 따른 변종 params가!
+    ]
+  },
+  // TODO(rockatoo): 오타가 심하게 있는데, 겹치는 내용의 row가 하나 더 있음
+  {
+    "description": "Sets the value for the adjustment of paper cutting position after sensing BM. (m = 2)",
+    "code": "GS ( F",
+    "hex": "1d2846",
+    "array": [
+      29,
+      40,
+      70
+    ],
+    "params": [
+      {
+        "name": "pL"
+      },
+      {
+        "name": "pH"
+      },
+      {
+        "name": "m",
+        "range": [
+          2,
+          112
+        ]
+      }
+      // TODO(rockatoo): m 값에 따라 뒤의 매개변수의 이름, 개수가 달라진다.
+    ]
+  },
+  {
+    "description": "Select print control method(s)",
+    "code": "GS ( K",
+    "hex": "1d284b",
+    "array": [
+      29,
+      40,
+      75
+    ],
+    "params": [
+      {
+        "name": "pL"
+      },
+      {
+        "name": "pH"
+      },
+      {
+        "name": "fn"
+      },
+      {
+        "name": "m",
+        "range": [
+          1,
+          2,
+          3,
+          4,
+          49,
+          50,
+          51,
+          52
+        ]
+      }
+    ]
+  },
+  {
+    "description": "Set graphics data",
+    "code": "GS ( L",
+    "hex": "1d284c",
+    "array": [
+      29,
+      40,
+      76
+    ],
+    "params": [
+      {
+        "name": "pL"
+      },
+      {
+        "name": "pH"
+      },
+      {
+        "name": "m"
+      },
+      {
+        "name": "fn",
+        "range": [
+          0,
+          2,
+          3,
+          48,
+          50,
+          51,
+          64,
+          65,
+          66,
+          67,
+          69,
+          112
+        ]
+      }
+      // TODO(rockatoo): fn의 값에 따라 매개변수가 달라진다.
+    ]
+  },
+  {
+    "description": "Customize printer",
+    "code": "GS ( M",
+    "hex": "1d284d",
+    "array": [
+      29,
+      40,
+      77
+    ],
+    "params": [
+      {
+        "name": "pL"
+      },
+      {
+        "name": "pH"
+      },
+      {
+        "name": "fn",
+        "range": [
+          1,
+          2,
+          3,
+          49,
+          50,
+          51
+        ]
+      },
+      {
+        "name": "m"
+      }
+    ]
+  },
+  {
+    "description": "Print characters in the color specified by m.",
+    "code": "GS ( N",
+    "hex": "1d284e",
+    "array": [
+      29,
+      40,
+      78
+    ],
+    "params": [
+      {
+        "name": "pL"
+      },
+      {
+        "name": "pH"
+      },
+      {
+        "name": "fn"
+      }
+      // TODO(rockatoo): fn의 값에 따라 뒤의 매개변수가 많이 달라짐
+    ]
+  },
+  {
+    "description": "Setup and print symbol",
+    "code": "GS ( k",
+    "hex": "1d286b",
+    "array": [
+      29,
+      40,
+      107
+    ],
+    "params": [
+      {
+        "name": "pL"
+      },
+      {
+        "name": "pH"
+      },
+      {
+        "name": "cn"
+      },
+      {
+        "name": "fn"
+      }
+      // TODO(rockatoo): fn의 값에 따라 뒤의 매개변수가 달라짐
+    ]
+  },
+  {
+    "description": "Start/finish macro definition",
+    "code": "GS :",
+    "hex": "1d3a",
+    "array": [
+      29,
+      58
+    ]
+  },
+  {
+    "description": "Printer ID transmission",
+    "code": "GS I",
+    "hex": "1d49",
+    "array": [
+      29,
+      73
+    ],
+    "params": [
+      {
+        "name": "n",
+        "range": [
+          1,
+          2,
+          3,
+          49,
+          50,
+          51,
+          65,
+          66,
+          67,
+          68,
+          69,
+          111,
+          112
+        ]
+      }
+    ]
+  },
+  {
+    "description": "Set basic calculated pitch",
+    "code": "GS P",
+    "hex": "1d50",
+    "array": [
+      29,
+      74
+    ],
+    "params": [
+      {
+        "name": "x"
+      },
+      {
+        "name": "x"
+      }
+    ]
+  },
+  {
+    "description": "Paper cut",
+    "code": "GS V",
+    "hex": "1d56",
+    "array": [
+      29,
+      86
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "name": "n",
+        "optional": true
+        // TODO(rockatoo): m값에 따라 n이 들어가기도 하고 그렇지 않기도 함
+      }
+    ]
+  },
+  {
+    "description": "Set print range",
+    "code": "GS W",
+    "hex": "1d57",
+    "array": [
+      29,
+      87
+    ],
+    "params": [
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      }
+    ]
+  },
+  {
+    "description": "Designate the relative position of vertical characters when printing in the page mode",
+    "code": "GS \\",
+    "hex": "1d5c",
+    "array": [
+      29,
+      92
+    ],
+    "params": [
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      }
+    ]
+  },
+  {
+    "description": "Execute macro",
+    "code": "GS ^",
+    "hex": "1d5e",
+    "array": [
+      29,
+      94
+    ],
+    "params": [
+      {
+        "name": "r"
+      },
+      {
+        "name": "t"
+      },
+      {
+        "name": "m"
+      }
+    ]
+  },
+  {
+    "description": "Enable/disable automatic status transmission",
+    "code": "GS a",
+    "hex": "1d61",
+    "array": [
+      29,
+      97
+    ],
+    "params": [
+      {
         "name": "n"
       }
+    ]
+  },
+  {
+    "description": "Transmission of status",
+    "code": "GS r",
+    "hex": "1d72",
+    "array": [
+      29,
+      114
+    ],
+    "params": [
+      {
+        "name": "n",
+        "range": [
+          1,
+          2,
+          49,
+          50
+        ]
+      }
+    ]
+  },
+  {
+    "description": "Print raster bit image",
+    "code": "GS v",
+    "hex": "1d76",
+    "array": [
+      29,
+      118
+    ],
+    "params": [
+      {
+        // TODO(rockatoo): 무슨 역할을 하는 params인지 밝힐 필요가 있어보임
+        "name": "unknown",
+        "range": [
+          0
+        ]
+      },
+      {
+        "name": "m",
+        "range": [
+          0,
+          1,
+          2,
+          3,
+          48,
+          49,
+          50,
+          51
+        ]
+      },
+      {
+        "name": "xL"
+      },
+      {
+        "name": "xH"
+      },
+      {
+        "name": "yL"
+      },
+      {
+        "name": "yH"
+      },
+      {
+        "name": "d",
+        "min": 0,
+        "max": 255,
+        "count": "(xL + xH * 256) * (yL + yH * 256)"
+      }
+    ]
+  },
+  {
+    "description": "Beep the buzzer",
+    "code": "RS",
+    "hex": "1e",
+    "array": [
+      30
+    ]
+  },
+  {
+    // TODO(rockatoo): 뭔가 굉장히 복잡한 명령어이다.
+    "description": "Generate pulse in real-time",
+    "code": "DLE DC4",
+    "hex": "1014",
+    "array": [
+      16,
+      20
+    ],
+    "params": [
+      {
+        "name": "fn"
+      }
+      // TODO(rockatoo) fn의 값에 따라 굉장히 달라짐
     ]
   }
 ]
