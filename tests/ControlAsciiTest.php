@@ -47,10 +47,6 @@ class ControlAsciiTest extends TestCase
     );
     foreach($testCaseDecimal as $asciiString => $decimal){
       $this->assertSame($asciiString, ControlAscii::toAsciiCodeString($decimal));     
-    }    
-    
-    foreach($testCaseDecimal as $asciiString => $decimal){
-      $this->assertSame($asciiString, ControlAscii::toAsciiCodeString($decimal));     
-    }    
+    }      
   }
 }
