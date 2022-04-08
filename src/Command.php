@@ -1,9 +1,11 @@
 <?php
-
 namespace Command;
+
+include_once 'ControlAscii.php';
 
 use Error;
 use TypeError;
+use Ascii\ControlAscii;
 
 interface CommandInterface
 {
@@ -36,6 +38,7 @@ abstract class AbstractCommand implements CommandInterface
   {
     return $this->data;
   }
+
   public function __toString()
   {
     $ascii = '';
@@ -44,6 +47,7 @@ abstract class AbstractCommand implements CommandInterface
     }
     return $ascii;
   }
+
   public function toHexString()
   {
     $hexString = '';
@@ -52,10 +56,14 @@ abstract class AbstractCommand implements CommandInterface
     }
     return $hexString;
   }
+
   public function toCodeString()
   {
-    throw new Error('Not implemented');
-    return '';
+    $codeString = '';
+    foreach($this->data as $decimal){
+      $codeString .= ($decimal >= 0 && $decimal <= 31 || $decimal == 127) ? ControlAscii::toAsciiCodeString($decimal).' ': chr($decimal).' ';
+    }
+    return trim($codeString);
   }
 }
 
