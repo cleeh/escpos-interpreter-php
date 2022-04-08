@@ -835,5 +835,391 @@
         "count": "k"
       }
     ]
+  },
+  // --------- BREAKPOINT: 여기부터 다시 시작
+  {
+    "description": "Real time transmission of status",
+    "code": "DLE EOT",
+    "hex": "1004",
+    "array": [
+      16,
+      4
+    ]
+  },
+  {
+    "description": "Real time request to printer",
+    "code": "DLE ENQ",
+    "hex": "1005",
+    "array": [
+      16,
+      5
+    ]
+  },
+  {
+    "description": "Cancel print data in page mode",
+    "code": "CAN",
+    "hex": "18",
+    "array": [
+      24
+    ]
+  },
+  {
+    "description": "Print page mode data",
+    "code": "ESC FF",
+    "hex": "1b0c",
+    "array": [
+      27,
+      12
+    ]
+  },
+  {
+    "description": "Designate/cancel download character set",
+    "code": "ESC %",
+    "hex": "1b25",
+    "array": [
+      27,
+      37
+    ]
+  },
+  {
+    "description": "Define download characters",
+    "code": "ESC &",
+    "hex": "1b26",
+    "array": [
+      27,
+      38
+    ]
+  },
+  {
+    "description": "Designate/cancel underline",
+    "code": "ESC -",
+    "hex": "1b2d",
+    "array": [
+      27,
+      45
+    ]
+  },
+  {
+    "description": "Designate/cancel underline",
+    "code": "ESC -",
+    "hex": "1b2d",
+    "array": [
+      27,
+      45
+    ]
+  },
+  {
+    "description": "Select peripheral equipment",
+    "code": "ESC =",
+    "hex": "1b3d",
+    "array": [
+      27,
+      61
+    ]
+  },
+  {
+    "description": "Delete download characters",
+    "code": "ESC ?",
+    "hex": "1b3f",
+    "array": [
+      27,
+      63
+    ]
+  },
+  {
+    "description": "Designate/cancel double print",
+    "code": "ESC G",
+    "hex": "1b47",
+    "array": [
+      27,
+      71
+    ]
+  },
+  {
+    "description": "Select page mode",
+    "code": "ESC L",
+    "hex": "1b4c",
+    "array": [
+      27,
+      76
+    ]
+  },
+  {
+    "description": "Select standard mode",
+    "code": "ESC S",
+    "hex": "1b53",
+    "array": [
+      27,
+      83
+    ]
+  },
+  {
+    "description": "Select character print direction in print mode",
+    "code": "ESC T",
+    "hex": "1b54",
+    "array": [
+      27,
+      84
+    ]
+  },
+  {
+    "description": "Set print range in page mode",
+    "code": "ESC W",
+    "hex": "1b57",
+    "array": [
+      27,
+      87
+    ]
+  },
+  {
+    "description": "Designate relative position",
+    "code": "ESC \\",
+    "hex": "1b5c",
+    "array": [
+      27,
+      92
+    ]
+  },
+  {
+    "description": "Select paper sensor(s) to output paper end signals",
+    "code": "ESC c 3",
+    "hex": "1b6333",
+    "array": [
+      27,
+      99,
+      51
+    ],
+    "params": [
+      {
+        "name": "n",
+        "min": 0,
+        "max": 255
+      }
+    ]
+  },
+  {
+    "description": "Select paper sensor(s) to stop printing",
+    "code": "ESC c 4",
+    "hex": "1b6334",
+    "array": [
+      27,
+      99,
+      52
+    ],
+    "params": [
+      {
+        "name": "n",
+        "min": 0,
+        "max": 255
+      }
+    ]
+  },
+  {
+    "description": "Enable/Disable panel buttons.",
+    "code": "ESC c 5",
+    "hex": "1b6335",
+    "array": [
+      27,
+      99,
+      53
+    ],
+    "params": [
+      {
+        "name": "n",
+        "min": 0,
+        "max": 255
+      }
+    ]
+  },
+  {
+    "description": "Designate pulse generation",
+    "code": "ESC p",
+    "hex": "1b70",
+    "array": [
+      27,
+      112
+    ]
+  },
+  {
+    "description": "Designate/cancel inverted printing",
+    "code": "ESC {",
+    "hex": "1b7b",
+    "array": [
+      27,
+      123
+    ]
+  },
+  {
+    "description": "Define NV bit image",
+    "code": "FS q",
+    "hex": "1c71",
+    "array": [
+      28,
+      113
+    ]
+  },
+  {
+    "description": "Define NV bit image",
+    "code": "FS q",
+    "hex": "1c71",
+    "array": [
+      28,
+      113
+    ]
+  },
+  {
+    "description": "Designate absolute position of vertical direction of characters in page mode",
+    "code": "GS $",
+    "hex": "1d24",
+    "array": [
+      29,
+      36
+    ]
+  },
+  {
+    "description": "Execute test print",
+    "code": "GS ( A",
+    "hex": "1d2841",
+    "array": [
+      29,
+      40,
+      65
+    ]
+  },
+  {
+    "description": "Edit user NV memory",
+    "code": "GS ( C",
+    "hex": "1d2843",
+    "array": [
+      29,
+      40,
+      67
+    ]
+  },
+  {
+    "description": "Enable/disable real-time command",
+    "code": "GS ( D",
+    "hex": "1d2844",
+    "array": [
+      29,
+      40,
+      68
+    ]
+  },
+  {
+    "description": "Set user setup commands",
+    "code": "GS ( E",
+    "hex": "1d2845",
+    "array": [
+      29,
+      40,
+      69
+    ]
+  },
+  // TODO(rockatoo): 오타가 심하게 있는데, 겹치는 내용의 row가 하나 더 있음
+  {
+    "description": "Sets the value for the adjustment of paper cutting position after sensing BM. (m = 2)",
+    "code": "GS ( F",
+    "hex": "1d2846",
+    "array": [
+      29,
+      40,
+      70
+    ]
+  },
+  {
+    "description": "Select print control method(s)",
+    "code": "GS ( K",
+    "hex": "1d284b",
+    "array": [
+      29,
+      40,
+      75
+    ]
+  },
+  {
+    "description": "Set graphics data",
+    "code": "GS ( L",
+    "hex": "1d284c",
+    "array": [
+      29,
+      40,
+      76
+    ]
+  },
+  {
+    "description": "Customize printer",
+    "code": "GS ( M",
+    "hex": "1d284d",
+    "array": [
+      29,
+      40,
+      77
+    ]
+  },
+  {
+    "description": "Print characters in the color specified by m.",
+    "code": "GS ( N",
+    "hex": "1d284e",
+    "array": [
+      29,
+      40,
+      78
+    ]
+  },
+  {
+    "description": "Setup and print symbol",
+    "code": "GS ( k",
+    "hex": "1d286b",
+    "array": [
+      29,
+      40,
+      107
+    ]
+  },
+  {
+    "description": "Start/finish macro definition",
+    "code": "GS :",
+    "hex": "1d3a",
+    "array": [
+      29,
+      58
+    ]
+  },
+  {
+    "description": "Printer ID transmission",
+    "code": "GS I",
+    "hex": "1d49",
+    "array": [
+      29,
+      73
+    ]
+  },
+  {
+    "description": "Set basic calculated pitch",
+    "code": "GS P",
+    "hex": "1d50",
+    "array": [
+      29,
+      74
+    ]
+  },
+  {
+    "description": "Paper cut",
+    "code": "GS V",
+    "hex": "1d56",
+    "array": [
+      29,
+      86
+    ]
+  },
+  {
+    "description": "Set print range",
+    "code": "GS W",
+    "hex": "1d57",
+    "array": [
+      29,
+      87
+    ]
   }
 ]
