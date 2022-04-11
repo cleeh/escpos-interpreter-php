@@ -564,8 +564,9 @@
       107
     ],
     "params": [
+      // TODO(rockatoo): 어느 곳에서는 다른 매개변수가 들어가는 것 같다. 프린터마다 천차만별인 명령어일지도 모르겠다.
       {
-        "name": "m",
+        "name": "m", // TODO(rockatoo): 어느 곳에서는 k로 지명하기도 한다.
         "range": [
           0,
           1,
@@ -1451,6 +1452,7 @@
     ]
   },
   {
+    // TODO(rockatoo): fn이 있는지 확인 필요
     "description": "Select print control method(s)",
     "code": "GS ( K",
     "hex": "1d284b",
@@ -1836,5 +1838,234 @@
       }
       // TODO(rockatoo) fn의 값에 따라 굉장히 달라짐
     ]
+  },
+  // ------------ BREAKPOINT: BD2-2220CMD000E
+  {
+    "description": "Specifying/canceling the smoothing",
+    "code": "GS b",
+    "hex": "1d62",
+    "array": [
+      29,
+      98
+    ],
+    "params": [
+      {
+        "name": "n",
+        "min": 0,
+        "max": 255
+      }
+    ]
+  },
+  {
+    "description": "Full cut",
+    "code": "ESC i",
+    "hex": "1b69",
+    "array": [
+      27,
+      105
+    ]
+  },
+  {
+    "description": "Partial cut",
+    "code": "ESC m",
+    "hex": "1b6d",
+    "array": [
+      27,
+      109
+    ]
+  },
+  // ----------- BREAKPOINT: Thermal30_40
+  {
+    "description": "Set the left blank char number",
+    "code": "ESC B",
+    "hex": "1b42",
+    "array": [
+      27,
+      66
+    ],
+    "params": [
+      {
+        "name": "n",
+        "min": 0,
+        "max": 47
+      }
+    ]
+  },
+  {
+    "description": "Turn double width on",
+    "code": "ESC SO",
+    "hex": "1b0e",
+    "array": [
+      27,
+      14
+    ]
+  },
+  {
+    "description": "Turn double width off",
+    "code": "ESC DC4",
+    "hex": "1b14",
+    "array": [
+      27,
+      20
+    ]
+  },
+  {
+    "description": "Transmit paper sensor status",
+    "code": "ESC v",
+    "hex": "1b76",
+    "array": [
+      27,
+      118
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Transmit peripheral device status",
+    "code": "ESC u",
+    "hex": "1b75",
+    "array": [
+      27,
+      117
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  // BREAKPOINT: Tally Dascom DT-210/230
+  {
+    "description": "Set graphics data",
+    "code": "GS 8 L",
+    "hex": "1d384c",
+    "array": [
+      29,
+      56,
+      76
+    ],
+    "params": [
+      {
+        "name": "p1"
+      },
+      {
+        "name": "p2"
+      },
+      {
+        "name": "p3"
+      },
+      {
+        "name": "p4"
+      },
+      {
+        "name": "m"
+      },
+      {
+        "name": "fn"
+      }
+      // TODO(rockatoo): parameters가 매우 많아보이는데, 나중에 채워넣는다.
+    ]
+  },
+  // ---------- BREAKPOINT: APG_Lite
+  {
+    "description": "Print and reverse feed n lines",
+    "code": "ESC e",
+    "hex": "1b65",
+    "array": [
+      27,
+      101
+    ],
+    "params": [
+      {
+        "name": "n",
+        "min": 0,
+        "max": 255
+      }
+    ]
+  },
+  {
+    "description": "Select print color",
+    "code": "ESC r",
+    "hex": "1b72",
+    "array": [
+      27,
+      114
+    ],
+    "params": [
+      {
+        "name": "n",
+        "range": [
+          0,
+          1,
+          48,
+          49
+        ]
+      }
+    ]
+  },
+  // ---------- BREAKPOINT: Line Thermal Printer ESC/POS
+  {
+    "description": "Write data to user NV memory",
+    "code": "FS g 1",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "Read user NV memory data",
+    "code": "FS g 2",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "Set counter print mode",
+    "code": "GS C 0",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "Set Counter Mode (A)",
+    "code": "GS C 1",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "Set counter value",
+    "code": "GS C 2",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "Set Counter Mode (B)",
+    "code": "GS C ;",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "Set print speed",
+    "code": "GS E",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "Move to top of line",
+    "code": "GS T",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "Print counter",
+    "code": "GS c",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "Batch specify Chinese character print mode",
+    "code": "FS !",
+    "hex": "",
+    "array": []
   }
+  // 여기서부터 다시 작성하면 된다. 2022-04-08
 ]
