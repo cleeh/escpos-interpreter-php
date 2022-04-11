@@ -50,9 +50,7 @@
     ],
     "params": [
       {
-        "name": "n",
-        "min": 0,
-        "max": 255
+        "name": "n"
       }
     ]
   },
@@ -66,9 +64,7 @@
     ],
     "params": [
       {
-        "name": "n",
-        "min": 0,
-        "max": 255
+        "name": "n"
       }
     ]
   },
@@ -108,10 +104,7 @@
     ],
     "params": [
       {
-        "name": "n",
-        "min": 0,
-        "max": 255
-        // TODO(rockatoo): default value...? (0)
+        "name": "n"
       }
     ]
   },
@@ -125,9 +118,7 @@
     ],
     "params": [
       {
-        "name": "n",
-        "min": 0,
-        "max": 255
+        "name": "n"
       }
     ]
   },
@@ -186,9 +177,7 @@
     ],
     "params": [
       {
-        "name": "n",
-        "min": 0,
-        "max": 255
+        "name": "n"
       }
     ]
   },
@@ -202,9 +191,7 @@
     ],
     "params": [
       {
-        "name": "n",
-        "min": 0,
-        "max": 255
+        "name": "n"
       }
     ]
   },
@@ -242,14 +229,10 @@
     ],
     "params": [
       {
-        "name": "nL",
-        "min": 0,
-        "max": 255
+        "name": "nL"
       },
       {
-        "name": "nH",
-        "min": 0,
-        "max": 255
+        "name": "nH"
       }
     ]
   },
@@ -264,8 +247,6 @@
     "params": [
       {
         "name": "n",
-        "min": 1,
-        "max": 255,
         "until": [
           0,
           255
@@ -293,9 +274,7 @@
     ],
     "params": [
       {
-        "name": "n",
-        "min": 0,
-        "max": 255
+        "name": "n"
       }
     ]
   },
@@ -309,9 +288,7 @@
     ],
     "params": [
       {
-        "name": "n",
-        "min": 0,
-        "max": 255
+        "name": "n"
       }
     ]
   },
@@ -347,14 +324,10 @@
     ],
     "params": [
       {
-        "name": "nL",
-        "min": 0,
-        "max": 255
+        "name": "nL"
       },
       {
-        "name": "nH",
-        "min": 0,
-        "max": 255
+        "name": "nH"
       }
     ]
   },
@@ -377,19 +350,13 @@
         ]
       },
       {
-        "name": "nL",
-        "min": 0,
-        "max": 255
+        "name": "nL"
       },
       {
-        "name": "nH",
-        "min": 0,
-        "max": 3
+        "name": "nH"
       },
       {
         "name": "d",
-        "min": 0,
-        "max": 255,
         "count": "nL + nH * 256",
         "limit": 1023
         // TODO(rockatoo): 프린터마다 개수 차이가 심해보인다.
@@ -406,19 +373,13 @@
     ],
     "params": [
       {
-        "name": "x",
-        "min": 1,
-        "max": 255
+        "name": "x"
       },
       {
-        "name": "y",
-        "min": 1,
-        "max": 48
+        "name": "y"
       },
       {
         "name": "d",
-        "min": 0,
-        "max": 255,
         "count": "x * y * 8"
       }
     ]
@@ -457,9 +418,7 @@
     ],
     "params": [
       {
-        "name": "n",
-        "min": 0,
-        "max": 255
+        "name": "n"
         // TODO(rockatoo): 음...? range로 해야하나...?
       },
       {
@@ -488,9 +447,7 @@
     ],
     "params": [
       {
-        "name": "n",
-        "min": 1,
-        "max": 255
+        "name": "n"
       }
     ]
   },
@@ -504,10 +461,7 @@
     ],
     "params": [
       {
-        "name": "n",
-        "min": 1,
-        "max": 6
-        // TODO(rockatoo): range로 해야할지 min-max로 해야할지 고민
+        "name": "n"
       }
     ]
   },
@@ -619,19 +573,13 @@
     "params": [
       // TODO(rockatoo): 프린터마다 매개변수의 형태와 개수가 다르다? 확인 필요
       {
-        "name": "m",
-        "min": 1,
-        "max": 30
+        "name": "m"
       },
       {
-        "name": "n",
-        "min": 0,
-        "max": 8
+        "name": "n"
       },
       {
-        "name": "k",
-        "min": 3,
-        "max": 4
+        "name": "k"
       },
       {
         "name": "sL"
@@ -655,9 +603,7 @@
     ],
     "params": [
       {
-        "name": "n",
-        "min": 0,
-        "max": 8
+        "name": "n"
       },
       // TODO(rockatoo): 연속해서 계속 나옴... 하지만, n번까지 나옴
       // TODO(rockatoo): 
@@ -685,9 +631,7 @@
     ],
     "params": [
       {
-        "name": "n",
-        "min": 0,
-        "max": 1
+        "name": "n"
       },
       {
         "name": "xL"
@@ -748,9 +692,7 @@
     ],
     "params": [
       {
-        "name": "n",
-        "min": 0,
-        "max": 255
+        "name": "n"
       }
     ]
   },
@@ -764,9 +706,7 @@
     ],
     "params": [
       {
-        "name": "n",
-        "min": 0,
-        "max": 13
+        "name": "n"
       }
     ]
   },
@@ -781,19 +721,13 @@
     "params": [
       // TODO(rockatoo): 매개변수 이름이 특이한데, 특정 포스기만 가지는 명령어인듯 하다. 추가 조사 필요
       {
-        "name": "id",
-        "min": 0,
-        "max": 255
+        "name": "id"
       },
       {
-        "name": "nL",
-        "min": 0,
-        "max": 255
+        "name": "nL"
       },
       {
-        "name": "nH",
-        "min": 0,
-        "max": 255
+        "name": "nH"
       },
       {
         "name": "crc16L"
@@ -847,9 +781,7 @@
     ],
     "params": [
       {
-        "name": "k",
-        "min": 1,
-        "max": 7
+        "name": "k"
       },
       {
         "name": "n",
@@ -924,9 +856,7 @@
     ],
     "params": [
       {
-        "name": "n",
-        "min": 0,
-        "max": 255
+        "name": "n"
       }
     ]
   },
@@ -1003,9 +933,7 @@
     ],
     "params": [
       {
-        "name": "n",
-        "min": 32,
-        "max": 126
+        "name": "n"
       }
     ]
   },
@@ -1019,9 +947,7 @@
     ],
     "params": [
       {
-        "name": "n",
-        "min": 0,
-        "max": 255
+        "name": "n"
       }
     ]
   },
@@ -1112,14 +1038,10 @@
     ],
     "params": [
       {
-        "name": "nL",
-        "min": 0,
-        "max": 255
+        "name": "nL"
       },
       {
-        "name": "nH",
-        "min": 0,
-        "max": 255
+        "name": "nH"
       }
     ]
   },
@@ -1134,9 +1056,7 @@
     ],
     "params": [
       {
-        "name": "n",
-        "min": 0,
-        "max": 255
+        "name": "n"
       }
     ]
   },
@@ -1151,9 +1071,7 @@
     ],
     "params": [
       {
-        "name": "n",
-        "min": 0,
-        "max": 255
+        "name": "n"
       }
     ]
   },
@@ -1168,9 +1086,7 @@
     ],
     "params": [
       {
-        "name": "n",
-        "min": 0,
-        "max": 255
+        "name": "n"
       }
     ]
   },
@@ -1193,14 +1109,10 @@
         ]
       },
       {
-        "name": "t1",
-        "min": 0,
-        "max": 255
+        "name": "t1"
       },
       {
-        "name": "t2",
-        "min": 0,
-        "max": 255
+        "name": "t2"
       }
     ]
   },
@@ -1214,9 +1126,7 @@
     ],
     "params": [
       {
-        "name": "n",
-        "min": 0,
-        "max": 255
+        "name": "n"
       }
     ]
   },
@@ -1266,14 +1176,10 @@
     ],
     "params": [
       {
-        "name": "nL",
-        "min": 0,
-        "max": 255
+        "name": "nL"
       },
       {
-        "name": "nH",
-        "min": 0,
-        "max": 255
+        "name": "nH"
       }
     ]
   },
@@ -1803,8 +1709,6 @@
       },
       {
         "name": "d",
-        "min": 0,
-        "max": 255,
         "count": "(xL + xH * 256) * (yL + yH * 256)"
       }
     ]
@@ -1844,9 +1748,7 @@
     ],
     "params": [
       {
-        "name": "n",
-        "min": 0,
-        "max": 255
+        "name": "n"
       }
     ]
   },
@@ -1879,9 +1781,7 @@
     ],
     "params": [
       {
-        "name": "n",
-        "min": 0,
-        "max": 47
+        "name": "n"
       }
     ]
   },
@@ -1974,9 +1874,7 @@
     ],
     "params": [
       {
-        "name": "n",
-        "min": 0,
-        "max": 255
+        "name": "n"
       }
     ]
   },
