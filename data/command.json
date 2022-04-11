@@ -2002,402 +2002,1238 @@
   },
   // ---------- BREAKPOINT: Line Thermal Printer ESC/POS
   {
-    "description": "Write data to user NV memory",
+    "description": "Write to NV user memory",
     "code": "FS g 1",
-    "hex": "",
-    "array": []
+    "hex": "1c6731",
+    "array": [
+      28,
+      103,
+      49
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "name": "a1"
+      },
+      {
+        "name": "a2"
+      },
+      {
+        "name": "a3"
+      },
+      {
+        "name": "a4"
+      },
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      },
+      {
+        "name": "d",
+        "count": "nL + nH * 256"
+      }
+    ]
   },
   {
-    "description": "Read user NV memory data",
+    "description": "Read from NV user memory",
     "code": "FS g 2",
-    "hex": "",
-    "array": []
+    "hex": "1c6732",
+    "array": [
+      28,
+      103,
+      50
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "name": "a1"
+      },
+      {
+        "name": "a2"
+      },
+      {
+        "name": "a3"
+      },
+      {
+        "name": "a4"
+      },
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      }
+    ]
   },
   {
-    "description": "Set counter print mode",
+    "description": "Select counter print mode",
     "code": "GS C 0",
-    "hex": "",
-    "array": []
+    "hex": "1d4330",
+    "array": [
+      29,
+      67,
+      48
+    ],
+    "params": [
+      {
+        "name": "n"
+      },
+      {
+        "name": "m"
+      }
+    ]
   },
   {
-    "description": "Set Counter Mode (A)",
+    "description": "Select count mode (A)",
     "code": "GS C 1",
-    "hex": "",
-    "array": []
+    "hex": "1d4331",
+    "array": [
+      29,
+      67,
+      49
+    ],
+    "params": [
+      {
+        "name": "aL"
+      },
+      {
+        "name": "aH"
+      },
+      {
+        "name": "bL"
+      },
+      {
+        "name": "bH"
+      },
+      {
+        "name": "n"
+      },
+      {
+        "name": "r"
+      }
+    ]
   },
   {
     "description": "Set counter value",
     "code": "GS C 2",
-    "hex": "",
-    "array": []
+    "hex": "1d4332",
+    "array": [
+      29,
+      67,
+      50
+    ],
+    "params": [
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      }
+    ]
   },
   {
-    "description": "Set Counter Mode (B)",
+    "description": "Select counter mode (B)",
     "code": "GS C ;",
-    "hex": "",
-    "array": []
+    "hex": "1d433b",
+    "array": [
+      29,
+      67,
+      59
+    ],
+    "params": [
+      {
+        "name": "sa"
+      },
+      {
+        "name": "sb"
+      },
+      {
+        "name": "sn"
+      },
+      {
+        "name": "sr"
+      },
+      {
+        "name": "sc"
+      }
+      // TODO(rockatoo): 각 param의 뒤에 ;(hex: 0x3B, decimal: 59)가 온다. 어떻게 표현하는게 좋을지 모르겠다.
+    ]
   },
   {
     "description": "Set print speed",
     "code": "GS E",
-    "hex": "",
-    "array": []
+    "hex": "1d45",
+    "array": [
+      29,
+      69
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
   },
   {
-    "description": "Move to top of line",
+    "description": "Set print position to the beginning of print line",
     "code": "GS T",
-    "hex": "",
-    "array": []
+    "hex": "1d54",
+    "array": [
+      29,
+      84
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
   },
   {
     "description": "Print counter",
     "code": "GS c",
-    "hex": "",
-    "array": []
+    "hex": "1d63",
+    "array": [
+      29,
+      99
+    ]
   },
   {
-    "description": "Batch specify Chinese character print mode",
+    "description": "Select print mode(s) for Kanji characters",
     "code": "FS !",
-    "hex": "",
-    "array": []
+    "hex": "1c21",
+    "array": [
+      28,
+      33
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
   },
   // 여기서부터 다시 작성하면 된다. 2022-04-08
   {
-    "description": "",
+    "description": "Specify/cancel Chinese character underline",
     "code": "FS -",
-    "hex": "",
-    "array": []
+    "hex": "1c2d",
+    "array": [
+      28,
+      45
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Define user-defined Kanji characters",
     "code": "FS 2",
-    "hex": "",
-    "array": []
+    "hex": "1c32",
+    "array": [
+      28,
+      50
+    ],
+    "params": [
+      {
+        "name": "c1"
+      },
+      {
+        "name": "c2"
+      },
+      {
+        // TODO(rockatoo): 프린터마다 길이가 다르다 미칠 지경이다. (32, 60, 72)
+        "name": "d",
+        "count": null
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Select Kanji character code system",
     "code": "FS C",
-    "hex": "",
-    "array": []
+    "hex": "1c43",
+    "array": [
+      28,
+      67
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Set Kanji character spacing",
     "code": "FS S",
-    "hex": "",
-    "array": []
+    "hex": "1c53",
+    "array": [
+      28,
+      83
+    ],
+    "params": [
+      {
+        "name": "n1"
+      },
+      {
+        "name": "n2"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Turn quadruple-size mode on/off for Kanji characters",
     "code": "FS W",
-    "hex": "",
-    "array": []
+    "hex": "1c57",
+    "array": [
+      28,
+      87
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Mechanically initialize printer",
     "code": "GS <",
-    "hex": "",
-    "array": []
+    "hex": "1d3c",
+    "array": [
+      29,
+      60
+    ]
   },
   {
-    "description": "",
+    "description": "Write data to a blank code page",
     "code": "ESC GS =",
-    "hex": "",
-    "array": []
+    "hex": "1b1d3d",
+    "array": [
+      27,
+      29,
+      61
+    ],
+    "params": [
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      },
+      {
+        "name": "da",
+        "count": "(nL + nH * 256) / 2"
+      },
+      {
+        "name": "db",
+        "count": "(nL + nH * 256) / 2"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Select character code table",
     "code": "ESC GS t",
-    "hex": "",
-    "array": []
+    "hex": "1b1d74",
+    "array": [
+      27,
+      29,
+      116
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Memory Switch Settings",
     "code": "ESC GS #",
-    "hex": "",
-    "array": []
+    "hex": "1b1d23",
+    "array": [
+      27,
+      29,
+      35
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "name": "N"
+      },
+      {
+        "name": "n1"
+      },
+      {
+        "name": "n2"
+      },
+      {
+        "name": "n3"
+      },
+      {
+        "name": "n4"
+      },
+      {
+        "name": "LF",
+        "value": 10
+      },
+      {
+        "name": "NUL",
+        "value": 0
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Select Font",
     "code": "ESC RS F",
-    "hex": "",
-    "array": []
+    "hex": "1b1e46",
+    "array": [
+      27,
+      30,
+      70
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Print Mode Selection",
     "code": "ESC RS C",
-    "hex": "",
-    "array": []
+    "hex": "1b1e43",
+    "array": [
+      27,
+      30,
+      67
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Batch Control Logo",
     "code": "ESC RS L",
-    "hex": "",
-    "array": []
+    "hex": "1b1e4c",
+    "array": [
+      27,
+      30,
+      76
+    ],
+    "params": [
+      {
+        "name": "m"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Send print-end counter, initialize",
     "code": "ESC GS ETX",
-    "hex": "",
-    "array": []
+    "hex": "1b1d03",
+    "array": [
+      27,
+      29,
+      3
+    ],
+    "params": [
+      {
+        "name": "s"
+      },
+      {
+        "name": "n1"
+      },
+      {
+        "name": "n2"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Execute presenter paper recovery",
     "code": "ESC SYN 0",
-    "hex": "",
-    "array": []
+    "hex": "1b1630",
+    "array": [
+      27,
+      22,
+      48
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Set presenter paper recovery function and automatic recovery time",
     "code": "ESC SYN 1",
-    "hex": "",
-    "array": []
+    "hex": "1b1631",
+    "array": [
+      27,
+      22,
+      49
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Get presenter paper counter",
     "code": "ESC SYN 3",
-    "hex": "",
-    "array": []
+    "hex": "1b1633",
+    "array": [
+      27,
+      22,
+      51
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Initialize presenter paper counter",
     "code": "ESC SYN 4",
-    "hex": "",
-    "array": []
+    "hex": "1b1634",
+    "array": [
+      27,
+      22,
+      52
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Specify snout operation mode",
     "code": "ESC GS SUB DC1",
-    "hex": "",
-    "array": []
+    "hex": "1b1d1a11",
+    "array": [
+      27,
+      29,
+      26,
+      17
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "name": "t1"
+      },
+      {
+        "name": "t2"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Specify Snout LED ON/OFF time",
     "code": "ESC GS SUB DC2",
-    "hex": "",
-    "array": []
+    "hex": "1b1d1a12",
+    "array": [
+      27,
+      29,
+      26,
+      18
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "name": "t1"
+      },
+      {
+        "name": "t2"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Execute snout LED operation",
     "code": "ESC GS SUB DC3",
-    "hex": "",
-    "array": []
+    "hex": "1b1d1a13",
+    "array": [
+      27,
+      29,
+      26,
+      19
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "name": "t1"
+      },
+      {
+        "name": "t2"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Print mark",
     "code": "ESC GS * 0",
-    "hex": "",
-    "array": []
+    "hex": "1b1d2a30",
+    "array": [
+      27,
+      29,
+      42,
+      48
+    ],
+    "params": [
+      {
+        "name": "n",
+        "length": 3,
+        "ascii": true
+      },
+      {
+        "name": "m",
+        "count": "n",
+        "ascii": true
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Specify mark height and line feed",
     "code": "ESC GS * 1",
-    "hex": "",
-    "array": []
+    "hex": "1b1d2a31",
+    "array": [
+      27,
+      29,
+      42,
+      49
+    ],
+    "params": [
+      {
+        "name": "h",
+        "length": 3,
+        "ascii": true
+      },
+      {
+        "name": "v",
+        "length": 3,
+        "ascii": true
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Specify mark color and mark horizontal width for each mark number",
     "code": "ESC GS * 2",
-    "hex": "",
-    "array": []
+    "hex": "1b1d2a32",
+    "array": [
+      27,
+      29,
+      42,
+      50
+    ],
+    "params": [
+      {
+        "name": "m",
+        "ascii": true
+      },
+      {
+        "name": "c",
+        "ascii": true
+      },
+      {
+        "name": "w",
+        "length": 3,
+        "ascii": true
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Register mark format to non-volatile memory",
     "code": "ESC GS * W",
-    "hex": "",
-    "array": []
+    "hex": "1b1d2a57",
+    "array": [
+      27,
+      29,
+      42,
+      87
+    ]
   },
   {
-    "description": "",
+    "description": "Initialize mark format in the non-volatile memory",
     "code": "ESC GS * C",
-    "hex": "",
-    "array": []
+    "hex": "1b1d2a43",
+    "array": [
+      27,
+      29,
+      42,
+      67
+    ]
   },
   {
-    "description": "",
-    "code": "ESC GS \\ W",
-    "hex": "",
-    "array": []
+    "description": "Register Auto Logo setting to non-volatile memory",
+    "code": "ESC GS / W",
+    "hex": "1b1d2f57",
+    "array": [
+      27,
+      29,
+      47,
+      87
+    ]
   },
   {
-    "description": "",
-    "code": "ESC GS \\ C",
-    "hex": "",
-    "array": []
+    "description": "Initialize Auto Logo setting to non-volatile memory",
+    "code": "ESC GS / C",
+    "hex": "1b1d2f43",
+    "array": [
+      27,
+      29,
+      47,
+      67
+    ]
   },
   {
-    "description": "",
-    "code": "ESC GS \\ 1",
-    "hex": "",
-    "array": []
+    "description": "Auto Logo Function On/Off Setting",
+    "code": "ESC GS / 1",
+    "hex": "1b1d2f31",
+    "array": [
+      27,
+      29,
+      47,
+      49
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
   },
   {
-    "description": "",
-    "code": "ESC GS \\ 2",
-    "hex": "",
-    "array": []
+    "description": "Set command character",
+    "code": "ESC GS / 2",
+    "hex": "1b1d2f32",
+    "array": [
+      27,
+      29,
+      47,
+      50
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
   },
   {
-    "description": "",
-    "code": "ESC GS \\ 3",
-    "hex": "",
-    "array": []
+    "description": "Set user macro 1",
+    "code": "ESC GS / 3",
+    "hex": "1b1d2f33",
+    "array": [
+      27,
+      29,
+      47,
+      51
+    ],
+    "params": [
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      },
+      {
+        "name": "d",
+        "count": "nL + nH * 256"
+      }
+    ]
   },
   {
-    "description": "",
-    "code": "ESC GS \\ 4",
-    "hex": "",
-    "array": []
+    "description": "Set user macro 2",
+    "code": "ESC GS / 4",
+    "hex": "1b1d2f34",
+    "array": [
+      27,
+      29,
+      47,
+      52
+    ],
+    "params": [
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      },
+      {
+        "name": "d",
+        "count": "nL + nH * 256"
+      }
+    ]
   },
   {
-    "description": "",
-    "code": "ESC GS \\ 5",
-    "hex": "",
-    "array": []
+    "description": "Set command character switching method",
+    "code": "ESC GS / 5",
+    "hex": "1b1d2f35",
+    "array": [
+      27,
+      29,
+      47,
+      53
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
   },
   {
-    "description": "",
-    "code": "ESC GS \\ 6",
-    "hex": "",
-    "array": []
+    "description": "Set partial cut before Auto Logo printing",
+    "code": "ESC GS / 6",
+    "hex": "1b1d2f36",
+    "array": [
+      27,
+      29,
+      47,
+      54
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Ring buzzer",
     "code": "ESC GS BEL",
-    "hex": "",
-    "array": []
+    "hex": "1b1d07",
+    "array": [
+      27,
+      29,
+      7
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "name": "t1"
+      },
+      {
+        "name": "22"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "External buzzer drive pulse condition settings",
     "code": "ESC GS EM DC1",
-    "hex": "",
-    "array": []
+    "hex": "1b1d1911",
+    "array": [
+      27,
+      29,
+      25,
+      17
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "name": "n1"
+      },
+      {
+        "name": "n2"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "External buzzer drive execution",
     "code": "ESC GS EM DC2",
-    "hex": "",
-    "array": []
+    "hex": "1b1d1912",
+    "array": [
+      27,
+      29,
+      25,
+      18
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "name": "n1"
+      },
+      {
+        "name": "n2"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Set PDF417 bar code size",
     "code": "ESC GS x S 0",
-    "hex": "",
-    "array": []
+    "hex": "1b1d785330",
+    "array": [
+      27,
+      29,
+      120,
+      83,
+      48
+    ],
+    "params": [
+      {
+        "name": "n"
+      },
+      {
+        "name": "p1"
+      },
+      {
+        "name": "p2"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Set PDF417 ECC (security level)",
     "code": "ESC GS x S 1",
-    "hex": "",
-    "array": []
+    "hex": "1b1d785331",
+    "array": [
+      27,
+      29,
+      120,
+      83,
+      49
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Set PDF417 module X direction size",
     "code": "ESC GS x S 2",
-    "hex": "",
-    "array": []
+    "hex": "1b1d785332",
+    "array": [
+      27,
+      29,
+      120,
+      83,
+      50
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Set PDF417 module aspect ratio",
     "code": "ESC GS x S 3",
-    "hex": "",
-    "array": []
+    "hex": "1b1d785333",
+    "array": [
+      27,
+      29,
+      120,
+      83,
+      51
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Set PDF417 bar code data",
     "code": "ESC GS x D",
-    "hex": "",
-    "array": []
+    "hex": "1b1d7844",
+    "array": [
+      27,
+      29,
+      120,
+      68
+    ],
+    "params": [
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      },
+      {
+        "name": "d",
+        "count": "nL + nH * 256"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Print PDF417 bar code",
     "code": "ESC GS x P",
-    "hex": "",
-    "array": []
+    "hex": "1b1d7850",
+    "array": [
+      27,
+      29,
+      120,
+      80
+    ]
   },
   {
-    "description": "",
+    "description": "Get PDF417 bar code expansion information",
     "code": "ESC GS x I",
-    "hex": "",
-    "array": []
+    "hex": "1b1d7849",
+    "array": [
+      27,
+      29,
+      120,
+      73
+    ]
   },
   {
-    "description": "",
+    "description": "Print starting trigger",
     "code": "ESC GS g 0",
-    "hex": "",
-    "array": []
+    "hex": "1b1d6730",
+    "array": [
+      27,
+      29,
+      103,
+      48
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "name": "n"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Print starting timer",
     "code": "ESC GS g 1",
-    "hex": "",
-    "array": []
+    "hex": "1b1d6731",
+    "array": [
+      27,
+      29,
+      103,
+      49
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "name": "n"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Set QR code model",
     "code": "ESC GS y S 0",
-    "hex": "",
-    "array": []
+    "hex": "1b1d795330",
+    "array": [
+      27,
+      29,
+      121,
+      83,
+      48
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Set QR code mistake correction level",
     "code": "ESC GS y S 1",
-    "hex": "",
-    "array": []
+    "hex": "1b1d795331",
+    "array": [
+      27,
+      29,
+      121,
+      83,
+      49
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Set QR code cell size",
     "code": "ESC GS y S 2",
-    "hex": "",
-    "array": []
+    "hex": "1b1d795332",
+    "array": [
+      27,
+      29,
+      121,
+      83,
+      50
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Set QR code cell size (Auto Setting)",
     "code": "ESC GS y D 1",
-    "hex": "",
-    "array": []
+    "hex": "1b1d794431",
+    "array": [
+      27,
+      29,
+      121,
+      68,
+      49
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      },
+      {
+        "name": "d",
+        "count": "nL + nH * 256"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Set QR code cell size (Manual setting)",
     "code": "ESC GS y D 2",
-    "hex": "",
-    "array": []
+    "hex": "1b1d794432",
+    "array": [
+      27,
+      29,
+      121,
+      68,
+      50
+    ],
+    "params": [
+      {
+        "name": "a"
+      },
+      {
+        "args": [
+          {
+            "name": "m"
+          },
+          {
+            "name": "nL"
+          },
+          {
+            "name": "nH"
+          },
+          {
+            "name": "d",
+            "count": "nL + nH * 256"
+          }
+        ],
+        "count": "a"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Print QR code",
     "code": "ESC GS y P",
-    "hex": "",
-    "array": []
+    "hex": "1b1d7950",
+    "array": [
+      27,
+      29,
+      121,
+      80
+    ]
   },
   {
-    "description": "",
+    "description": "Get QR code expansion information",
     "code": "ESC GS y I",
-    "hex": "",
-    "array": []
+    "hex": "1b1d7949",
+    "array": [
+      27,
+      29,
+      121,
+      73
+    ]
   },
   {
-    "description": "",
+    "description": "180˚ inversion function",
     "code": "ESC GS h 0",
-    "hex": "",
-    "array": []
+    "hex": "1b1d6830",
+    "array": [
+      27,
+      29,
+      104,
+      48
+    ],
+    "params": [
+      {
+        "name": "k"
+      },
+      {
+        "name": "m"
+      },
+      {
+        "name": "n"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Water mark function",
     "code": "ESC GS h 1",
-    "hex": "",
-    "array": []
+    "hex": "1b1d6831",
+    "array": [
+      27,
+      29,
+      104,
+      49
+    ],
+    "params": [
+      {
+        "name": "k"
+      },
+      {
+        "name": "m"
+      },
+      {
+        "name": "n"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Set reduced printing",
     "code": "ESC GS c",
-    "hex": "",
-    "array": []
+    "hex": "1b1d63",
+    "array": [
+      27,
+      29,
+      99
+    ],
+    "params": [
+      {
+        "name": "h"
+      },
+      {
+        "name": "v"
+      }
+    ]
   },
   // TODO(rockatoo): 여기서부터 fn 값에 따른 params 작업 많이 해줘야함
   {
-    "description": "",
+    "description": "Set text search",
     "code": "ESC GS ) B",
-    "hex": "",
-    "array": [],
+    "hex": "1b1d2942",
+    "array": [
+      27,
+      29,
+      41,
+      66
+    ],
     "params": [
       {
         "name": "pL"
@@ -2407,14 +3243,20 @@
       },
       {
         "name": "fn"
+        // TODO(rockatoo): fn
       }
     ]
   },
   {
-    "description": "",
+    "description": "Send the all kind of multibyte fonts",
     "code": "ESC GS ) I",
-    "hex": "",
-    "array": [],
+    "hex": "1b1d2949",
+    "array": [
+      27,
+      29,
+      41,
+      73
+    ],
     "params": [
       {
         "name": "pL"
@@ -2424,14 +3266,20 @@
       },
       {
         "name": "fn"
+        // TODO(rockatoo): fn
       }
     ]
   },
   {
-    "description": "",
+    "description": "Send the registered individual logo CRC",
     "code": "ESC GS ) L",
-    "hex": "",
-    "array": [],
+    "hex": "1b1d294c",
+    "array": [
+      27,
+      29,
+      41,
+      76
+    ],
     "params": [
       {
         "name": "pL"
@@ -2441,42 +3289,149 @@
       },
       {
         "name": "fn"
+        // TODO(rockatoo): fn
       }
     ]
   },
   {
-    "description": "",
+    "description": "Playback NV Audio",
     "code": "ESC GS s O",
-    "hex": "",
-    "array": []
+    "hex": "1b1d734f",
+    "array": [
+      27,
+      29,
+      115,
+      79
+    ],
+    "params": [
+      {
+        "name": "z"
+      },
+      {
+        "name": "a"
+      },
+      {
+        "name": "n"
+      },
+      {
+        "name": "c1"
+      },
+      {
+        "name": "c2"
+      },
+      {
+        "name": "d1"
+      },
+      {
+        "name": "d2"
+      },
+      {
+        "name": "t1"
+      },
+      {
+        "name": "t2"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Stop NV Audio",
     "code": "ESC GS s P",
-    "hex": "",
-    "array": []
+    "hex": "1b1d7350",
+    "array": [
+      27,
+      29,
+      115,
+      80
+    ]
   },
   {
-    "description": "",
+    "description": "Playback received audio",
     "code": "ESC GS s R",
-    "hex": "",
-    "array": []
+    "hex": "1b1d7352",
+    "array": [
+      27,
+      29,
+      115,
+      82
+    ],
+    "params": [
+      {
+        "name": "z"
+      },
+      {
+        "name": "n1"
+      },
+      {
+        "name": "n2"
+      },
+      {
+        "name": "n3"
+      },
+      {
+        "name": "d",
+        "count": "k1 + k2 * 256 + k3 * 65536"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Register user area NV audio data",
     "code": "ESC GS s U",
-    "hex": "",
-    "array": []
+    "hex": "1b1d7355",
+    "array": [
+      27,
+      29,
+      115,
+      85
+    ],
+    "params": [
+      {
+        "name": "z"
+      },
+      {
+        "name": "n"
+      },
+      {
+        "args": [
+          {
+            "name": "k1"
+          },
+          {
+            "name": "k2"
+          },
+          {
+            "name": "k3"
+          },
+          {
+            "name": "d",
+            "count": "k1 + k2 * 256 + k3 * 65536"
+          }
+        ],
+        "count": "n"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Batch playback NV Audio",
     "code": "ESC GS s T",
-    "hex": "",
-    "array": []
+    "hex": "1b1d7354",
+    "array": [
+      27,
+      29,
+      115,
+      84
+    ],
+    "params": [
+      {
+        "name": "t1"
+      },
+      {
+        "name": "t2"
+      }
+    ]
   },
   // ----------i5tm004 프린터 매뉴얼
   {
-    "description": "",
+    "description": "Backspace",
     "code": "BS",
     "hex": "08",
     "array": [
@@ -2502,178 +3457,499 @@
     ]
   },
   {
-    "description": "",
+    "description": "Select 1/8-inch line spacing",
     "code": "ESC 0",
     "hex": "1b30",
-    "array": []
+    "array": [
+      27,
+      48
+    ]
   },
   {
-    "description": "",
+    "description": "Set/reset italic mode",
     "code": "ESC 4",
     "hex": "1b34",
-    "array": []
+    "array": [
+      27,
+      52
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Selects speed/current mode",
     "code": "ESC x",
     "hex": "1b78",
-    "array": []
-  },
-  {
-    "description": "",
-    "code": "ESC 0xC1",
-    "hex": "1bc1",
-    "array": []
+    "array": [
+      27,
+      120
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
   },
   {
     "description": "Print graphic",
     "code": "ESC 0xFA",
     "hex": "1bfa",
-    "array": []
+    "array": [
+      27,
+      250
+    ],
+    "params": [
+      {
+        "name": "n"
+      },
+      {
+        "name": "xH"
+      },
+      {
+        "name": "xL"
+      },
+      {
+        "name": "yH"
+      },
+      {
+        "name": "yL"
+      }
+    ]
   },
   {
     "description": "Receive graphic page from communication port",
     "code": "ESC 0xFD",
     "hex": "1bfd",
-    "array": []
+    "array": [
+      27,
+      253
+    ],
+    "params": [
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      }
+    ]
   },
   {
     "description": "Receive the graphic page from the communication port",
     "code": "ESC 0xFF",
     "hex": "1bff",
-    "array": []
+    "array": [
+      27,
+      255
+    ],
+    "params": [
+      {
+        "name": "n"
+      },
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Select the font type",
     "code": "FS %",
     "hex": "1c25",
-    "array": []
+    "array": [
+      28,
+      37
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Sets height in printing",
     "code": "GS Y",
     "hex": "1d59",
-    "array": []
+    "array": [
+      29,
+      89
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
   },
   {
     "description": "Set printing density",
-    "code": "GS 0x7C",
+    "code": "GS |",
     "hex": "1d7c",
-    "array": []
+    "array": [
+      29,
+      124
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
   },
   {
     "description": "Reading of length (cm) of printed paper",
     "code": "GS 0xE3",
     "hex": "1de3",
-    "array": []
+    "array": [
+      29,
+      227
+    ]
   },
   {
     "description": "Reading number of power up",
     "code": "GS 0xE5",
     "hex": "1de5",
-    "array": []
+    "array": [
+      29,
+      229
+    ]
   },
   {
     "description": "Set printing speed",
     "code": "GS 0xF0",
     "hex": "1df0",
-    "array": []
+    "array": [
+      29,
+      240
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
   },
   {
-    "description": "",
+    "description": "Set/cancel cpi mode",
     "code": "ESC 0xC1",
     "hex": "1bc1",
-    "array": []
+    "array": [
+      27,
+      193
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
   },
   // ---------- EPSON ESCPOS big manual
   {
-    "description": "Control of the beeper",
+    "description": "Control beeper tones",
     "code": "ESC ( A",
-    "hex": "",
-    "array": []
+    "hex": "1b2841",
+    "array": [
+      27,
+      40,
+      65
+    ],
+    "params": [
+      {
+        "name": "pL"
+      },
+      {
+        "name": "pH"
+      },
+      {
+        "name": "fn"
+        // TODO(rockatoo): fn의 값에 따라 매개변수가 달라짐
+      }
+    ]
   },
   {
     "description": "Return home",
     "code": "ESC <",
-    "hex": "",
-    "array": []
+    "hex": "1b3c",
+    "array": [
+      27,
+      60
+    ]
   },
   {
     "description": "Print and reverse feed",
     "code": "ESC K",
-    "hex": "",
-    "array": []
+    "hex": "1b4b",
+    "array": [
+      27,
+      75
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
   },
   {
-    "description": "Turn unidirectional printing mode on/off",
+    "description": "Turn unidirectional print mode on/off",
     "code": "ESC U",
-    "hex": "",
-    "array": []
+    "hex": "1b55",
+    "array": [
+      27,
+      85
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
   },
   {
-    "description": "Define character effects of Kanji characters",
+    "description": "Select Kanji character style(s)",
     "code": "FS ( A",
-    "hex": "",
-    "array": []
+    "hex": "1d2841",
+    "array": [
+      28,
+      40,
+      65
+    ],
+    "params": [
+      {
+        "name": "pL"
+      },
+      {
+        "name": "pH"
+      },
+      {
+        "name": "fn"
+        // TODO(rockatoo): fn의 값에 따라 매개변수가 달라짐?
+      }
+    ]
   },
   {
-    "description": "Control of the label paper / black mark paper",
+    "description": "Select label and black mark control function(s)",
     "code": "FS ( L",
-    "hex": "",
-    "array": []
+    "hex": "1c284c",
+    "array": [
+      28,
+      40,
+      76
+    ],
+    "params": [
+      {
+        "name": "pL"
+      },
+      {
+        "name": "pH"
+      },
+      {
+        "name": "fn"
+        // TODO(rockatoo): fn의 값에 따라 매개변수가 달라짐?
+      }
+    ]
   },
   {
     "description": "Cancel user-defined Kanji characters",
     "code": "FS ?",
-    "hex": "",
-    "array": []
+    "hex": "1c3f",
+    "array": [
+      28,
+      63
+    ],
+    "params": [
+      {
+        "name": "c1"
+      },
+      {
+        "name": "c2"
+      }
+    ]
   },
   {
-    "description": "Require response transmission",
+    "description": "Request transmission of response or status",
     "code": "GS ( H",
-    "hex": "",
-    "array": []
+    "hex": "1d2848",
+    "array": [
+      29,
+      40,
+      72
+    ],
+    "params": [
+      {
+        "name": "pL"
+      },
+      {
+        "name": "pH"
+      },
+      {
+        "name": "fn"
+        // TODO(rockatoo): fn 매개변수 늘림
+      }
+    ]
   },
   {
     "description": "Print variable vertical size bit image",
     "code": "GS Q 0",
-    "hex": "",
-    "array": []
+    "hex": "1d5130",
+    "array": [
+      29,
+      81,
+      48
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "name": "xL"
+      },
+      {
+        "name": "xH"
+      },
+      {
+        "name": "yL"
+      },
+      {
+        "name": "yH"
+      },
+      {
+        "name": "d",
+        "count": "(xL + xH * 256) * (yL + yH * 256)"
+      }
+    ]
   },
   {
     "description": "Initialize maintenance counter",
     "code": "GS g 0",
-    "hex": "",
-    "array": []
+    "hex": "1d6730",
+    "array": [
+      29,
+      103,
+      48
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      }
+    ]
   },
   {
     "description": "Transmit maintenance counter",
     "code": "GS g 2",
-    "hex": "",
-    "array": []
+    "hex": "1d6732",
+    "array": [
+      29,
+      103,
+      50
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      }
+    ]
   },
   {
-    "description": "Enable/disable Ink Automatic Statuc Back (ASB)",
+    "description": "Enable/disable Automatic Status Back (ASB) for ink",
     "code": "GS j",
-    "hex": "",
-    "array": []
+    "hex": "1d6a",
+    "array": [
+      29,
+      106
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
   },
   {
     "description": "Set online recovery wait time",
     "code": "GS z 0",
-    "hex": "",
-    "array": []
+    "hex": "1d7a30",
+    "array": [
+      29,
+      122,
+      48
+    ],
+    "params": [
+      {
+        "name": "t1"
+      },
+      {
+        "name": "t2"
+      }
+    ]
   },
   {
     "description": "Commands for drawing graphics",
     "code": "GS ( Q",
-    "hex": "",
-    "array": []
+    "hex": "1d2851",
+    "array": [
+      29,
+      40,
+      81
+    ],
+    "params": [
+      {
+        "name": "pL"
+      },
+      {
+        "name": "pH"
+      },
+      {
+        "name": "fn"
+        // TODO (rockatoo): 매개변수 개수 달라짐
+      }
+    ]
   },
   {
     "description": "Page mode control",
     "code": "GS ( P",
-    "hex": "",
-    "array": []
+    "hex": "1d2850",
+    "array": [
+      29,
+      40,
+      80
+    ],
+    "params": [
+      {
+        "name": "pL"
+      },
+      {
+        "name": "pH"
+      },
+      {
+        "name": "fn"
+      }
+    ]
+  },
+  {
+    "description": "Adjust label print starting position",
+    "code": "GS A",
+    "hex": "1d41",
+    "array": [
+      29,
+      65
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "name": "n"
+      }
+    ]
   }
 ]
