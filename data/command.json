@@ -1768,20 +1768,14 @@
   },
   {
     "description": "Print raster bit image",
-    "code": "GS v",
-    "hex": "1d76",
+    "code": "GS v 0",
+    "hex": "1d7630",
     "array": [
       29,
-      118
+      118,
+      48
     ],
     "params": [
-      {
-        // TODO(rockatoo): 무슨 역할을 하는 params인지 밝힐 필요가 있어보임
-        "name": "unknown",
-        "range": [
-          0
-        ]
-      },
       {
         "name": "m",
         "range": [
@@ -2066,6 +2060,620 @@
     "code": "FS !",
     "hex": "",
     "array": []
-  }
+  },
   // 여기서부터 다시 작성하면 된다. 2022-04-08
+  {
+    "description": "",
+    "code": "FS -",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "FS 2",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "FS C",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "FS S",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "FS W",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "GS <",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS =",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS t",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS #",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC RS F",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC RS C",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC RS L",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS ETX",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC SYN 0",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC SYN 1",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC SYN 3",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC SYN 4",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS SUB DC1",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS SUB DC2",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS SUB DC3",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS * 0",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS * 1",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS * 2",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS * W",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS * C",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS \\ W",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS \\ C",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS \\ 1",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS \\ 2",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS \\ 3",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS \\ 4",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS \\ 5",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS \\ 6",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS BEL",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS EM DC1",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS EM DC2",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS x S 0",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS x S 1",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS x S 2",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS x S 3",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS x D",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS x P",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS x I",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS g 0",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS g 1",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS y S 0",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS y S 1",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS y S 2",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS y D 1",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS y D 2",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS y P",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS y I",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS h 0",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS h 1",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS c",
+    "hex": "",
+    "array": []
+  },
+  // TODO(rockatoo): 여기서부터 fn 값에 따른 params 작업 많이 해줘야함
+  {
+    "description": "",
+    "code": "ESC GS ) B",
+    "hex": "",
+    "array": [],
+    "params": [
+      {
+        "name": "pL"
+      },
+      {
+        "name": "pH"
+      },
+      {
+        "name": "fn"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "code": "ESC GS ) I",
+    "hex": "",
+    "array": [],
+    "params": [
+      {
+        "name": "pL"
+      },
+      {
+        "name": "pH"
+      },
+      {
+        "name": "fn"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "code": "ESC GS ) L",
+    "hex": "",
+    "array": [],
+    "params": [
+      {
+        "name": "pL"
+      },
+      {
+        "name": "pH"
+      },
+      {
+        "name": "fn"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "code": "ESC GS s O",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS s P",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS s R",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS s U",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC GS s T",
+    "hex": "",
+    "array": []
+  },
+  // ----------i5tm004 프린터 매뉴얼
+  {
+    "description": "",
+    "code": "BS",
+    "hex": "08",
+    "array": [
+      8
+    ]
+  },
+  {
+    "description": "Set relative vertical print position",
+    "code": "ESC ( v",
+    "hex": "1b2876",
+    "array": [
+      27,
+      40,
+      118
+    ],
+    "params": [
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "code": "ESC 0",
+    "hex": "1b30",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC 4",
+    "hex": "1b34",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC x",
+    "hex": "1b78",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC 0xC1",
+    "hex": "1bc1",
+    "array": []
+  },
+  {
+    "description": "Print graphic",
+    "code": "ESC 0xFA",
+    "hex": "1bfa",
+    "array": []
+  },
+  {
+    "description": "Receive graphic page from communication port",
+    "code": "ESC 0xFD",
+    "hex": "1bfd",
+    "array": []
+  },
+  {
+    "description": "Receive the graphic page from the communication port",
+    "code": "ESC 0xFF",
+    "hex": "1bff",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "FS %",
+    "hex": "1c25",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "GS Y",
+    "hex": "1d59",
+    "array": []
+  },
+  {
+    "description": "Set printing density",
+    "code": "GS 0x7C",
+    "hex": "1d7c",
+    "array": []
+  },
+  {
+    "description": "Reading of length (cm) of printed paper",
+    "code": "GS 0xE3",
+    "hex": "1de3",
+    "array": []
+  },
+  {
+    "description": "Reading number of power up",
+    "code": "GS 0xE5",
+    "hex": "1de5",
+    "array": []
+  },
+  {
+    "description": "Set printing speed",
+    "code": "GS 0xF0",
+    "hex": "1df0",
+    "array": []
+  },
+  {
+    "description": "",
+    "code": "ESC 0xC1",
+    "hex": "1bc1",
+    "array": []
+  },
+  // ---------- EPSON ESCPOS big manual
+  {
+    "description": "Control of the beeper",
+    "code": "ESC ( A",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "Return home",
+    "code": "ESC <",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "Print and reverse feed",
+    "code": "ESC K",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "Turn unidirectional printing mode on/off",
+    "code": "ESC U",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "Define character effects of Kanji characters",
+    "code": "FS ( A",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "Control of the label paper / black mark paper",
+    "code": "FS ( L",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "Cancel user-defined Kanji characters",
+    "code": "FS ?",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "Require response transmission",
+    "code": "GS ( H",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "Print variable vertical size bit image",
+    "code": "GS Q 0",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "Initialize maintenance counter",
+    "code": "GS g 0",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "Transmit maintenance counter",
+    "code": "GS g 2",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "Enable/disable Ink Automatic Statuc Back (ASB)",
+    "code": "GS j",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "Set online recovery wait time",
+    "code": "GS z 0",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "Commands for drawing graphics",
+    "code": "GS ( Q",
+    "hex": "",
+    "array": []
+  },
+  {
+    "description": "Page mode control",
+    "code": "GS ( P",
+    "hex": "",
+    "array": []
+  }
 ]
