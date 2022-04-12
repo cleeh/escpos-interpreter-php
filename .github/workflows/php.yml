@@ -1,4 +1,4 @@
-name: Action-PHP:test
+name: escpos-interperter-ci
 
 on:
   push:
