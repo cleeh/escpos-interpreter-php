@@ -3,28 +3,30 @@ name: escpos-interpreter-ci
 on:
   push:
     types: [ closed ]
-    branches: 
-      - 'main' 
+    branches:
+      - 'main'
       - 'release/**'
 
   pull_request:
     types: [ closed ]
-    branches: 
-      - 'main' 
+    branches:
+      - 'main'
       - 'release/**'
 
+permissions:
+  contents: read
 
 jobs:
   build:
     if: github.event.pull_request.merged == true || github.event.push.merged == true
     runs-on: ubuntu-18.04
+    strategy:
+      matrix:
+        operating-system: [ubuntu-18.04]
+        php-versions: ['8.0', '8.1']
+
     steps:
     - uses: actions/checkout@v3
-    
-    - uses: shivammathur/setup-php@v2
-      with:
-        php-version: 8.1
-
     - name: Bump version and push tag
       id: tag_version
       uses: mathieudutour/github-tag-action@v6.0
