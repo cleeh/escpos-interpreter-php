@@ -1,0 +1,43 @@
+name: escpos-interpreter-ci
+
+on:
+  push:
+    types: [ closed ]
+    branches:
+      - 'main'
+      - 'release/**'
+
+  pull_request:
+    types: [ closed ]
+    branches:
+      - 'main'
+      - 'release/**'
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    if: github.event.pull_request.merged == true || github.event.push.merged == true
+    runs-on: ubuntu-18.04
+    strategy:
+      matrix:
+        operating-system: [ubuntu-18.04]
+        php-versions: ['8.0', '8.1']
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Bump version and push tag
+      id: tag_version
+      uses: mathieudutour/github-tag-action@v6.0
+      with:
+        github_token: ${{ secrets.TOKEN }}
+        #default_bump: false
+    - name: Create a GitHub release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.TOKEN }}
+      with:
+        tag_name: ${{ steps.tag_version.outputs.new_tag }}
+        release_name: Release ${{ steps.tag_version.outputs.new_tag }}
+        body: ${{ steps.tag_version.outputs.changelog }}
