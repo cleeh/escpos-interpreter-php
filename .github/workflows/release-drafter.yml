@@ -1,0 +1,31 @@
+name: Release Drafter
+
+on:
+  push:
+    types: [ closed ]
+    branches:
+      - 'main'
+      - 'release/**'
+
+  pull_request:
+    types: [ closed ]
+    branches:
+      - 'main'
+      - 'release/**'
+
+
+jobs:
+  update_release_draft:
+    if: github.event.pull_request.merged == true || github.event.push.merged == true
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: 8.1
+
+      - uses: release-drafter/release-drafter@v5
+        with:
+          config-name: release-drafter-config.yml
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+
