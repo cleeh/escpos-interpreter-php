@@ -9,13 +9,15 @@ use Ascii\ControlAscii;
 
 interface CommandInterface
 {
+  public function getDeterminant();
+  public function getDeterminantLength();
+  public function getParams();
+  public function getParamsLength();
+
   public function toIntArray();
   public function __toString();
   public function toHexString();
   public function toCodeString();
-
-  public function getParams();
-  public function getParamsLength();
 }
 
 abstract class AbstractCommand implements CommandInterface
@@ -42,6 +44,26 @@ abstract class AbstractCommand implements CommandInterface
     } else {
       throw new TypeError('Command params should be initialized with array<int> or string type data.');
     }
+  }
+
+  public function getDeterminant()
+  {
+    return $this->determinant;
+  }
+
+  public function getDeterminantLength()
+  {
+    return count($this->determinant);
+  }
+
+  public function getParams()
+  {
+    return $this->params;
+  }
+
+  public function getParamsLength()
+  {
+    return count($this->params);
   }
 
   public function toIntArray()
@@ -83,26 +105,6 @@ abstract class AbstractCommand implements CommandInterface
       $codeString .= ($decimal >= 0 && $decimal <= 31 || $decimal == 127) ? ControlAscii::toAsciiCodeString($decimal) . ' ' : chr($decimal) . ' ';
     }
     return trim($codeString);
-  }
-
-  public function getDeterminant()
-  {
-    return $this->determinant;
-  }
-
-  public function getDeterminantLength()
-  {
-    return count($this->determinant);
-  }
-
-  public function getParams()
-  {
-    return $this->params;
-  }
-
-  public function getParamsLength()
-  {
-    return count($this->params);
   }
 }
 
