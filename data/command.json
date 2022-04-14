@@ -1610,9 +1610,8 @@
       }
     ]
   },
-  // TODO(rockatoo): 오타가 심하게 있는데, 겹치는 내용의 row가 하나 더 있음
   {
-    "description": "Set black mark adjustment value",
+    "description": "Paper cutting position control with Black Mark",
     "code": "GS ( F",
     "hex": "1d2846",
     "array": [
@@ -1678,7 +1677,6 @@
     ]
   },
   {
-    // TODO(rockatoo): fn이 있는지 확인 필요
     "description": "Select print control method(s)",
     "code": "GS ( K",
     "hex": "1d284b",
