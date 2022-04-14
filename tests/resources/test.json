@@ -1,0 +1,11 @@
+[
+    {
+      "description": "Initialize printer",
+      "code": "ESC @",
+      "hex": "1b40",
+      "array": [
+        27,
+        64
+      ]
+    }
+]
