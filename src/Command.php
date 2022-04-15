@@ -9,40 +9,75 @@ use Ascii\ControlAscii;
 
 interface CommandInterface
 {
+  public function getDeterminant();
+  public function getDeterminantLength();
+  public function getParams();
+  public function getParamsLength();
+
   public function toIntArray();
   public function __toString();
   public function toHexString();
   public function toCodeString();
-
-  public function getParams();
-  public function getParamsLength();
 }
 
 abstract class AbstractCommand implements CommandInterface
 {
-  public $data = array();
+  protected $determinant = [];
+  protected $params = [];
 
-  public function __construct($input)
+  public function __construct($determinant, $params)
   {
-    $type = gettype($input);
-    if ($type == 'string') {
-      $this->data = array_values(unpack('C*', $input));
-    } else if ($type == 'array') {
-      $this->data = $input;
+    $determinantType = gettype($determinant);
+    if ($determinantType == 'string') {
+      $this->determinant = array_values(unpack('C*', $determinant));
+    } else if ($determinantType == 'array') {
+      $this->determinant = $determinant;
     } else {
-      throw new TypeError('Command should be initialized with array<int> or string type data.');
+      throw new TypeError('Command determinant should be initialized with array<int> or string type data.');
     }
+
+    $paramsType = gettype($params);
+    if ($paramsType == 'string') {
+      $this->params = array_values(unpack('C*', $params));
+    } else if ($paramsType == 'array') {
+      $this->params = $params;
+    } else {
+      throw new TypeError('Command params should be initialized with array<int> or string type data.');
+    }
+  }
+
+  public function getDeterminant()
+  {
+    return $this->determinant;
+  }
+
+  public function getDeterminantLength()
+  {
+    return count($this->determinant);
+  }
+
+  public function getParams()
+  {
+    return $this->params;
+  }
+
+  public function getParamsLength()
+  {
+    return count($this->params);
   }
 
   public function toIntArray()
   {
-    return $this->data;
+    return array_merge($this->determinant, $this->params);
   }
 
   public function __toString()
   {
     $ascii = '';
-    foreach($this->data as $decimal){
+    foreach ($this->determinant as $decimal) {
+      $ascii .= chr($decimal);
+    }
+    foreach ($this->params as $decimal) {
       $ascii .= chr($decimal);
     }
     return $ascii;
@@ -51,7 +86,10 @@ abstract class AbstractCommand implements CommandInterface
   public function toHexString()
   {
     $hexString = '';
-    foreach($this->data as $decimal){
+    foreach ($this->determinant as $decimal) {
+      $hexString .= dechex($decimal);
+    }
+    foreach ($this->params as $decimal) {
       $hexString .= dechex($decimal);
     }
     return $hexString;
@@ -60,8 +98,11 @@ abstract class AbstractCommand implements CommandInterface
   public function toCodeString()
   {
     $codeString = '';
-    foreach($this->data as $decimal){
-      $codeString .= ($decimal >= 0 && $decimal <= 31 || $decimal == 127) ? ControlAscii::toAsciiCodeString($decimal).' ': chr($decimal).' ';
+    foreach ($this->determinant as $decimal) {
+      $codeString .= ($decimal >= 0 && $decimal <= 31 || $decimal == 127) ? ControlAscii::toAsciiCodeString($decimal) . ' ' : chr($decimal) . ' ';
+    }
+    foreach ($this->params as $decimal) {
+      $codeString .= ($decimal >= 0 && $decimal <= 31 || $decimal == 127) ? ControlAscii::toAsciiCodeString($decimal) . ' ' : chr($decimal) . ' ';
     }
     return trim($codeString);
   }
@@ -69,14 +110,4 @@ abstract class AbstractCommand implements CommandInterface
 
 class Command extends AbstractCommand
 {
-  public function getParams()
-  {
-    throw new Error('Not implemented');
-    return array();
-  }
-  public function getParamsLength()
-  {
-    throw new Error('Not implemented');
-    return 0;
-  }
 }
