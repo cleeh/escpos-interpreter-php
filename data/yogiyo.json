@@ -1,10 +1,1802 @@
 [
   {
     "hex": "1B21301B45011B6101EC9A9400EAB8B000EC9A940D0A1B321B61001B45001B21001B4D001D4200ECA3BC00EBACB820EBA7A400EC9EA5003A20ECB9B400ED8E9800EC9DB800ECB6A900ECA084002D00ECB2AD00ECA3BC00ECA0900D0A1B321B61001B45001B21001B4D001D4200ECA3BC00EBACB820EC9DBC00EC8B9C003A203200300032003200EB85840030003300EC9B940031003400EC9DBC002800EC9B94002920EC98A400ED9B8400300033003A003400380D0A1B321B61001B45001B21001B4D001D4200ECA3BC00EBACB820EBB28800ED98B8003A20460032003200300033003100340031003500340037004A00540036003300300D0A1B321B61001B45001B21001B4D001D42000D0A1B21301B45011B610123003700380D0A1B321B61001B45001B21001B4D001D42000D0A1B21301B45011B6101EBB0B000EB8BAC00EC998400EBA38C00EC988800ECA09500EC8B9C00EAB0840D0A1B321B61001B45001B21001B4D001D42001B21301B45011B6101EC98A400ED9B8400300034003A003200390D0A1B321B61001B45001B21001B4D001D42002D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0D0AED988400EC9EA500ECB9B400EB939C00EAB2B000ECA09C0D0A1B321B61001B45001B21001B4D001D42002D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0D0AEBB0B000EB8BAC20ECA3BC00EC868C003A0D0A1B321B61001B45001B21001B4D001D42001B4501ECB6A900ECB2AD00EBB68100EB8F8420ECB2AD00ECA3BC00EC8B9C20ED9DA500EB8D9500EAB5AC20EAB08000EAB2BD00EB8F99202800EAB08000EAB2BD00EB8F9900292031003100330D0A3720310030003200ED98B80D0A1B321B61001B45001B21001B4D001D42001B4501EC97B000EB9DBD00ECB298003A2030003500300034003400370039003200300030003800320D0A1B321B61001B45001B21001B4D001D42002D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0D0A5B00EC958800ECA08400EBB0B000EB8BAC005D20EBACB820EC959E00EC979020EB869300EAB3A0002C20EBACB800EC9E9000ECA3BC00EC84B800EC9A94002120EC9DBC00ED9A8C0D0AEC9AA920EC889800ECA080002C20ED8FAC00ED81AC00EAB08020ED958400EC9A9400ED95B400EC9A94002E0D0A1B321B61001B45001B21001B4D001D42002D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0D0A1B4501EBA99400EB89B400EBAA8520202020202020202020202020202020202020202020EC889800EB9F89202020202020EAB08000EAB2A90D0A1B321B61001B45001B21001B4D001D42002D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0D0A1B4501EBA99400EC9DB820EBA99400EB89B4003A20EC958400EC9584004D2020202020202020202020202020322020202020310031002C0030003000300D0A1B321B61001B45001B21001B4D001D42001B4501EBA99400EC9DB820EBA99400EB89B4003A20EC958400EC9584004C20202020202020202020202020203120202020202036002C0032003000300D0A1B321B61001B45001B21001B4D001D42001B4501EBA99400EC9DB820EBA99400EB89B4003A20EB9CA800EC9584004D20202020202020202020202020203120202020202035002C0032003000300D0A1B321B61001B45001B21001B4D001D42001B4501EBA99400EC9DB820EBA99400EB89B4003A20EB9CA800EC9584004C20202020202020202020202020203120202020202035002C0039003000300D0A1B321B61001B45001B21001B4D001D42001B4501EBB0B000EB8BAC00EBA38C003A20202020202020202020202020202020202020202020202020202020202033002C0030003000300D0A1B321B61001B45001B21001B4D001D42002D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0D0A1B21301B45011B6101ED95A900EAB384003A2020202020202020EFBFA600330031002C0033003000300D0A1B321B61001B45001B21001B4D001D42002D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0D0A0D0A0D0A0D0A0D0A0D0A0D0A0D0A1D5601",
-    "string": "\\u001b!0\\u001bE\\u0001\\u001ba\\u0001요 기 요\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB 주 문 매 장 : 카 페 인 충 전 - 청 주 점\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB 주 문 일 시 : 2 0 2 2 년 0 3 월 1 4 일 ( 월 ) 오 후 0 3 : 4 8\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB 주 문 번 호 : F 2 2 0 3 1 4 1 5 4 7 J T 6 3 0\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB \\n\\u001b!0\\u001bE\\u0001\\u001ba\\u0001# 7 8\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB \\n\\u001b!0\\u001bE\\u0001\\u001ba\\u0001배 달 완 료 예 정 시 간\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB \\u001b!0\\u001bE\\u0001\\u001ba\\u0001오 후 0 4 : 2 9\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB ------------------------------------------\\n현 장 카 드 결 제\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB ------------------------------------------\\n배 달 주 소 :\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB \\u001bE\\u0001충 청 북 도 청 주 시 흥 덕 구 가 경 동 ( 가 경 동 ) 1 1 3\\n7 1 0 2 호\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB \\u001bE\\u0001연 락 처 : 0 5 0 4 4 7 9 2 0 0 8 2\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB ------------------------------------------\\n[ 안 전 배 달 ] 문 앞 에 놓 고 , 문 자 주 세 요 ! 일 회\\n용 수 저 , 포 크 가 필 요 해 요 .\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB ------------------------------------------\\n\\u001bE\\u0001메 뉴 명                      수 량      가 격\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB ------------------------------------------\\n\\u001bE\\u0001메 인 메 뉴 : 아 아 M              2     1 1 , 0 0 0\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB \\u001bE\\u0001메 인 메 뉴 : 아 아 L              1      6 , 2 0 0\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB \\u001bE\\u0001메 인 메 뉴 : 뜨 아 M              1      5 , 2 0 0\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB \\u001bE\\u0001메 인 메 뉴 : 뜨 아 L              1      5 , 9 0 0\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB \\u001bE\\u0001배 달 료 :                              3 , 0 0 0\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB ------------------------------------------\\n\\u001b!0\\u001bE\\u0001\\u001ba\\u0001합 계 :        ￦ 3 1 , 3 0 0\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB ------------------------------------------\\n\\n\\n\\n\\n\\n\\n\\n\\u001dV\\u0001"
+    "string": "\\u001b!0\\u001bE\\u0001\\u001ba\\u0001요 기 요\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB 주 문 매 장 : 카 페 인 충 전 - 청 주 점\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB 주 문 일 시 : 2 0 2 2 년 0 3 월 1 4 일 ( 월 ) 오 후 0 3 : 4 8\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB 주 문 번 호 : F 2 2 0 3 1 4 1 5 4 7 J T 6 3 0\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB \\n\\u001b!0\\u001bE\\u0001\\u001ba\\u0001# 7 8\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB \\n\\u001b!0\\u001bE\\u0001\\u001ba\\u0001배 달 완 료 예 정 시 간\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB \\u001b!0\\u001bE\\u0001\\u001ba\\u0001오 후 0 4 : 2 9\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB ------------------------------------------\\n현 장 카 드 결 제\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB ------------------------------------------\\n배 달 주 소 :\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB \\u001bE\\u0001충 청 북 도 청 주 시 흥 덕 구 가 경 동 ( 가 경 동 ) 1 1 3\\n7 1 0 2 호\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB \\u001bE\\u0001연 락 처 : 0 5 0 4 4 7 9 2 0 0 8 2\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB ------------------------------------------\\n[ 안 전 배 달 ] 문 앞 에 놓 고 , 문 자 주 세 요 ! 일 회\\n용 수 저 , 포 크 가 필 요 해 요 .\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB ------------------------------------------\\n\\u001bE\\u0001메 뉴 명                      수 량      가 격\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB ------------------------------------------\\n\\u001bE\\u0001메 인 메 뉴 : 아 아 M              2     1 1 , 0 0 0\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB \\u001bE\\u0001메 인 메 뉴 : 아 아 L              1      6 , 2 0 0\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB \\u001bE\\u0001메 인 메 뉴 : 뜨 아 M              1      5 , 2 0 0\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB \\u001bE\\u0001메 인 메 뉴 : 뜨 아 L              1      5 , 9 0 0\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB \\u001bE\\u0001배 달 료 :                              3 , 0 0 0\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB ------------------------------------------\\n\\u001b!0\\u001bE\\u0001\\u001ba\\u0001합 계 :        ￦ 3 1 , 3 0 0\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB ------------------------------------------\\n\\n\\n\\n\\n\\n\\n\\n\\u001dV\\u0001",
+    "label": [
+      {
+        "type": "command",
+        "hex": "1B2130"
+      },
+      {
+        "type": "command",
+        "hex": "1B4501"
+      },
+      {
+        "type": "command",
+        "hex": "1B6101"
+      },
+      {
+        "type": "data",
+        "hex": "EC9A9400EAB8B000EC9A94"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "data",
+        "hex": "ECA3BC00EBACB820EBA7A400EC9EA5003A20ECB9B400ED8E9800EC9DB800ECB6A900ECA084002D00ECB2AD00ECA3BC00ECA090"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4D00"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "data",
+        "hex": "ECA3BC00EBACB820EC9DBC00EC8B9C003A203200300032003200EB85840030003300EC9B940031003400EC9DBC002800EC9B94002920EC98A400ED9B8400300033003A00340038"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4D00"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "data",
+        "hex": "ECA3BC00EBACB820EBB28800ED98B8003A20460032003200300033003100340031003500340037004A0054003600330030"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4D00"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B2130"
+      },
+      {
+        "type": "command",
+        "hex": "1B4501"
+      },
+      {
+        "type": "command",
+        "hex": "1B6101"
+      },
+      {
+        "type": "data",
+        "hex": "2300370038"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4D00"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B2130"
+      },
+      {
+        "type": "command",
+        "hex": "1B4501"
+      },
+      {
+        "type": "command",
+        "hex": "1B6101"
+      },
+      {
+        "type": "data",
+        "hex": "EBB0B000EB8BAC00EC998400EBA38C00EC988800ECA09500EC8B9C00EAB084"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4D00"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "command",
+        "hex": "1B2130"
+      },
+      {
+        "type": "command",
+        "hex": "1B4501"
+      },
+      {
+        "type": "command",
+        "hex": "1B6101"
+      },
+      {
+        "type": "data",
+        "hex": "EC98A400ED9B8400300034003A00320039"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4D00"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "data",
+        "hex": "ED988400EC9EA500ECB9B400EB939C00EAB2B000ECA09C"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4D00"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "data",
+        "hex": "EBB0B000EB8BAC20ECA3BC00EC868C003A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4D00"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "command",
+        "hex": "1B4501"
+      },
+      {
+        "type": "data",
+        "hex": "ECB6A900ECB2AD00EBB68100EB8F8420ECB2AD00ECA3BC00EC8B9C20ED9DA500EB8D9500EAB5AC20EAB08000EAB2BD00EB8F99202800EAB08000EAB2BD00EB8F990029203100310033"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "data",
+        "hex": "3720310030003200ED98B8"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4D00"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "command",
+        "hex": "1B4501"
+      },
+      {
+        "type": "data",
+        "hex": "EC97B000EB9DBD00ECB298003A203000350030003400340037003900320030003000380032"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4D00"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "data",
+        "hex": "5B00EC958800ECA08400EBB0B000EB8BAC005D20EBACB820EC959E00EC979020EB869300EAB3A0002C20EBACB800EC9E9000ECA3BC00EC84B800EC9A94002120EC9DBC00ED9A8C"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "data",
+        "hex": "EC9AA920EC889800ECA080002C20ED8FAC00ED81AC00EAB08020ED958400EC9A9400ED95B400EC9A94002E"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4D00"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B4501"
+      },
+      {
+        "type": "data",
+        "hex": "EBA99400EB89B400EBAA8520202020202020202020202020202020202020202020EC889800EB9F89202020202020EAB08000EAB2A9"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4D00"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B4501"
+      },
+      {
+        "type": "data",
+        "hex": "EBA99400EC9DB820EBA99400EB89B4003A20EC958400EC9584004D2020202020202020202020202020322020202020310031002C003000300030"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4D00"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "command",
+        "hex": "1B4501"
+      },
+      {
+        "type": "data",
+        "hex": "EBA99400EC9DB820EBA99400EB89B4003A20EC958400EC9584004C20202020202020202020202020203120202020202036002C003200300030"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4D00"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "command",
+        "hex": "1B4501"
+      },
+      {
+        "type": "data",
+        "hex": "EBA99400EC9DB820EBA99400EB89B4003A20EB9CA800EC9584004D20202020202020202020202020203120202020202035002C003200300030"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4D00"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "command",
+        "hex": "1B4501"
+      },
+      {
+        "type": "data",
+        "hex": "EBA99400EC9DB820EBA99400EB89B4003A20EB9CA800EC9584004C20202020202020202020202020203120202020202035002C003900300030"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4D00"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "command",
+        "hex": "1B4501"
+      },
+      {
+        "type": "data",
+        "hex": "EBB0B000EB8BAC00EBA38C003A20202020202020202020202020202020202020202020202020202020202033002C003000300030"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4D00"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B2130"
+      },
+      {
+        "type": "command",
+        "hex": "1B4501"
+      },
+      {
+        "type": "command",
+        "hex": "1B6101"
+      },
+      {
+        "type": "data",
+        "hex": "ED95A900EAB384003A2020202020202020EFBFA600330031002C003300300030"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4D00"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1D5601"
+      }
+    ]
   },
   {
     "hex": "1B21301B45011B6101EC9A9400EAB8B000EC9A940D0A1B321B61001B45001B21001B4D001D4200ECA3BC00EBACB820EBA7A400EC9EA5003A20ECB9B400ED8E9800EC9DB800ECB6A900ECA084002D00ECB2AD00ECA3BC00ECA0900D0A1B321B61001B45001B21001B4D001D4200ECA3BC00EBACB820EC9DBC00EC8B9C003A203200300032003200EB85840030003300EC9B940031003400EC9DBC002800EC9B94002920EC98A400ED9B8400300033003A003500350D0A1B321B61001B45001B21001B4D001D4200ECA3BC00EBACB820EBB28800ED98B8003A20460032003200300033003100340031003500350035004A00440031003300300D0A1B321B61001B45001B21001B4D001D42000D0A1B21301B45011B610123003700390D0A1B321B61001B45001B21001B4D001D42000D0A1B21301B45011B6101EBB0B000EB8BAC00EC998400EBA38C00EC988800ECA09500EC8B9C00EAB0840D0A1B321B61001B45001B21001B4D001D42001B21301B45011B6101EC98A400ED9B8400300034003A003300300D0A1B321B61001B45001B21001B4D001D42002D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0D0AED988400EC9EA500ED988400EAB88800EAB2B000ECA09C0D0A1B321B61001B45001B21001B4D001D42002D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0D0AEBB0B000EB8BAC20ECA3BC00EC868C003A0D0A1B321B61001B45001B21001B4D001D42001B4501ECB6A900ECB2AD00EBB68100EB8F8420ECB2AD00ECA3BC00EC8B9C20ED9DA500EB8D9500EAB5AC20EAB08000EAB2BD00EB8F99202800EAB08000EAB2BD00EB8F9900292031003100330D0A3720310030003200ED98B80D0A1B321B61001B45001B21001B4D001D42001B4501EC97B000EB9DBD00ECB298003A2030003500300034003400370034003300350033003600380D0A1B321B61001B45001B21001B4D001D42002D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0D0AEC9DBC00ED9A8C00EC9AA920EC889800ECA080002C20ED8FAC00ED81AC00EAB08020ED958400EC9A9400ED95B400EC9A94002E0D0A1B321B61001B45001B21001B4D001D42002D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0D0A1B4501EBA99400EB89B400EBAA8520202020202020202020202020202020202020202020EC889800EB9F89202020202020EAB08000EAB2A90D0A1B321B61001B45001B21001B4D001D42002D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0D0A1B4501EBA99400EC9DB820EBA99400EB89B4003A20EC958400EC9584004C2020202020202020202020202020332020202020310038002C0036003000300D0A1B321B61001B45001B21001B4D001D42001B4501EBB0B000EB8BAC00EBA38C003A20202020202020202020202020202020202020202020202020202020202033002C0030003000300D0A1B321B61001B45001B21001B4D001D42002D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0D0A1B21301B45011B6101ED95A900EAB384003A2020202020202020EFBFA600320031002C0036003000300D0A1B321B61001B45001B21001B4D001D42002D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0D0A0D0A0D0A0D0A0D0A0D0A0D0A0D0A1D5601",
-    "string": "\\u001b!0\\u001bE\\u0001\\u001ba\\u0001요 기 요\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB 주 문 매 장 : 카 페 인 충 전 - 청 주 점\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB 주 문 일 시 : 2 0 2 2 년 0 3 월 1 4 일 ( 월 ) 오 후 0 3 : 5 5\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB 주 문 번 호 : F 2 2 0 3 1 4 1 5 5 5 J D 1 3 0\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB \\n\\u001b!0\\u001bE\\u0001\\u001ba\\u0001# 7 9\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB \\n\\u001b!0\\u001bE\\u0001\\u001ba\\u0001배 달 완 료 예 정 시 간\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB \\u001b!0\\u001bE\\u0001\\u001ba\\u0001오 후 0 4 : 3 0\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB ------------------------------------------\\n현 장 현 금 결 제\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB ------------------------------------------\\n배 달 주 소 :\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB \\u001bE\\u0001충 청 북 도 청 주 시 흥 덕 구 가 경 동 ( 가 경 동 ) 1 1 3\\n7 1 0 2 호\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB \\u001bE\\u0001연 락 처 : 0 5 0 4 4 7 4 3 5 3 6 8\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB ------------------------------------------\\n일 회 용 수 저 , 포 크 가 필 요 해 요 .\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB ------------------------------------------\\n\\u001bE\\u0001메 뉴 명                      수 량      가 격\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB ------------------------------------------\\n\\u001bE\\u0001메 인 메 뉴 : 아 아 L              3     1 8 , 6 0 0\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB \\u001bE\\u0001배 달 료 :                              3 , 0 0 0\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB ------------------------------------------\\n\\u001b!0\\u001bE\\u0001\\u001ba\\u0001합 계 :        ￦ 2 1 , 6 0 0\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB ------------------------------------------\\n\\n\\n\\n\\n\\n\\n\\n\\u001dV\\u0001"
+    "string": "\\u001b!0\\u001bE\\u0001\\u001ba\\u0001요 기 요\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB 주 문 매 장 : 카 페 인 충 전 - 청 주 점\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB 주 문 일 시 : 2 0 2 2 년 0 3 월 1 4 일 ( 월 ) 오 후 0 3 : 5 5\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB 주 문 번 호 : F 2 2 0 3 1 4 1 5 5 5 J D 1 3 0\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB \\n\\u001b!0\\u001bE\\u0001\\u001ba\\u0001# 7 9\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB \\n\\u001b!0\\u001bE\\u0001\\u001ba\\u0001배 달 완 료 예 정 시 간\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB \\u001b!0\\u001bE\\u0001\\u001ba\\u0001오 후 0 4 : 3 0\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB ------------------------------------------\\n현 장 현 금 결 제\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB ------------------------------------------\\n배 달 주 소 :\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB \\u001bE\\u0001충 청 북 도 청 주 시 흥 덕 구 가 경 동 ( 가 경 동 ) 1 1 3\\n7 1 0 2 호\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB \\u001bE\\u0001연 락 처 : 0 5 0 4 4 7 4 3 5 3 6 8\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB ------------------------------------------\\n일 회 용 수 저 , 포 크 가 필 요 해 요 .\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB ------------------------------------------\\n\\u001bE\\u0001메 뉴 명                      수 량      가 격\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB ------------------------------------------\\n\\u001bE\\u0001메 인 메 뉴 : 아 아 L              3     1 8 , 6 0 0\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB \\u001bE\\u0001배 달 료 :                              3 , 0 0 0\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB ------------------------------------------\\n\\u001b!0\\u001bE\\u0001\\u001ba\\u0001합 계 :        ￦ 2 1 , 6 0 0\\n\\u001b2\\u001ba \\u001bE \\u001b! \\u001bM \\u001dB ------------------------------------------\\n\\n\\n\\n\\n\\n\\n\\n\\u001dV\\u0001",
+    "label": [
+      {
+        "type": "command",
+        "hex": "1B2130"
+      },
+      {
+        "type": "command",
+        "hex": "1B4501"
+      },
+      {
+        "type": "command",
+        "hex": "1B6101"
+      },
+      {
+        "type": "data",
+        "hex": "EC9A9400EAB8B000EC9A94"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1D4D00"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "data",
+        "hex": "ECA3BC00EBACB820EBA7A400EC9EA5003A20ECB9B400ED8E9800EC9DB800ECB6A900ECA084002D00ECB2AD00ECA3BC00ECA090"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4D00"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "data",
+        "hex": "ECA3BC00EBACB820EC9DBC00EC8B9C003A203200300032003200EB85840030003300EC9B940031003400EC9DBC002800EC9B94002920EC98A400ED9B8400300033003A00350035"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4D00"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "data",
+        "hex": "ECA3BC00EBACB820EBB28800ED98B8003A20460032003200300033003100340031003500350035004A0044003100330030"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4D00"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B2130"
+      },
+      {
+        "type": "command",
+        "hex": "1B4501"
+      },
+      {
+        "type": "command",
+        "hex": "1B6101"
+      },
+      {
+        "type": "data",
+        "hex": "2300370039"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4D00"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B2130"
+      },
+      {
+        "type": "command",
+        "hex": "1B4501"
+      },
+      {
+        "type": "command",
+        "hex": "1B6101"
+      },
+      {
+        "type": "data",
+        "hex": "EBB0B000EB8BAC00EC998400EBA38C00EC988800ECA09500EC8B9C00EAB084"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4D00"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "command",
+        "hex": "1B2130"
+      },
+      {
+        "type": "command",
+        "hex": "1B4501"
+      },
+      {
+        "type": "command",
+        "hex": "1B6101"
+      },
+      {
+        "type": "data",
+        "hex": "EC98A400ED9B8400300034003A00330030"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4D00"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "data",
+        "hex": "ED988400EC9EA500ED988400EAB88800EAB2B000ECA09C"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4D00"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "data",
+        "hex": "EBB0B000EB8BAC20ECA3BC00EC868C003A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4D00"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "command",
+        "hex": "1B4501"
+      },
+      {
+        "type": "data",
+        "hex": "ECB6A900ECB2AD00EBB68100EB8F8420ECB2AD00ECA3BC00EC8B9C20ED9DA500EB8D9500EAB5AC20EAB08000EAB2BD00EB8F99202800EAB08000EAB2BD00EB8F990029203100310033"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "data",
+        "hex": "3720310030003200ED98B8"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4D00"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "command",
+        "hex": "1B4501"
+      },
+      {
+        "type": "data",
+        "hex": "EC97B000EB9DBD00ECB298003A203000350030003400340037003400330035003300360038"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4D00"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "data",
+        "hex": "EC9DBC00ED9A8C00EC9AA920EC889800ECA080002C20ED8FAC00ED81AC00EAB08020ED958400EC9A9400ED95B400EC9A94002E"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4D00"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B4501"
+      },
+      {
+        "type": "data",
+        "hex": "EBA99400EB89B400EBAA8520202020202020202020202020202020202020202020EC889800EB9F89202020202020EAB08000EAB2A9"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4D00"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B4501"
+      },
+      {
+        "type": "data",
+        "hex": "EBA99400EC9DB820EBA99400EB89B4003A20EC958400EC9584004C2020202020202020202020202020332020202020310038002C003600300030"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4D00"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "command",
+        "hex": "1B4501"
+      },
+      {
+        "type": "data",
+        "hex": "EBB0B000EB8BAC00EBA38C003A20202020202020202020202020202020202020202020202020202020202033002C003000300030"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4D00"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B2130"
+      },
+      {
+        "type": "command",
+        "hex": "1B4501"
+      },
+      {
+        "type": "command",
+        "hex": "1B6101"
+      },
+      {
+        "type": "data",
+        "hex": "ED95A900EAB384003A2020202020202020EFBFA600320031002C003600300030"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B32"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4D00"
+      },
+      {
+        "type": "command",
+        "hex": "1D4200"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1D5601"
+      }
+    ]
   }
 ]
