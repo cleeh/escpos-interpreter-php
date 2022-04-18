@@ -2918,7 +2918,7 @@
   {
     "description": "Select Kanji character style(s)",
     "code": "FS ( A",
-    "hex": "1d2841",
+    "hex": "1c2841",
     "array": [
       28,
       40,
@@ -5218,7 +5218,7 @@
     "code": "GS B",
     "hex": "1d42",
     "array": [
-      27,
+      29,
       66
     ],
     "params": [
@@ -5399,7 +5399,7 @@
     "hex": "1d50",
     "array": [
       29,
-      74
+      80
     ],
     "params": [
       {
