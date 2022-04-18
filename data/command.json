@@ -1,71 +1,10 @@
 [
   {
-    "description": "Initialize printer",
-    "code": "ESC @",
-    "hex": "1b40",
+    "description": "Backspace",
+    "code": "BS",
+    "hex": "08",
     "array": [
-      27,
-      64
-    ]
-  },
-  {
-    "description": "Print and feed paper 1 lines",
-    "code": "FF",
-    "hex": "0c",
-    "array": [
-      12
-    ]
-  },
-  {
-    "description": "Print and paper feed to the right black bar",
-    "code": "SO",
-    "hex": "0e",
-    "array": [
-      14
-    ]
-  },
-  {
-    "description": "Line feed",
-    "code": "LF",
-    "hex": "0a",
-    "array": [
-      10
-    ]
-  },
-  {
-    "description": "Print and carriage return",
-    "code": "CR",
-    "hex": "0d",
-    "array": [
-      13
-    ]
-  },
-  {
-    "description": "Print and Paper Feed",
-    "code": "ESC J",
-    "hex": "1b4a",
-    "array": [
-      27,
-      74
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Print and feed paper n lines",
-    "code": "ESC d",
-    "hex": "1b64",
-    "array": [
-      27,
-      100
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
+      8
     ]
   },
   {
@@ -77,643 +16,35 @@
     ]
   },
   {
-    "description": "Print and paper feed to the label gap",
-    "code": "GS FF",
-    "hex": "1d0c",
+    "description": "Line feed",
+    "code": "LF",
+    "hex": "0a",
     "array": [
-      29,
+      10
+    ]
+  },
+  {
+    "description": "Print and feed paper 1 lines",
+    "code": "FF",
+    "hex": "0c",
+    "array": [
       12
     ]
   },
   {
-    "description": "Read the printer status",
-    "code": "GS 0x99",
-    "hex": "1d99",
+    "description": "Print and carriage return",
+    "code": "CR",
+    "hex": "0d",
     "array": [
-      29,
-      153
+      13
     ]
   },
   {
-    "description": "Select character printing mode",
-    "code": "ESC !",
-    "hex": "1b21",
+    "description": "Print and paper feed to the right black bar",
+    "code": "SO",
+    "hex": "0e",
     "array": [
-      27,
-      33
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Select character size",
-    "code": "GS !",
-    "hex": "1d21",
-    "array": [
-      29,
-      33
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Select character font",
-    "code": "ESC M",
-    "hex": "1b4d",
-    "array": [
-      27,
-      77
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Specify/cancels underline mode",
-    "code": "ESC –",
-    "hex": "1b2d",
-    "array": [
-      27,
-      45
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Specify/cancel emphasized printing",
-    "code": "ESC E",
-    "hex": "1b45",
-    "array": [
-      27,
-      69
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Specify/cancel white/black inverted printing",
-    "code": "GS B",
-    "hex": "1d42",
-    "array": [
-      27,
-      66
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Specify/cancel char. 90 deg. clockwise rotation",
-    "code": "ESC V",
-    "hex": "1b56",
-    "array": [
-      27,
-      86
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Specify absolute position",
-    "code": "ESC $",
-    "hex": "1b24",
-    "array": [
-      27,
-      36
-    ],
-    "params": [
-      {
-        "name": "nL"
-      },
-      {
-        "name": "nH"
-      }
-    ]
-  },
-  {
-    "description": "Set horizontal tab position",
-    "code": "ESC D",
-    "hex": "1b44",
-    "array": [
-      27,
-      68
-    ],
-    "params": [
-      {
-        "name": "n",
-        "until": [
-          0,
-          255
-        ],
-        "limit": 32
-      }
-    ]
-  },
-  {
-    "description": "Set default line spacing",
-    "code": "ESC 2",
-    "hex": "1b32",
-    "array": [
-      27,
-      50
-    ]
-  },
-  {
-    "description": "Set line feed amount",
-    "code": "ESC 3",
-    "hex": "1b33",
-    "array": [
-      27,
-      51
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Set character right space amount",
-    "code": "ESC SP",
-    "hex": "1b20",
-    "array": [
-      27,
-      32
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Position alignment",
-    "code": "ESC a",
-    "hex": "1b61",
-    "array": [
-      27,
-      97
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Set left margin",
-    "code": "GS L",
-    "hex": "1d4c",
-    "array": [
-      29,
-      76
-    ],
-    "params": [
-      {
-        "name": "nL"
-      },
-      {
-        "name": "nH"
-      }
-    ]
-  },
-  {
-    "description": "Specify bit image mode",
-    "code": "ESC *",
-    "hex": "1b2a",
-    "array": [
-      27,
-      42
-    ],
-    "params": [
-      {
-        "name": "m"
-      },
-      {
-        "name": "nL"
-      },
-      {
-        "name": "nH"
-      },
-      {
-        "name": "d",
-        "count": "nL + nH * 256"
-      }
-    ]
-  },
-  {
-    "description": "Define download bit images",
-    "code": "GS *",
-    "hex": "1d2a",
-    "array": [
-      29,
-      42
-    ],
-    "params": [
-      {
-        "name": "x"
-      },
-      {
-        "name": "y"
-      },
-      {
-        "name": "d",
-        "count": "x * y * 8"
-      }
-    ]
-  },
-  {
-    "description": "Print download bit images",
-    "code": "GS /",
-    "hex": "1d2f",
-    "array": [
-      29,
-      47
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Print NV bit image",
-    "code": "FS p",
-    "hex": "1c70",
-    "array": [
-      28,
-      112
-    ],
-    "params": [
-      {
-        "name": "n"
-      },
-      {
-        "name": "m"
-      }
-    ]
-  },
-  {
-    "description": "Set bar code height",
-    "code": "GS h",
-    "hex": "1d68",
-    "array": [
-      29,
-      104
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Set bar code horizontal size",
-    "code": "GS w",
-    "hex": "1d77",
-    "array": [
-      29,
-      119
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Select HRI character print position",
-    "code": "GS H",
-    "hex": "1d48",
-    "array": [
-      29,
-      72
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Select HRI character font",
-    "code": "GS f",
-    "hex": "1d66",
-    "array": [
-      29,
-      102
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Print bar code",
-    "code": "GS k",
-    "hex": "1d6b",
-    "array": [
-      29,
-      107
-    ],
-    "params": [
-      {
-        "name": "m"
-      },
-      {
-        "when": [
-          {
-            "target": "m",
-            "min": 0,
-            "max": 6
-          }
-        ],
-        "args": [
-          {
-            "name": "d",
-            "until": 0
-          }
-        ]
-      },
-      {
-        "when": [
-          {
-            "target": "m",
-            "min": 65,
-            "max": 73
-          }
-        ],
-        "args": [
-          {
-            "name": "n"
-          },
-          {
-            "name": "d",
-            "count": "n"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "description": "Select the 2D bar code",
-    "code": "GS Z",
-    "hex": "1d5a",
-    "array": [
-      29,
-      90
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Print the 2D bar code",
-    "code": "ESC Z",
-    "hex": "1b5a",
-    "array": [
-      27,
-      90
-    ],
-    "params": [
-      {
-        "name": "m"
-      },
-      {
-        "name": "n"
-      },
-      {
-        "name": "k"
-      },
-      {
-        "name": "sL"
-      },
-      {
-        "name": "sH"
-      },
-      {
-        "name": "d",
-        "count": "n"
-      }
-    ]
-  },
-  {
-    "description": "Print curve",
-    "code": "GS '",
-    "hex": "1d27",
-    "array": [
-      29,
-      39
-    ],
-    "params": [
-      {
-        "name": "n"
-      },
-      {
-        "args": [
-          {
-            "name": "xsL"
-          },
-          {
-            "name": "xsH"
-          },
-          {
-            "name": "xeL"
-          },
-          {
-            "name": "xeH"
-          }
-        ],
-        "count": "n"
-      }
-    ]
-  },
-  {
-    "description": "Print character on the curve",
-    "code": "GS \"",
-    "hex": "1d22",
-    "array": [
-      29,
-      34
-    ],
-    "params": [
-      {
-        "name": "n"
-      },
-      {
-        "name": "xL"
-      },
-      {
-        "name": "xH"
-      },
-      {
-        "name": "c",
-        "until": [
-          0
-        ]
-      }
-    ]
-  },
-  {
-    "description": "Specify Chinese character mode",
-    "code": "FS &",
-    "hex": "1c26",
-    "array": [
-      28,
-      38
-    ]
-  },
-  {
-    "description": "Cancel Chinese character mode",
-    "code": "FS .",
-    "hex": "1c2e",
-    "array": [
-      28,
-      46
-    ]
-  },
-  {
-    "description": "Print Unicode code character",
-    "code": "FS U",
-    "hex": "1c55",
-    "array": [
-      28,
-      85
-    ],
-    "params": [
-      {
-        "name": "nL"
-      },
-      {
-        "name": "nH"
-      }
-    ]
-  },
-  {
-    "description": "Select character code page",
-    "code": "ESC t",
-    "hex": "1b74",
-    "array": [
-      27,
-      116
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Select international characters",
-    "code": "ESC R",
-    "hex": "1b52",
-    "array": [
-      27,
-      82
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "In frame mode data transmission",
-    "code": "US f",
-    "hex": "1f66",
-    "array": [
-      31,
-      102
-    ],
-    "params": [
-      {
-        "name": "id"
-      },
-      {
-        "name": "nL"
-      },
-      {
-        "name": "nH"
-      },
-      {
-        "name": "crc16L"
-      },
-      {
-        "name": "crc16H"
-      },
-      {
-        "name": "d",
-        "count": "nL + nH * 256"
-      }
-    ]
-  },
-  {
-    "description": "Frame status query",
-    "code": "US q",
-    "hex": "1f71",
-    "array": [
-      31,
-      113
-    ],
-    "params": [
-      {
-        "name": "id"
-      }
-    ]
-  },
-  {
-    "description": "Read the Bluetooth password",
-    "code": "US s B r P",
-    "hex": "1f73427250",
-    "array": [
-      31,
-      115,
-      66,
-      114,
-      80
-    ]
-  },
-  {
-    "description": "Setup the Bluetooth password",
-    "code": "US s B s P k",
-    "hex": "1f73427250",
-    "array": [
-      31,
-      115,
-      66,
-      114,
-      80
-    ],
-    "params": [
-      {
-        "name": "k"
-      },
-      {
-        "name": "n",
-        "count": "k"
-      }
+      14
     ]
   },
   {
@@ -745,6 +76,87 @@
     ]
   },
   {
+    "description": "Generate pulse at real-time",
+    "code": "DLE DC4",
+    "hex": "1014",
+    "array": [
+      16,
+      20
+    ],
+    "params": [
+      {
+        "name": "fn"
+      },
+      {
+        "when": [
+          {
+            "target": "fn",
+            "equal": [
+              1
+            ]
+          }
+        ],
+        "args": [
+          {
+            "name": "m"
+          },
+          {
+            "name": "t"
+          }
+        ]
+      },
+      {
+        "when": [
+          {
+            "target": "fn",
+            "equal": [
+              2
+            ]
+          }
+        ],
+        "args": [
+          {
+            "name": "a"
+          },
+          {
+            "name": "b"
+          }
+        ]
+      },
+      {
+        "when": [
+          {
+            "target": "fn",
+            "equal": [
+              7
+            ]
+          }
+        ],
+        "args": [
+          {
+            "name": "m"
+          }
+        ]
+      },
+      {
+        "when": [
+          {
+            "target": "fn",
+            "equal": [
+              8
+            ]
+          }
+        ],
+        "args": [
+          {
+            "name": "d",
+            "count": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
     "description": "Cancel print data in page mode",
     "code": "CAN",
     "hex": "18",
@@ -759,6 +171,1404 @@
     "array": [
       27,
       12
+    ]
+  },
+  {
+    "description": "Turn double width on",
+    "code": "ESC SO",
+    "hex": "1b0e",
+    "array": [
+      27,
+      14
+    ]
+  },
+  {
+    "description": "Turn double width off",
+    "code": "ESC DC4",
+    "hex": "1b14",
+    "array": [
+      27,
+      20
+    ]
+  },
+  {
+    "description": "Execute presenter paper recovery",
+    "code": "ESC SYN 0",
+    "hex": "1b1630",
+    "array": [
+      27,
+      22,
+      48
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Set presenter paper recovery function and automatic recovery time",
+    "code": "ESC SYN 1",
+    "hex": "1b1631",
+    "array": [
+      27,
+      22,
+      49
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Get presenter paper counter",
+    "code": "ESC SYN 3",
+    "hex": "1b1633",
+    "array": [
+      27,
+      22,
+      51
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Initialize presenter paper counter",
+    "code": "ESC SYN 4",
+    "hex": "1b1634",
+    "array": [
+      27,
+      22,
+      52
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Send print-end counter, initialize",
+    "code": "ESC GS ETX",
+    "hex": "1b1d03",
+    "array": [
+      27,
+      29,
+      3
+    ],
+    "params": [
+      {
+        "name": "s"
+      },
+      {
+        "name": "n1"
+      },
+      {
+        "name": "n2"
+      }
+    ]
+  },
+  {
+    "description": "Ring buzzer",
+    "code": "ESC GS BEL",
+    "hex": "1b1d07",
+    "array": [
+      27,
+      29,
+      7
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "name": "t1"
+      },
+      {
+        "name": "22"
+      }
+    ]
+  },
+  {
+    "description": "External buzzer drive pulse condition settings",
+    "code": "ESC GS EM DC1",
+    "hex": "1b1d1911",
+    "array": [
+      27,
+      29,
+      25,
+      17
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "name": "n1"
+      },
+      {
+        "name": "n2"
+      }
+    ]
+  },
+  {
+    "description": "External buzzer drive execution",
+    "code": "ESC GS EM DC2",
+    "hex": "1b1d1912",
+    "array": [
+      27,
+      29,
+      25,
+      18
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "name": "n1"
+      },
+      {
+        "name": "n2"
+      }
+    ]
+  },
+  {
+    "description": "Specify snout operation mode",
+    "code": "ESC GS SUB DC1",
+    "hex": "1b1d1a11",
+    "array": [
+      27,
+      29,
+      26,
+      17
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "name": "t1"
+      },
+      {
+        "name": "t2"
+      }
+    ]
+  },
+  {
+    "description": "Specify Snout LED ON/OFF time",
+    "code": "ESC GS SUB DC2",
+    "hex": "1b1d1a12",
+    "array": [
+      27,
+      29,
+      26,
+      18
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "name": "t1"
+      },
+      {
+        "name": "t2"
+      }
+    ]
+  },
+  {
+    "description": "Execute snout LED operation",
+    "code": "ESC GS SUB DC3",
+    "hex": "1b1d1a13",
+    "array": [
+      27,
+      29,
+      26,
+      19
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "name": "t1"
+      },
+      {
+        "name": "t2"
+      }
+    ]
+  },
+  {
+    "description": "Memory Switch Settings",
+    "code": "ESC GS #",
+    "hex": "1b1d23",
+    "array": [
+      27,
+      29,
+      35
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "name": "N"
+      },
+      {
+        "name": "n1"
+      },
+      {
+        "name": "n2"
+      },
+      {
+        "name": "n3"
+      },
+      {
+        "name": "n4"
+      },
+      {
+        "name": "LF",
+        "value": 10
+      },
+      {
+        "name": "NUL",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "description": "Set text search",
+    "code": "ESC GS ) B",
+    "hex": "1b1d2942",
+    "array": [
+      27,
+      29,
+      41,
+      66
+    ],
+    "params": [
+      {
+        "name": "pL"
+      },
+      {
+        "name": "pH"
+      },
+      {
+        "name": "fn"
+      },
+      {
+        "when": [
+          {
+            "target": "fn",
+            "equal": 48
+          }
+        ],
+        "args": [
+          {
+            "name": "m"
+          }
+        ]
+      },
+      {
+        "when": [
+          {
+            "target": "fn",
+            "equal": 49
+          }
+        ],
+        "args": [
+          {
+            "name": "m"
+          }
+        ]
+      },
+      {
+        "when": [
+          {
+            "target": "fn",
+            "equal": 50
+          }
+        ],
+        "args": [
+          {
+            "name": "m"
+          }
+        ]
+      },
+      {
+        "when": [
+          {
+            "target": "fn",
+            "equal": 64
+          }
+        ],
+        "args": [
+          {
+            "name": "n"
+          },
+          {
+            "name": "m"
+          },
+          {
+            "name": "k"
+          },
+          {
+            "name": "d",
+            "count": "k"
+          }
+        ]
+      },
+      {
+        "when": [
+          {
+            "target": "fn",
+            "equal": 65
+          }
+        ],
+        "args": [
+          {
+            "name": "m"
+          },
+          {
+            "name": "k1"
+          },
+          {
+            "name": "k2"
+          },
+          {
+            "name": "d",
+            "count": "k1 + k2 * 256"
+          }
+        ]
+      },
+      {
+        "when": [
+          {
+            "target": "fn",
+            "equal": 66
+          }
+        ],
+        "args": [
+          {
+            "name": "n"
+          },
+          {
+            "name": "t"
+          }
+        ]
+      },
+      {
+        "when": [
+          {
+            "target": "fn",
+            "equal": 80
+          }
+        ],
+        "args": [
+          {
+            "name": "m"
+          }
+        ]
+      },
+      {
+        "when": [
+          {
+            "target": "fn",
+            "equal": 81
+          }
+        ],
+        "args": [
+          {
+            "name": "m"
+          }
+        ]
+      },
+      {
+        "when": [
+          {
+            "target": "fn",
+            "equal": 96
+          }
+        ],
+        "args": [
+          {
+            "name": "m"
+          }
+        ]
+      },
+      {
+        "when": [
+          {
+            "target": "fn",
+            "equal": 97
+          }
+        ],
+        "args": [
+          {
+            "name": "m"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "Send the all kind of multibyte fonts",
+    "code": "ESC GS ) I",
+    "hex": "1b1d2949",
+    "array": [
+      27,
+      29,
+      41,
+      73
+    ],
+    "params": [
+      {
+        "name": "pL"
+      },
+      {
+        "name": "pH"
+      },
+      {
+        "name": "fn"
+      },
+      {
+        "when": [
+          {
+            "target": "fn",
+            "equal": 48
+          }
+        ],
+        "args": [
+          {
+            "name": "d1"
+          },
+          {
+            "name": "d2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "Send the registered individual logo CRC",
+    "code": "ESC GS ) L",
+    "hex": "1b1d294c",
+    "array": [
+      27,
+      29,
+      41,
+      76
+    ],
+    "params": [
+      {
+        "name": "pL"
+      },
+      {
+        "name": "pH"
+      },
+      {
+        "name": "fn"
+      },
+      {
+        "when": [
+          {
+            "target": "fn",
+            "equal": 48
+          }
+        ],
+        "args": [
+          {
+            "name": "kc1"
+          },
+          {
+            "name": "kc2"
+          }
+        ]
+      },
+      {
+        "when": [
+          {
+            "target": "fn",
+            "equal": 49
+          }
+        ],
+        "args": [
+          {
+            "name": "kc1"
+          },
+          {
+            "name": "kc2"
+          }
+        ]
+      },
+      {
+        "when": [
+          {
+            "target": "fn",
+            "equal": 50
+          }
+        ],
+        "args": [
+          {
+            "name": "d1"
+          },
+          {
+            "name": "d2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "Print mark",
+    "code": "ESC GS * 0",
+    "hex": "1b1d2a30",
+    "array": [
+      27,
+      29,
+      42,
+      48
+    ],
+    "params": [
+      {
+        "name": "n",
+        "length": 3,
+        "ascii": true
+      },
+      {
+        "name": "m",
+        "count": "n",
+        "ascii": true
+      }
+    ]
+  },
+  {
+    "description": "Specify mark height and line feed",
+    "code": "ESC GS * 1",
+    "hex": "1b1d2a31",
+    "array": [
+      27,
+      29,
+      42,
+      49
+    ],
+    "params": [
+      {
+        "name": "h",
+        "length": 3,
+        "ascii": true
+      },
+      {
+        "name": "v",
+        "length": 3,
+        "ascii": true
+      }
+    ]
+  },
+  {
+    "description": "Specify mark color and mark horizontal width for each mark number",
+    "code": "ESC GS * 2",
+    "hex": "1b1d2a32",
+    "array": [
+      27,
+      29,
+      42,
+      50
+    ],
+    "params": [
+      {
+        "name": "m",
+        "ascii": true
+      },
+      {
+        "name": "c",
+        "ascii": true
+      },
+      {
+        "name": "w",
+        "length": 3,
+        "ascii": true
+      }
+    ]
+  },
+  {
+    "description": "Initialize mark format in the non-volatile memory",
+    "code": "ESC GS * C",
+    "hex": "1b1d2a43",
+    "array": [
+      27,
+      29,
+      42,
+      67
+    ]
+  },
+  {
+    "description": "Register mark format to non-volatile memory",
+    "code": "ESC GS * W",
+    "hex": "1b1d2a57",
+    "array": [
+      27,
+      29,
+      42,
+      87
+    ]
+  },
+  {
+    "description": "Auto Logo Function On/Off Setting",
+    "code": "ESC GS / 1",
+    "hex": "1b1d2f31",
+    "array": [
+      27,
+      29,
+      47,
+      49
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Set command character",
+    "code": "ESC GS / 2",
+    "hex": "1b1d2f32",
+    "array": [
+      27,
+      29,
+      47,
+      50
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Set user macro 1",
+    "code": "ESC GS / 3",
+    "hex": "1b1d2f33",
+    "array": [
+      27,
+      29,
+      47,
+      51
+    ],
+    "params": [
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      },
+      {
+        "name": "d",
+        "count": "nL + nH * 256"
+      }
+    ]
+  },
+  {
+    "description": "Set user macro 2",
+    "code": "ESC GS / 4",
+    "hex": "1b1d2f34",
+    "array": [
+      27,
+      29,
+      47,
+      52
+    ],
+    "params": [
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      },
+      {
+        "name": "d",
+        "count": "nL + nH * 256"
+      }
+    ]
+  },
+  {
+    "description": "Set command character switching method",
+    "code": "ESC GS / 5",
+    "hex": "1b1d2f35",
+    "array": [
+      27,
+      29,
+      47,
+      53
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Set partial cut before Auto Logo printing",
+    "code": "ESC GS / 6",
+    "hex": "1b1d2f36",
+    "array": [
+      27,
+      29,
+      47,
+      54
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Initialize Auto Logo setting to non-volatile memory",
+    "code": "ESC GS / C",
+    "hex": "1b1d2f43",
+    "array": [
+      27,
+      29,
+      47,
+      67
+    ]
+  },
+  {
+    "description": "Register Auto Logo setting to non-volatile memory",
+    "code": "ESC GS / W",
+    "hex": "1b1d2f57",
+    "array": [
+      27,
+      29,
+      47,
+      87
+    ]
+  },
+  {
+    "description": "Write data to a blank code page",
+    "code": "ESC GS =",
+    "hex": "1b1d3d",
+    "array": [
+      27,
+      29,
+      61
+    ],
+    "params": [
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      },
+      {
+        "name": "da",
+        "count": "(nL + nH * 256) / 2"
+      },
+      {
+        "name": "db",
+        "count": "(nL + nH * 256) / 2"
+      }
+    ]
+  },
+  {
+    "description": "Set reduced printing",
+    "code": "ESC GS c",
+    "hex": "1b1d63",
+    "array": [
+      27,
+      29,
+      99
+    ],
+    "params": [
+      {
+        "name": "h"
+      },
+      {
+        "name": "v"
+      }
+    ]
+  },
+  {
+    "description": "Print starting trigger",
+    "code": "ESC GS g 0",
+    "hex": "1b1d6730",
+    "array": [
+      27,
+      29,
+      103,
+      48
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Print starting timer",
+    "code": "ESC GS g 1",
+    "hex": "1b1d6731",
+    "array": [
+      27,
+      29,
+      103,
+      49
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "180˚ inversion function",
+    "code": "ESC GS h 0",
+    "hex": "1b1d6830",
+    "array": [
+      27,
+      29,
+      104,
+      48
+    ],
+    "params": [
+      {
+        "name": "k"
+      },
+      {
+        "name": "m"
+      },
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Water mark function",
+    "code": "ESC GS h 1",
+    "hex": "1b1d6831",
+    "array": [
+      27,
+      29,
+      104,
+      49
+    ],
+    "params": [
+      {
+        "name": "k"
+      },
+      {
+        "name": "m"
+      },
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Playback NV Audio",
+    "code": "ESC GS s O",
+    "hex": "1b1d734f",
+    "array": [
+      27,
+      29,
+      115,
+      79
+    ],
+    "params": [
+      {
+        "name": "z"
+      },
+      {
+        "name": "a"
+      },
+      {
+        "name": "n"
+      },
+      {
+        "name": "c1"
+      },
+      {
+        "name": "c2"
+      },
+      {
+        "name": "d1"
+      },
+      {
+        "name": "d2"
+      },
+      {
+        "name": "t1"
+      },
+      {
+        "name": "t2"
+      }
+    ]
+  },
+  {
+    "description": "Stop NV Audio",
+    "code": "ESC GS s P",
+    "hex": "1b1d7350",
+    "array": [
+      27,
+      29,
+      115,
+      80
+    ]
+  },
+  {
+    "description": "Playback received audio",
+    "code": "ESC GS s R",
+    "hex": "1b1d7352",
+    "array": [
+      27,
+      29,
+      115,
+      82
+    ],
+    "params": [
+      {
+        "name": "z"
+      },
+      {
+        "name": "n1"
+      },
+      {
+        "name": "n2"
+      },
+      {
+        "name": "n3"
+      },
+      {
+        "name": "d",
+        "count": "k1 + k2 * 256 + k3 * 65536"
+      }
+    ]
+  },
+  {
+    "description": "Batch playback NV Audio",
+    "code": "ESC GS s T",
+    "hex": "1b1d7354",
+    "array": [
+      27,
+      29,
+      115,
+      84
+    ],
+    "params": [
+      {
+        "name": "t1"
+      },
+      {
+        "name": "t2"
+      }
+    ]
+  },
+  {
+    "description": "Register user area NV audio data",
+    "code": "ESC GS s U",
+    "hex": "1b1d7355",
+    "array": [
+      27,
+      29,
+      115,
+      85
+    ],
+    "params": [
+      {
+        "name": "z"
+      },
+      {
+        "name": "n"
+      },
+      {
+        "args": [
+          {
+            "name": "k1"
+          },
+          {
+            "name": "k2"
+          },
+          {
+            "name": "k3"
+          },
+          {
+            "name": "d",
+            "count": "k1 + k2 * 256 + k3 * 65536"
+          }
+        ],
+        "count": "n"
+      }
+    ]
+  },
+  {
+    "description": "Select character code table",
+    "code": "ESC GS t",
+    "hex": "1b1d74",
+    "array": [
+      27,
+      29,
+      116
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Set PDF417 bar code data",
+    "code": "ESC GS x D",
+    "hex": "1b1d7844",
+    "array": [
+      27,
+      29,
+      120,
+      68
+    ],
+    "params": [
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      },
+      {
+        "name": "d",
+        "count": "nL + nH * 256"
+      }
+    ]
+  },
+  {
+    "description": "Get PDF417 bar code expansion information",
+    "code": "ESC GS x I",
+    "hex": "1b1d7849",
+    "array": [
+      27,
+      29,
+      120,
+      73
+    ]
+  },
+  {
+    "description": "Print PDF417 bar code",
+    "code": "ESC GS x P",
+    "hex": "1b1d7850",
+    "array": [
+      27,
+      29,
+      120,
+      80
+    ]
+  },
+  {
+    "description": "Set PDF417 bar code size",
+    "code": "ESC GS x S 0",
+    "hex": "1b1d785330",
+    "array": [
+      27,
+      29,
+      120,
+      83,
+      48
+    ],
+    "params": [
+      {
+        "name": "n"
+      },
+      {
+        "name": "p1"
+      },
+      {
+        "name": "p2"
+      }
+    ]
+  },
+  {
+    "description": "Set PDF417 ECC (security level)",
+    "code": "ESC GS x S 1",
+    "hex": "1b1d785331",
+    "array": [
+      27,
+      29,
+      120,
+      83,
+      49
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Set PDF417 module X direction size",
+    "code": "ESC GS x S 2",
+    "hex": "1b1d785332",
+    "array": [
+      27,
+      29,
+      120,
+      83,
+      50
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Set PDF417 module aspect ratio",
+    "code": "ESC GS x S 3",
+    "hex": "1b1d785333",
+    "array": [
+      27,
+      29,
+      120,
+      83,
+      51
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Set QR code cell size (Auto Setting)",
+    "code": "ESC GS y D 1",
+    "hex": "1b1d794431",
+    "array": [
+      27,
+      29,
+      121,
+      68,
+      49
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      },
+      {
+        "name": "d",
+        "count": "nL + nH * 256"
+      }
+    ]
+  },
+  {
+    "description": "Set QR code cell size (Manual setting)",
+    "code": "ESC GS y D 2",
+    "hex": "1b1d794432",
+    "array": [
+      27,
+      29,
+      121,
+      68,
+      50
+    ],
+    "params": [
+      {
+        "name": "a"
+      },
+      {
+        "args": [
+          {
+            "name": "m"
+          },
+          {
+            "name": "nL"
+          },
+          {
+            "name": "nH"
+          },
+          {
+            "name": "d",
+            "count": "nL + nH * 256"
+          }
+        ],
+        "count": "a"
+      }
+    ]
+  },
+  {
+    "description": "Get QR code expansion information",
+    "code": "ESC GS y I",
+    "hex": "1b1d7949",
+    "array": [
+      27,
+      29,
+      121,
+      73
+    ]
+  },
+  {
+    "description": "Print QR code",
+    "code": "ESC GS y P",
+    "hex": "1b1d7950",
+    "array": [
+      27,
+      29,
+      121,
+      80
+    ]
+  },
+  {
+    "description": "Set QR code model",
+    "code": "ESC GS y S 0",
+    "hex": "1b1d795330",
+    "array": [
+      27,
+      29,
+      121,
+      83,
+      48
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Set QR code mistake correction level",
+    "code": "ESC GS y S 1",
+    "hex": "1b1d795331",
+    "array": [
+      27,
+      29,
+      121,
+      83,
+      49
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Set QR code cell size",
+    "code": "ESC GS y S 2",
+    "hex": "1b1d795332",
+    "array": [
+      27,
+      29,
+      121,
+      83,
+      50
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Print Mode Selection",
+    "code": "ESC RS C",
+    "hex": "1b1e43",
+    "array": [
+      27,
+      30,
+      67
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Select Font",
+    "code": "ESC RS F",
+    "hex": "1b1e46",
+    "array": [
+      27,
+      30,
+      70
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Batch Control Logo",
+    "code": "ESC RS L",
+    "hex": "1b1e4c",
+    "array": [
+      27,
+      30,
+      76
+    ],
+    "params": [
+      {
+        "name": "m"
+      }
+    ]
+  },
+  {
+    "description": "Set character right space amount",
+    "code": "ESC SP",
+    "hex": "1b20",
+    "array": [
+      27,
+      32
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Select character printing mode",
+    "code": "ESC !",
+    "hex": "1b21",
+    "array": [
+      27,
+      33
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Specify absolute position",
+    "code": "ESC $",
+    "hex": "1b24",
+    "array": [
+      27,
+      36
+    ],
+    "params": [
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      }
     ]
   },
   {
@@ -807,6 +1617,102 @@
     ]
   },
   {
+    "description": "Control beeper tones",
+    "code": "ESC ( A",
+    "hex": "1b2841",
+    "array": [
+      27,
+      40,
+      65
+    ],
+    "params": [
+      {
+        "name": "pL"
+      },
+      {
+        "name": "pH"
+      },
+      {
+        "name": "fn"
+      },
+      {
+        "when": [
+          {
+            "target": "fn",
+            "equal": 48
+          }
+        ],
+        "args": [
+          {
+            "name": "n"
+          },
+          {
+            "name": "c"
+          },
+          {
+            "name": "t"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "Set relative vertical print position",
+    "code": "ESC ( v",
+    "hex": "1b2876",
+    "array": [
+      27,
+      40,
+      118
+    ],
+    "params": [
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      }
+    ]
+  },
+  {
+    "description": "Specify bit image mode",
+    "code": "ESC *",
+    "hex": "1b2a",
+    "array": [
+      27,
+      42
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      },
+      {
+        "name": "d",
+        "count": "nL + nH * 256"
+      }
+    ]
+  },
+  {
+    "description": "Specify/cancels underline mode",
+    "code": "ESC –",
+    "hex": "1b2d",
+    "array": [
+      27,
+      45
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
     "description": "Designate/cancel underline",
     "code": "ESC -",
     "hex": "1b2d",
@@ -818,6 +1724,61 @@
       {
         "name": "n"
       }
+    ]
+  },
+  {
+    "description": "Select 1/8-inch line spacing",
+    "code": "ESC 0",
+    "hex": "1b30",
+    "array": [
+      27,
+      48
+    ]
+  },
+  {
+    "description": "Set default line spacing",
+    "code": "ESC 2",
+    "hex": "1b32",
+    "array": [
+      27,
+      50
+    ]
+  },
+  {
+    "description": "Set line feed amount",
+    "code": "ESC 3",
+    "hex": "1b33",
+    "array": [
+      27,
+      51
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Set/reset italic mode",
+    "code": "ESC 4",
+    "hex": "1b34",
+    "array": [
+      27,
+      52
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Return home",
+    "code": "ESC <",
+    "hex": "1b3c",
+    "array": [
+      27,
+      60
     ]
   },
   {
@@ -849,6 +1810,62 @@
     ]
   },
   {
+    "description": "Initialize printer",
+    "code": "ESC @",
+    "hex": "1b40",
+    "array": [
+      27,
+      64
+    ]
+  },
+  {
+    "description": "Set the left blank char number",
+    "code": "ESC B",
+    "hex": "1b42",
+    "array": [
+      27,
+      66
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Set horizontal tab position",
+    "code": "ESC D",
+    "hex": "1b44",
+    "array": [
+      27,
+      68
+    ],
+    "params": [
+      {
+        "name": "n",
+        "until": [
+          0,
+          255
+        ],
+        "limit": 32
+      }
+    ]
+  },
+  {
+    "description": "Specify/cancel emphasized printing",
+    "code": "ESC E",
+    "hex": "1b45",
+    "array": [
+      27,
+      69
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
     "description": "Designate/cancel double print",
     "code": "ESC G",
     "hex": "1b47",
@@ -863,12 +1880,68 @@
     ]
   },
   {
+    "description": "Print and Paper Feed",
+    "code": "ESC J",
+    "hex": "1b4a",
+    "array": [
+      27,
+      74
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Print and reverse feed",
+    "code": "ESC K",
+    "hex": "1b4b",
+    "array": [
+      27,
+      75
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
     "description": "Select page mode",
     "code": "ESC L",
     "hex": "1b4c",
     "array": [
       27,
       76
+    ]
+  },
+  {
+    "description": "Select character font",
+    "code": "ESC M",
+    "hex": "1b4d",
+    "array": [
+      27,
+      77
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Select international characters",
+    "code": "ESC R",
+    "hex": "1b52",
+    "array": [
+      27,
+      82
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
     ]
   },
   {
@@ -887,6 +1960,34 @@
     "array": [
       27,
       84
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Turn unidirectional print mode on/off",
+    "code": "ESC U",
+    "hex": "1b55",
+    "array": [
+      27,
+      85
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Specify/cancel char. 90 deg. clockwise rotation",
+    "code": "ESC V",
+    "hex": "1b56",
+    "array": [
+      27,
+      86
     ],
     "params": [
       {
@@ -930,6 +2031,36 @@
     ]
   },
   {
+    "description": "Print the 2D bar code",
+    "code": "ESC Z",
+    "hex": "1b5a",
+    "array": [
+      27,
+      90
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "name": "n"
+      },
+      {
+        "name": "k"
+      },
+      {
+        "name": "sL"
+      },
+      {
+        "name": "sH"
+      },
+      {
+        "name": "d",
+        "count": "n"
+      }
+    ]
+  },
+  {
     "description": "Designate relative position",
     "code": "ESC \\",
     "hex": "1b5c",
@@ -943,6 +2074,20 @@
       },
       {
         "name": "nH"
+      }
+    ]
+  },
+  {
+    "description": "Position alignment",
+    "code": "ESC a",
+    "hex": "1b61",
+    "array": [
+      27,
+      97
+    ],
+    "params": [
+      {
+        "name": "n"
       }
     ]
   },
@@ -992,6 +2137,52 @@
     ]
   },
   {
+    "description": "Print and feed paper n lines",
+    "code": "ESC d",
+    "hex": "1b64",
+    "array": [
+      27,
+      100
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Print and reverse feed n lines",
+    "code": "ESC e",
+    "hex": "1b65",
+    "array": [
+      27,
+      101
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Full cut",
+    "code": "ESC i",
+    "hex": "1b69",
+    "array": [
+      27,
+      105
+    ]
+  },
+  {
+    "description": "Partial cut",
+    "code": "ESC m",
+    "hex": "1b6d",
+    "array": [
+      27,
+      109
+    ]
+  },
+  {
     "description": "Designate pulse generation",
     "code": "ESC p",
     "hex": "1b70",
@@ -1012,6 +2203,76 @@
     ]
   },
   {
+    "description": "Select print color",
+    "code": "ESC r",
+    "hex": "1b72",
+    "array": [
+      27,
+      114
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Select character code page",
+    "code": "ESC t",
+    "hex": "1b74",
+    "array": [
+      27,
+      116
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Transmit peripheral device status",
+    "code": "ESC u",
+    "hex": "1b75",
+    "array": [
+      27,
+      117
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Transmit paper sensor status",
+    "code": "ESC v",
+    "hex": "1b76",
+    "array": [
+      27,
+      118
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Selects speed/current mode",
+    "code": "ESC x",
+    "hex": "1b78",
+    "array": [
+      27,
+      120
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
     "description": "Designate/cancel inverted printing",
     "code": "ESC {",
     "hex": "1b7b",
@@ -1022,6 +2283,479 @@
     "params": [
       {
         "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Set/cancel cpi mode",
+    "code": "ESC 0xC1",
+    "hex": "1bc1",
+    "array": [
+      27,
+      193
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Print graphic",
+    "code": "ESC 0xFA",
+    "hex": "1bfa",
+    "array": [
+      27,
+      250
+    ],
+    "params": [
+      {
+        "name": "n"
+      },
+      {
+        "name": "xH"
+      },
+      {
+        "name": "xL"
+      },
+      {
+        "name": "yH"
+      },
+      {
+        "name": "yL"
+      }
+    ]
+  },
+  {
+    "description": "Receive graphic page from communication port",
+    "code": "ESC 0xFD",
+    "hex": "1bfd",
+    "array": [
+      27,
+      253
+    ],
+    "params": [
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      }
+    ]
+  },
+  {
+    "description": "Receive the graphic page from the communication port",
+    "code": "ESC 0xFF",
+    "hex": "1bff",
+    "array": [
+      27,
+      255
+    ],
+    "params": [
+      {
+        "name": "n"
+      },
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      }
+    ]
+  },
+  {
+    "description": "Select print mode(s) for Kanji characters",
+    "code": "FS !",
+    "hex": "1c21",
+    "array": [
+      28,
+      33
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Select the font type",
+    "code": "FS %",
+    "hex": "1c25",
+    "array": [
+      28,
+      37
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Specify Chinese character mode",
+    "code": "FS &",
+    "hex": "1c26",
+    "array": [
+      28,
+      38
+    ]
+  },
+  {
+    "description": "Select label and black mark control function(s)",
+    "code": "FS ( L",
+    "hex": "1c284c",
+    "array": [
+      28,
+      40,
+      76
+    ],
+    "params": [
+      {
+        "name": "pL"
+      },
+      {
+        "name": "pH"
+      },
+      {
+        "name": "fn"
+      },
+      {
+        "when": [
+          {
+            "target": "fn",
+            "equal": 33
+          }
+        ],
+        "args": [
+          {
+            "name": "sm"
+          },
+          {
+            "args": [
+              {
+                "name": "sa",
+                "ascii": true
+              },
+              {
+                "name": "sb",
+                "ascii": true
+              },
+              {
+                "name": "sc",
+                "ascii": true
+              },
+              {
+                "name": "sd",
+                "ascii": true
+              },
+              {
+                "name": "se",
+                "ascii": true
+              },
+              {
+                "name": "sf",
+                "ascii": true
+              }
+            ],
+            "delimiter": {
+              "value": 59,
+              "start": false,
+              "end": true
+            }
+          }
+        ]
+      },
+      {
+        "when": [
+          {
+            "target": "fn",
+            "equal": 34
+          }
+        ],
+        "args": [
+          {
+            "name": "n"
+          }
+        ]
+      },
+      {
+        "when": [
+          {
+            "target": "fn",
+            "equal": 48
+          }
+        ],
+        "args": [
+          {
+            "name": "m"
+          }
+        ]
+      },
+      {
+        "when": [
+          {
+            "target": "fn",
+            "equal": 65
+          }
+        ],
+        "args": [
+          {
+            "name": "m"
+          }
+        ]
+      },
+      {
+        "when": [
+          {
+            "target": "fn",
+            "equal": 66
+          }
+        ],
+        "args": [
+          {
+            "name": "m"
+          }
+        ]
+      },
+      {
+        "when": [
+          {
+            "target": "fn",
+            "equal": 67
+          }
+        ],
+        "args": [
+          {
+            "name": "m"
+          }
+        ]
+      },
+      {
+        "when": [
+          {
+            "target": "fn",
+            "equal": 80
+          }
+        ],
+        "args": [
+          {
+            "name": "sn"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "Specify/cancel Chinese character underline",
+    "code": "FS -",
+    "hex": "1c2d",
+    "array": [
+      28,
+      45
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Cancel Chinese character mode",
+    "code": "FS .",
+    "hex": "1c2e",
+    "array": [
+      28,
+      46
+    ]
+  },
+  {
+    "description": "Define user-defined Kanji characters",
+    "code": "FS 2",
+    "hex": "1c32",
+    "array": [
+      28,
+      50
+    ],
+    "params": [
+      {
+        "name": "c1"
+      },
+      {
+        "name": "c2"
+      },
+      {
+        "name": "d",
+        "count": [
+          32,
+          60,
+          72
+        ]
+      }
+    ]
+  },
+  {
+    "description": "Cancel user-defined Kanji characters",
+    "code": "FS ?",
+    "hex": "1c3f",
+    "array": [
+      28,
+      63
+    ],
+    "params": [
+      {
+        "name": "c1"
+      },
+      {
+        "name": "c2"
+      }
+    ]
+  },
+  {
+    "description": "Select Kanji character code system",
+    "code": "FS C",
+    "hex": "1c43",
+    "array": [
+      28,
+      67
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Set Kanji character spacing",
+    "code": "FS S",
+    "hex": "1c53",
+    "array": [
+      28,
+      83
+    ],
+    "params": [
+      {
+        "name": "n1"
+      },
+      {
+        "name": "n2"
+      }
+    ]
+  },
+  {
+    "description": "Print Unicode code character",
+    "code": "FS U",
+    "hex": "1c55",
+    "array": [
+      28,
+      85
+    ],
+    "params": [
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      }
+    ]
+  },
+  {
+    "description": "Turn quadruple-size mode on/off for Kanji characters",
+    "code": "FS W",
+    "hex": "1c57",
+    "array": [
+      28,
+      87
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Write to NV user memory",
+    "code": "FS g 1",
+    "hex": "1c6731",
+    "array": [
+      28,
+      103,
+      49
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "name": "a1"
+      },
+      {
+        "name": "a2"
+      },
+      {
+        "name": "a3"
+      },
+      {
+        "name": "a4"
+      },
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      },
+      {
+        "name": "d",
+        "count": "nL + nH * 256"
+      }
+    ]
+  },
+  {
+    "description": "Read from NV user memory",
+    "code": "FS g 2",
+    "hex": "1c6732",
+    "array": [
+      28,
+      103,
+      50
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "name": "a1"
+      },
+      {
+        "name": "a2"
+      },
+      {
+        "name": "a3"
+      },
+      {
+        "name": "a4"
+      },
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      }
+    ]
+  },
+  {
+    "description": "Print NV bit image",
+    "code": "FS p",
+    "hex": "1c70",
+    "array": [
+      28,
+      112
+    ],
+    "params": [
+      {
+        "name": "n"
+      },
+      {
+        "name": "m"
       }
     ]
   },
@@ -1061,6 +2795,55 @@
     ]
   },
   {
+    "description": "Print and paper feed to the label gap",
+    "code": "GS FF",
+    "hex": "1d0c",
+    "array": [
+      29,
+      12
+    ]
+  },
+  {
+    "description": "Select character size",
+    "code": "GS !",
+    "hex": "1d21",
+    "array": [
+      29,
+      33
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Print character on the curve",
+    "code": "GS \"",
+    "hex": "1d22",
+    "array": [
+      29,
+      34
+    ],
+    "params": [
+      {
+        "name": "n"
+      },
+      {
+        "name": "xL"
+      },
+      {
+        "name": "xH"
+      },
+      {
+        "name": "c",
+        "until": [
+          0
+        ]
+      }
+    ]
+  },
+  {
     "description": "Designate absolute position of vertical direction of characters in page mode",
     "code": "GS $",
     "hex": "1d24",
@@ -1074,6 +2857,37 @@
       },
       {
         "name": "nH"
+      }
+    ]
+  },
+  {
+    "description": "Print curve",
+    "code": "GS '",
+    "hex": "1d27",
+    "array": [
+      29,
+      39
+    ],
+    "params": [
+      {
+        "name": "n"
+      },
+      {
+        "args": [
+          {
+            "name": "xsL"
+          },
+          {
+            "name": "xsH"
+          },
+          {
+            "name": "xeL"
+          },
+          {
+            "name": "xeH"
+          }
+        ],
+        "count": "n"
       }
     ]
   },
@@ -1098,6 +2912,40 @@
       },
       {
         "name": "m"
+      }
+    ]
+  },
+  {
+    "description": "Select Kanji character style(s)",
+    "code": "FS ( A",
+    "hex": "1d2841",
+    "array": [
+      28,
+      40,
+      65
+    ],
+    "params": [
+      {
+        "name": "pL"
+      },
+      {
+        "name": "pH"
+      },
+      {
+        "name": "fn"
+      },
+      {
+        "when": [
+          {
+            "target": "fn",
+            "equal": 48
+          }
+        ],
+        "args": [
+          {
+            "name": "m"
+          }
+        ]
       }
     ]
   },
@@ -1731,6 +3579,65 @@
     ]
   },
   {
+    "description": "Request transmission of response or status",
+    "code": "GS ( H",
+    "hex": "1d2848",
+    "array": [
+      29,
+      40,
+      72
+    ],
+    "params": [
+      {
+        "name": "pL"
+      },
+      {
+        "name": "pH"
+      },
+      {
+        "name": "fn"
+      },
+      {
+        "when": [
+          {
+            "target": "fn",
+            "equal": 48
+          }
+        ],
+        "args": [
+          {
+            "name": "d1"
+          },
+          {
+            "name": "d2"
+          },
+          {
+            "name": "d3"
+          },
+          {
+            "name": "d4"
+          }
+        ]
+      },
+      {
+        "when": [
+          {
+            "target": "fn",
+            "equal": 49
+          }
+        ],
+        "args": [
+          {
+            "name": "m"
+          },
+          {
+            "name": "d"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "description": "Select print control method(s)",
     "code": "GS ( K",
     "hex": "1d284b",
@@ -2271,6 +4178,122 @@
           },
           {
             "name": "a"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "Page mode control",
+    "code": "GS ( P",
+    "hex": "1d2850",
+    "array": [
+      29,
+      40,
+      80
+    ],
+    "params": [
+      {
+        "name": "pL"
+      },
+      {
+        "name": "pH"
+      },
+      {
+        "name": "fn"
+      }
+    ]
+  },
+  {
+    "description": "Commands for drawing graphics",
+    "code": "GS ( Q",
+    "hex": "1d2851",
+    "array": [
+      29,
+      40,
+      81
+    ],
+    "params": [
+      {
+        "name": "pL"
+      },
+      {
+        "name": "pH"
+      },
+      {
+        "name": "fn"
+      },
+      {
+        "when": {
+          "target": "fn",
+          "equal": 48
+        },
+        "args": [
+          {
+            "args": [
+              {
+                "name": "xL"
+              },
+              {
+                "name": "xH"
+              },
+              {
+                "name": "yL"
+              },
+              {
+                "name": "yH"
+              }
+            ],
+            "count": 2
+          },
+          {
+            "name": "c"
+          },
+          {
+            "name": "m1"
+          },
+          {
+            "name": "m2"
+          }
+        ]
+      },
+      {
+        "when": {
+          "target": "fn",
+          "equal": 49
+        },
+        "args": [
+          {
+            "args": [
+              {
+                "name": "xL"
+              },
+              {
+                "name": "xH"
+              },
+              {
+                "name": "yL"
+              },
+              {
+                "name": "yH"
+              }
+            ],
+            "count": 2
+          },
+          {
+            "name": "c"
+          },
+          {
+            "name": "m1"
+          },
+          {
+            "name": "m2"
+          },
+          {
+            "name": "m3"
+          },
+          {
+            "name": "m4"
           }
         ]
       }
@@ -2818,35 +4841,12 @@
     ]
   },
   {
-    "description": "Start/finish macro definition",
-    "code": "GS :",
-    "hex": "1d3a",
+    "description": "Define download bit images",
+    "code": "GS *",
+    "hex": "1d2a",
     "array": [
       29,
-      58
-    ]
-  },
-  {
-    "description": "Printer ID transmission",
-    "code": "GS I",
-    "hex": "1d49",
-    "array": [
-      29,
-      73
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Set horizontal and vertical motion units",
-    "code": "GS P",
-    "hex": "1d50",
-    "array": [
-      29,
-      74
+      42
     ],
     "params": [
       {
@@ -2854,327 +4854,20 @@
       },
       {
         "name": "y"
-      }
-    ]
-  },
-  {
-    "description": "Select cut mode and cut paper",
-    "code": "GS V",
-    "hex": "1d56",
-    "array": [
-      29,
-      86
-    ],
-    "params": [
-      {
-        "name": "m"
-      },
-      {
-        "when": [
-          {
-            "target": "m",
-            "equal": [
-              65,
-              66,
-              67,
-              97,
-              98,
-              103,
-              104
-            ]
-          }
-        ],
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Set print range",
-    "code": "GS W",
-    "hex": "1d57",
-    "array": [
-      29,
-      87
-    ],
-    "params": [
-      {
-        "name": "nL"
-      },
-      {
-        "name": "nH"
-      }
-    ]
-  },
-  {
-    "description": "Designate the relative position of vertical characters when printing in the page mode",
-    "code": "GS \\",
-    "hex": "1d5c",
-    "array": [
-      29,
-      92
-    ],
-    "params": [
-      {
-        "name": "nL"
-      },
-      {
-        "name": "nH"
-      }
-    ]
-  },
-  {
-    "description": "Execute macro",
-    "code": "GS ^",
-    "hex": "1d5e",
-    "array": [
-      29,
-      94
-    ],
-    "params": [
-      {
-        "name": "r"
-      },
-      {
-        "name": "t"
-      },
-      {
-        "name": "m"
-      }
-    ]
-  },
-  {
-    "description": "Enable/disable automatic status transmission",
-    "code": "GS a",
-    "hex": "1d61",
-    "array": [
-      29,
-      97
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Transmission of status",
-    "code": "GS r",
-    "hex": "1d72",
-    "array": [
-      29,
-      114
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Print raster bit image",
-    "code": "GS v 0",
-    "hex": "1d7630",
-    "array": [
-      29,
-      118,
-      48
-    ],
-    "params": [
-      {
-        "name": "m"
-      },
-      {
-        "name": "xL"
-      },
-      {
-        "name": "xH"
-      },
-      {
-        "name": "yL"
-      },
-      {
-        "name": "yH"
       },
       {
         "name": "d",
-        "count": "(xL + xH * 256) * (yL + yH * 256)"
+        "count": "x * y * 8"
       }
     ]
   },
   {
-    "description": "Beep the buzzer",
-    "code": "RS",
-    "hex": "1e",
-    "array": [
-      30
-    ]
-  },
-  {
-    "description": "Generate pulse at real-time",
-    "code": "DLE DC4",
-    "hex": "1014",
-    "array": [
-      16,
-      20
-    ],
-    "params": [
-      {
-        "name": "fn"
-      },
-      {
-        "when": [
-          {
-            "target": "fn",
-            "equal": [
-              1
-            ]
-          }
-        ],
-        "args": [
-          {
-            "name": "m"
-          },
-          {
-            "name": "t"
-          }
-        ]
-      },
-      {
-        "when": [
-          {
-            "target": "fn",
-            "equal": [
-              2
-            ]
-          }
-        ],
-        "args": [
-          {
-            "name": "a"
-          },
-          {
-            "name": "b"
-          }
-        ]
-      },
-      {
-        "when": [
-          {
-            "target": "fn",
-            "equal": [
-              7
-            ]
-          }
-        ],
-        "args": [
-          {
-            "name": "m"
-          }
-        ]
-      },
-      {
-        "when": [
-          {
-            "target": "fn",
-            "equal": [
-              8
-            ]
-          }
-        ],
-        "args": [
-          {
-            "name": "d",
-            "count": 7
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "description": "Specifying/canceling the smoothing",
-    "code": "GS b",
-    "hex": "1d62",
+    "description": "Print download bit images",
+    "code": "GS /",
+    "hex": "1d2f",
     "array": [
       29,
-      98
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Full cut",
-    "code": "ESC i",
-    "hex": "1b69",
-    "array": [
-      27,
-      105
-    ]
-  },
-  {
-    "description": "Partial cut",
-    "code": "ESC m",
-    "hex": "1b6d",
-    "array": [
-      27,
-      109
-    ]
-  },
-  {
-    "description": "Set the left blank char number",
-    "code": "ESC B",
-    "hex": "1b42",
-    "array": [
-      27,
-      66
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Turn double width on",
-    "code": "ESC SO",
-    "hex": "1b0e",
-    "array": [
-      27,
-      14
-    ]
-  },
-  {
-    "description": "Turn double width off",
-    "code": "ESC DC4",
-    "hex": "1b14",
-    "array": [
-      27,
-      20
-    ]
-  },
-  {
-    "description": "Transmit paper sensor status",
-    "code": "ESC v",
-    "hex": "1b76",
-    "array": [
-      27,
-      118
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Transmit peripheral device status",
-    "code": "ESC u",
-    "hex": "1b75",
-    "array": [
-      27,
-      117
+      47
     ],
     "params": [
       {
@@ -3486,100 +5179,51 @@
     ]
   },
   {
-    "description": "Print and reverse feed n lines",
-    "code": "ESC e",
-    "hex": "1b65",
+    "description": "Start/finish macro definition",
+    "code": "GS :",
+    "hex": "1d3a",
     "array": [
-      27,
-      101
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
+      29,
+      58
     ]
   },
   {
-    "description": "Select print color",
-    "code": "ESC r",
-    "hex": "1b72",
+    "description": "Mechanically initialize printer",
+    "code": "GS <",
+    "hex": "1d3c",
     "array": [
-      27,
-      114
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
+      29,
+      60
     ]
   },
   {
-    "description": "Write to NV user memory",
-    "code": "FS g 1",
-    "hex": "1c6731",
+    "description": "Adjust label print starting position",
+    "code": "GS A",
+    "hex": "1d41",
     "array": [
-      28,
-      103,
-      49
+      29,
+      65
     ],
     "params": [
       {
         "name": "m"
       },
       {
-        "name": "a1"
-      },
-      {
-        "name": "a2"
-      },
-      {
-        "name": "a3"
-      },
-      {
-        "name": "a4"
-      },
-      {
-        "name": "nL"
-      },
-      {
-        "name": "nH"
-      },
-      {
-        "name": "d",
-        "count": "nL + nH * 256"
+        "name": "n"
       }
     ]
   },
   {
-    "description": "Read from NV user memory",
-    "code": "FS g 2",
-    "hex": "1c6732",
+    "description": "Specify/cancel white/black inverted printing",
+    "code": "GS B",
+    "hex": "1d42",
     "array": [
-      28,
-      103,
-      50
+      27,
+      66
     ],
     "params": [
       {
-        "name": "m"
-      },
-      {
-        "name": "a1"
-      },
-      {
-        "name": "a2"
-      },
-      {
-        "name": "a3"
-      },
-      {
-        "name": "a4"
-      },
-      {
-        "name": "nL"
-      },
-      {
-        "name": "nH"
+        "name": "n"
       }
     ]
   },
@@ -3705,2013 +5349,64 @@
     ]
   },
   {
-    "description": "Set print position to the beginning of print line",
-    "code": "GS T",
-    "hex": "1d54",
+    "description": "Select HRI character print position",
+    "code": "GS H",
+    "hex": "1d48",
     "array": [
       29,
-      84
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Print counter",
-    "code": "GS c",
-    "hex": "1d63",
-    "array": [
-      29,
-      99
-    ]
-  },
-  {
-    "description": "Select print mode(s) for Kanji characters",
-    "code": "FS !",
-    "hex": "1c21",
-    "array": [
-      28,
-      33
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Specify/cancel Chinese character underline",
-    "code": "FS -",
-    "hex": "1c2d",
-    "array": [
-      28,
-      45
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Define user-defined Kanji characters",
-    "code": "FS 2",
-    "hex": "1c32",
-    "array": [
-      28,
-      50
-    ],
-    "params": [
-      {
-        "name": "c1"
-      },
-      {
-        "name": "c2"
-      },
-      {
-        "name": "d",
-        "count": [
-          32,
-          60,
-          72
-        ]
-      }
-    ]
-  },
-  {
-    "description": "Select Kanji character code system",
-    "code": "FS C",
-    "hex": "1c43",
-    "array": [
-      28,
-      67
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Set Kanji character spacing",
-    "code": "FS S",
-    "hex": "1c53",
-    "array": [
-      28,
-      83
-    ],
-    "params": [
-      {
-        "name": "n1"
-      },
-      {
-        "name": "n2"
-      }
-    ]
-  },
-  {
-    "description": "Turn quadruple-size mode on/off for Kanji characters",
-    "code": "FS W",
-    "hex": "1c57",
-    "array": [
-      28,
-      87
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Mechanically initialize printer",
-    "code": "GS <",
-    "hex": "1d3c",
-    "array": [
-      29,
-      60
-    ]
-  },
-  {
-    "description": "Write data to a blank code page",
-    "code": "ESC GS =",
-    "hex": "1b1d3d",
-    "array": [
-      27,
-      29,
-      61
-    ],
-    "params": [
-      {
-        "name": "nL"
-      },
-      {
-        "name": "nH"
-      },
-      {
-        "name": "da",
-        "count": "(nL + nH * 256) / 2"
-      },
-      {
-        "name": "db",
-        "count": "(nL + nH * 256) / 2"
-      }
-    ]
-  },
-  {
-    "description": "Select character code table",
-    "code": "ESC GS t",
-    "hex": "1b1d74",
-    "array": [
-      27,
-      29,
-      116
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Memory Switch Settings",
-    "code": "ESC GS #",
-    "hex": "1b1d23",
-    "array": [
-      27,
-      29,
-      35
-    ],
-    "params": [
-      {
-        "name": "m"
-      },
-      {
-        "name": "N"
-      },
-      {
-        "name": "n1"
-      },
-      {
-        "name": "n2"
-      },
-      {
-        "name": "n3"
-      },
-      {
-        "name": "n4"
-      },
-      {
-        "name": "LF",
-        "value": 10
-      },
-      {
-        "name": "NUL",
-        "value": 0
-      }
-    ]
-  },
-  {
-    "description": "Select Font",
-    "code": "ESC RS F",
-    "hex": "1b1e46",
-    "array": [
-      27,
-      30,
-      70
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Print Mode Selection",
-    "code": "ESC RS C",
-    "hex": "1b1e43",
-    "array": [
-      27,
-      30,
-      67
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Batch Control Logo",
-    "code": "ESC RS L",
-    "hex": "1b1e4c",
-    "array": [
-      27,
-      30,
-      76
-    ],
-    "params": [
-      {
-        "name": "m"
-      }
-    ]
-  },
-  {
-    "description": "Send print-end counter, initialize",
-    "code": "ESC GS ETX",
-    "hex": "1b1d03",
-    "array": [
-      27,
-      29,
-      3
-    ],
-    "params": [
-      {
-        "name": "s"
-      },
-      {
-        "name": "n1"
-      },
-      {
-        "name": "n2"
-      }
-    ]
-  },
-  {
-    "description": "Execute presenter paper recovery",
-    "code": "ESC SYN 0",
-    "hex": "1b1630",
-    "array": [
-      27,
-      22,
-      48
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Set presenter paper recovery function and automatic recovery time",
-    "code": "ESC SYN 1",
-    "hex": "1b1631",
-    "array": [
-      27,
-      22,
-      49
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Get presenter paper counter",
-    "code": "ESC SYN 3",
-    "hex": "1b1633",
-    "array": [
-      27,
-      22,
-      51
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Initialize presenter paper counter",
-    "code": "ESC SYN 4",
-    "hex": "1b1634",
-    "array": [
-      27,
-      22,
-      52
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Specify snout operation mode",
-    "code": "ESC GS SUB DC1",
-    "hex": "1b1d1a11",
-    "array": [
-      27,
-      29,
-      26,
-      17
-    ],
-    "params": [
-      {
-        "name": "m"
-      },
-      {
-        "name": "t1"
-      },
-      {
-        "name": "t2"
-      }
-    ]
-  },
-  {
-    "description": "Specify Snout LED ON/OFF time",
-    "code": "ESC GS SUB DC2",
-    "hex": "1b1d1a12",
-    "array": [
-      27,
-      29,
-      26,
-      18
-    ],
-    "params": [
-      {
-        "name": "m"
-      },
-      {
-        "name": "t1"
-      },
-      {
-        "name": "t2"
-      }
-    ]
-  },
-  {
-    "description": "Execute snout LED operation",
-    "code": "ESC GS SUB DC3",
-    "hex": "1b1d1a13",
-    "array": [
-      27,
-      29,
-      26,
-      19
-    ],
-    "params": [
-      {
-        "name": "m"
-      },
-      {
-        "name": "t1"
-      },
-      {
-        "name": "t2"
-      }
-    ]
-  },
-  {
-    "description": "Print mark",
-    "code": "ESC GS * 0",
-    "hex": "1b1d2a30",
-    "array": [
-      27,
-      29,
-      42,
-      48
-    ],
-    "params": [
-      {
-        "name": "n",
-        "length": 3,
-        "ascii": true
-      },
-      {
-        "name": "m",
-        "count": "n",
-        "ascii": true
-      }
-    ]
-  },
-  {
-    "description": "Specify mark height and line feed",
-    "code": "ESC GS * 1",
-    "hex": "1b1d2a31",
-    "array": [
-      27,
-      29,
-      42,
-      49
-    ],
-    "params": [
-      {
-        "name": "h",
-        "length": 3,
-        "ascii": true
-      },
-      {
-        "name": "v",
-        "length": 3,
-        "ascii": true
-      }
-    ]
-  },
-  {
-    "description": "Specify mark color and mark horizontal width for each mark number",
-    "code": "ESC GS * 2",
-    "hex": "1b1d2a32",
-    "array": [
-      27,
-      29,
-      42,
-      50
-    ],
-    "params": [
-      {
-        "name": "m",
-        "ascii": true
-      },
-      {
-        "name": "c",
-        "ascii": true
-      },
-      {
-        "name": "w",
-        "length": 3,
-        "ascii": true
-      }
-    ]
-  },
-  {
-    "description": "Register mark format to non-volatile memory",
-    "code": "ESC GS * W",
-    "hex": "1b1d2a57",
-    "array": [
-      27,
-      29,
-      42,
-      87
-    ]
-  },
-  {
-    "description": "Initialize mark format in the non-volatile memory",
-    "code": "ESC GS * C",
-    "hex": "1b1d2a43",
-    "array": [
-      27,
-      29,
-      42,
-      67
-    ]
-  },
-  {
-    "description": "Register Auto Logo setting to non-volatile memory",
-    "code": "ESC GS / W",
-    "hex": "1b1d2f57",
-    "array": [
-      27,
-      29,
-      47,
-      87
-    ]
-  },
-  {
-    "description": "Initialize Auto Logo setting to non-volatile memory",
-    "code": "ESC GS / C",
-    "hex": "1b1d2f43",
-    "array": [
-      27,
-      29,
-      47,
-      67
-    ]
-  },
-  {
-    "description": "Auto Logo Function On/Off Setting",
-    "code": "ESC GS / 1",
-    "hex": "1b1d2f31",
-    "array": [
-      27,
-      29,
-      47,
-      49
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Set command character",
-    "code": "ESC GS / 2",
-    "hex": "1b1d2f32",
-    "array": [
-      27,
-      29,
-      47,
-      50
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Set user macro 1",
-    "code": "ESC GS / 3",
-    "hex": "1b1d2f33",
-    "array": [
-      27,
-      29,
-      47,
-      51
-    ],
-    "params": [
-      {
-        "name": "nL"
-      },
-      {
-        "name": "nH"
-      },
-      {
-        "name": "d",
-        "count": "nL + nH * 256"
-      }
-    ]
-  },
-  {
-    "description": "Set user macro 2",
-    "code": "ESC GS / 4",
-    "hex": "1b1d2f34",
-    "array": [
-      27,
-      29,
-      47,
-      52
-    ],
-    "params": [
-      {
-        "name": "nL"
-      },
-      {
-        "name": "nH"
-      },
-      {
-        "name": "d",
-        "count": "nL + nH * 256"
-      }
-    ]
-  },
-  {
-    "description": "Set command character switching method",
-    "code": "ESC GS / 5",
-    "hex": "1b1d2f35",
-    "array": [
-      27,
-      29,
-      47,
-      53
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Set partial cut before Auto Logo printing",
-    "code": "ESC GS / 6",
-    "hex": "1b1d2f36",
-    "array": [
-      27,
-      29,
-      47,
-      54
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Ring buzzer",
-    "code": "ESC GS BEL",
-    "hex": "1b1d07",
-    "array": [
-      27,
-      29,
-      7
-    ],
-    "params": [
-      {
-        "name": "m"
-      },
-      {
-        "name": "t1"
-      },
-      {
-        "name": "22"
-      }
-    ]
-  },
-  {
-    "description": "External buzzer drive pulse condition settings",
-    "code": "ESC GS EM DC1",
-    "hex": "1b1d1911",
-    "array": [
-      27,
-      29,
-      25,
-      17
-    ],
-    "params": [
-      {
-        "name": "m"
-      },
-      {
-        "name": "n1"
-      },
-      {
-        "name": "n2"
-      }
-    ]
-  },
-  {
-    "description": "External buzzer drive execution",
-    "code": "ESC GS EM DC2",
-    "hex": "1b1d1912",
-    "array": [
-      27,
-      29,
-      25,
-      18
-    ],
-    "params": [
-      {
-        "name": "m"
-      },
-      {
-        "name": "n1"
-      },
-      {
-        "name": "n2"
-      }
-    ]
-  },
-  {
-    "description": "Set PDF417 bar code size",
-    "code": "ESC GS x S 0",
-    "hex": "1b1d785330",
-    "array": [
-      27,
-      29,
-      120,
-      83,
-      48
-    ],
-    "params": [
-      {
-        "name": "n"
-      },
-      {
-        "name": "p1"
-      },
-      {
-        "name": "p2"
-      }
-    ]
-  },
-  {
-    "description": "Set PDF417 ECC (security level)",
-    "code": "ESC GS x S 1",
-    "hex": "1b1d785331",
-    "array": [
-      27,
-      29,
-      120,
-      83,
-      49
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Set PDF417 module X direction size",
-    "code": "ESC GS x S 2",
-    "hex": "1b1d785332",
-    "array": [
-      27,
-      29,
-      120,
-      83,
-      50
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Set PDF417 module aspect ratio",
-    "code": "ESC GS x S 3",
-    "hex": "1b1d785333",
-    "array": [
-      27,
-      29,
-      120,
-      83,
-      51
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Set PDF417 bar code data",
-    "code": "ESC GS x D",
-    "hex": "1b1d7844",
-    "array": [
-      27,
-      29,
-      120,
-      68
-    ],
-    "params": [
-      {
-        "name": "nL"
-      },
-      {
-        "name": "nH"
-      },
-      {
-        "name": "d",
-        "count": "nL + nH * 256"
-      }
-    ]
-  },
-  {
-    "description": "Print PDF417 bar code",
-    "code": "ESC GS x P",
-    "hex": "1b1d7850",
-    "array": [
-      27,
-      29,
-      120,
-      80
-    ]
-  },
-  {
-    "description": "Get PDF417 bar code expansion information",
-    "code": "ESC GS x I",
-    "hex": "1b1d7849",
-    "array": [
-      27,
-      29,
-      120,
-      73
-    ]
-  },
-  {
-    "description": "Print starting trigger",
-    "code": "ESC GS g 0",
-    "hex": "1b1d6730",
-    "array": [
-      27,
-      29,
-      103,
-      48
-    ],
-    "params": [
-      {
-        "name": "m"
-      },
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Print starting timer",
-    "code": "ESC GS g 1",
-    "hex": "1b1d6731",
-    "array": [
-      27,
-      29,
-      103,
-      49
-    ],
-    "params": [
-      {
-        "name": "m"
-      },
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Set QR code model",
-    "code": "ESC GS y S 0",
-    "hex": "1b1d795330",
-    "array": [
-      27,
-      29,
-      121,
-      83,
-      48
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Set QR code mistake correction level",
-    "code": "ESC GS y S 1",
-    "hex": "1b1d795331",
-    "array": [
-      27,
-      29,
-      121,
-      83,
-      49
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Set QR code cell size",
-    "code": "ESC GS y S 2",
-    "hex": "1b1d795332",
-    "array": [
-      27,
-      29,
-      121,
-      83,
-      50
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Set QR code cell size (Auto Setting)",
-    "code": "ESC GS y D 1",
-    "hex": "1b1d794431",
-    "array": [
-      27,
-      29,
-      121,
-      68,
-      49
-    ],
-    "params": [
-      {
-        "name": "m"
-      },
-      {
-        "name": "nL"
-      },
-      {
-        "name": "nH"
-      },
-      {
-        "name": "d",
-        "count": "nL + nH * 256"
-      }
-    ]
-  },
-  {
-    "description": "Set QR code cell size (Manual setting)",
-    "code": "ESC GS y D 2",
-    "hex": "1b1d794432",
-    "array": [
-      27,
-      29,
-      121,
-      68,
-      50
-    ],
-    "params": [
-      {
-        "name": "a"
-      },
-      {
-        "args": [
-          {
-            "name": "m"
-          },
-          {
-            "name": "nL"
-          },
-          {
-            "name": "nH"
-          },
-          {
-            "name": "d",
-            "count": "nL + nH * 256"
-          }
-        ],
-        "count": "a"
-      }
-    ]
-  },
-  {
-    "description": "Print QR code",
-    "code": "ESC GS y P",
-    "hex": "1b1d7950",
-    "array": [
-      27,
-      29,
-      121,
-      80
-    ]
-  },
-  {
-    "description": "Get QR code expansion information",
-    "code": "ESC GS y I",
-    "hex": "1b1d7949",
-    "array": [
-      27,
-      29,
-      121,
-      73
-    ]
-  },
-  {
-    "description": "180˚ inversion function",
-    "code": "ESC GS h 0",
-    "hex": "1b1d6830",
-    "array": [
-      27,
-      29,
-      104,
-      48
-    ],
-    "params": [
-      {
-        "name": "k"
-      },
-      {
-        "name": "m"
-      },
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Water mark function",
-    "code": "ESC GS h 1",
-    "hex": "1b1d6831",
-    "array": [
-      27,
-      29,
-      104,
-      49
-    ],
-    "params": [
-      {
-        "name": "k"
-      },
-      {
-        "name": "m"
-      },
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Set reduced printing",
-    "code": "ESC GS c",
-    "hex": "1b1d63",
-    "array": [
-      27,
-      29,
-      99
-    ],
-    "params": [
-      {
-        "name": "h"
-      },
-      {
-        "name": "v"
-      }
-    ]
-  },
-  {
-    "description": "Set text search",
-    "code": "ESC GS ) B",
-    "hex": "1b1d2942",
-    "array": [
-      27,
-      29,
-      41,
-      66
-    ],
-    "params": [
-      {
-        "name": "pL"
-      },
-      {
-        "name": "pH"
-      },
-      {
-        "name": "fn"
-      },
-      {
-        "when": [
-          {
-            "target": "fn",
-            "equal": 48
-          }
-        ],
-        "args": [
-          {
-            "name": "m"
-          }
-        ]
-      },
-      {
-        "when": [
-          {
-            "target": "fn",
-            "equal": 49
-          }
-        ],
-        "args": [
-          {
-            "name": "m"
-          }
-        ]
-      },
-      {
-        "when": [
-          {
-            "target": "fn",
-            "equal": 50
-          }
-        ],
-        "args": [
-          {
-            "name": "m"
-          }
-        ]
-      },
-      {
-        "when": [
-          {
-            "target": "fn",
-            "equal": 64
-          }
-        ],
-        "args": [
-          {
-            "name": "n"
-          },
-          {
-            "name": "m"
-          },
-          {
-            "name": "k"
-          },
-          {
-            "name": "d",
-            "count": "k"
-          }
-        ]
-      },
-      {
-        "when": [
-          {
-            "target": "fn",
-            "equal": 65
-          }
-        ],
-        "args": [
-          {
-            "name": "m"
-          },
-          {
-            "name": "k1"
-          },
-          {
-            "name": "k2"
-          },
-          {
-            "name": "d",
-            "count": "k1 + k2 * 256"
-          }
-        ]
-      },
-      {
-        "when": [
-          {
-            "target": "fn",
-            "equal": 66
-          }
-        ],
-        "args": [
-          {
-            "name": "n"
-          },
-          {
-            "name": "t"
-          }
-        ]
-      },
-      {
-        "when": [
-          {
-            "target": "fn",
-            "equal": 80
-          }
-        ],
-        "args": [
-          {
-            "name": "m"
-          }
-        ]
-      },
-      {
-        "when": [
-          {
-            "target": "fn",
-            "equal": 81
-          }
-        ],
-        "args": [
-          {
-            "name": "m"
-          }
-        ]
-      },
-      {
-        "when": [
-          {
-            "target": "fn",
-            "equal": 96
-          }
-        ],
-        "args": [
-          {
-            "name": "m"
-          }
-        ]
-      },
-      {
-        "when": [
-          {
-            "target": "fn",
-            "equal": 97
-          }
-        ],
-        "args": [
-          {
-            "name": "m"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "description": "Send the all kind of multibyte fonts",
-    "code": "ESC GS ) I",
-    "hex": "1b1d2949",
-    "array": [
-      27,
-      29,
-      41,
-      73
-    ],
-    "params": [
-      {
-        "name": "pL"
-      },
-      {
-        "name": "pH"
-      },
-      {
-        "name": "fn"
-      },
-      {
-        "when": [
-          {
-            "target": "fn",
-            "equal": 48
-          }
-        ],
-        "args": [
-          {
-            "name": "d1"
-          },
-          {
-            "name": "d2"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "description": "Send the registered individual logo CRC",
-    "code": "ESC GS ) L",
-    "hex": "1b1d294c",
-    "array": [
-      27,
-      29,
-      41,
-      76
-    ],
-    "params": [
-      {
-        "name": "pL"
-      },
-      {
-        "name": "pH"
-      },
-      {
-        "name": "fn"
-      },
-      {
-        "when": [
-          {
-            "target": "fn",
-            "equal": 48
-          }
-        ],
-        "args": [
-          {
-            "name": "kc1"
-          },
-          {
-            "name": "kc2"
-          }
-        ]
-      },
-      {
-        "when": [
-          {
-            "target": "fn",
-            "equal": 49
-          }
-        ],
-        "args": [
-          {
-            "name": "kc1"
-          },
-          {
-            "name": "kc2"
-          }
-        ]
-      },
-      {
-        "when": [
-          {
-            "target": "fn",
-            "equal": 50
-          }
-        ],
-        "args": [
-          {
-            "name": "d1"
-          },
-          {
-            "name": "d2"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "description": "Playback NV Audio",
-    "code": "ESC GS s O",
-    "hex": "1b1d734f",
-    "array": [
-      27,
-      29,
-      115,
-      79
-    ],
-    "params": [
-      {
-        "name": "z"
-      },
-      {
-        "name": "a"
-      },
-      {
-        "name": "n"
-      },
-      {
-        "name": "c1"
-      },
-      {
-        "name": "c2"
-      },
-      {
-        "name": "d1"
-      },
-      {
-        "name": "d2"
-      },
-      {
-        "name": "t1"
-      },
-      {
-        "name": "t2"
-      }
-    ]
-  },
-  {
-    "description": "Stop NV Audio",
-    "code": "ESC GS s P",
-    "hex": "1b1d7350",
-    "array": [
-      27,
-      29,
-      115,
-      80
-    ]
-  },
-  {
-    "description": "Playback received audio",
-    "code": "ESC GS s R",
-    "hex": "1b1d7352",
-    "array": [
-      27,
-      29,
-      115,
-      82
-    ],
-    "params": [
-      {
-        "name": "z"
-      },
-      {
-        "name": "n1"
-      },
-      {
-        "name": "n2"
-      },
-      {
-        "name": "n3"
-      },
-      {
-        "name": "d",
-        "count": "k1 + k2 * 256 + k3 * 65536"
-      }
-    ]
-  },
-  {
-    "description": "Register user area NV audio data",
-    "code": "ESC GS s U",
-    "hex": "1b1d7355",
-    "array": [
-      27,
-      29,
-      115,
-      85
-    ],
-    "params": [
-      {
-        "name": "z"
-      },
-      {
-        "name": "n"
-      },
-      {
-        "args": [
-          {
-            "name": "k1"
-          },
-          {
-            "name": "k2"
-          },
-          {
-            "name": "k3"
-          },
-          {
-            "name": "d",
-            "count": "k1 + k2 * 256 + k3 * 65536"
-          }
-        ],
-        "count": "n"
-      }
-    ]
-  },
-  {
-    "description": "Batch playback NV Audio",
-    "code": "ESC GS s T",
-    "hex": "1b1d7354",
-    "array": [
-      27,
-      29,
-      115,
-      84
-    ],
-    "params": [
-      {
-        "name": "t1"
-      },
-      {
-        "name": "t2"
-      }
-    ]
-  },
-  {
-    "description": "Backspace",
-    "code": "BS",
-    "hex": "08",
-    "array": [
-      8
-    ]
-  },
-  {
-    "description": "Set relative vertical print position",
-    "code": "ESC ( v",
-    "hex": "1b2876",
-    "array": [
-      27,
-      40,
-      118
-    ],
-    "params": [
-      {
-        "name": "nL"
-      },
-      {
-        "name": "nH"
-      }
-    ]
-  },
-  {
-    "description": "Select 1/8-inch line spacing",
-    "code": "ESC 0",
-    "hex": "1b30",
-    "array": [
-      27,
-      48
-    ]
-  },
-  {
-    "description": "Set/reset italic mode",
-    "code": "ESC 4",
-    "hex": "1b34",
-    "array": [
-      27,
-      52
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Selects speed/current mode",
-    "code": "ESC x",
-    "hex": "1b78",
-    "array": [
-      27,
-      120
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Print graphic",
-    "code": "ESC 0xFA",
-    "hex": "1bfa",
-    "array": [
-      27,
-      250
-    ],
-    "params": [
-      {
-        "name": "n"
-      },
-      {
-        "name": "xH"
-      },
-      {
-        "name": "xL"
-      },
-      {
-        "name": "yH"
-      },
-      {
-        "name": "yL"
-      }
-    ]
-  },
-  {
-    "description": "Receive graphic page from communication port",
-    "code": "ESC 0xFD",
-    "hex": "1bfd",
-    "array": [
-      27,
-      253
-    ],
-    "params": [
-      {
-        "name": "nL"
-      },
-      {
-        "name": "nH"
-      }
-    ]
-  },
-  {
-    "description": "Receive the graphic page from the communication port",
-    "code": "ESC 0xFF",
-    "hex": "1bff",
-    "array": [
-      27,
-      255
-    ],
-    "params": [
-      {
-        "name": "n"
-      },
-      {
-        "name": "nL"
-      },
-      {
-        "name": "nH"
-      }
-    ]
-  },
-  {
-    "description": "Select the font type",
-    "code": "FS %",
-    "hex": "1c25",
-    "array": [
-      28,
-      37
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Sets height in printing",
-    "code": "GS Y",
-    "hex": "1d59",
-    "array": [
-      29,
-      89
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Set printing density",
-    "code": "GS |",
-    "hex": "1d7c",
-    "array": [
-      29,
-      124
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Reading of length (cm) of printed paper",
-    "code": "GS 0xE3",
-    "hex": "1de3",
-    "array": [
-      29,
-      227
-    ]
-  },
-  {
-    "description": "Reading number of power up",
-    "code": "GS 0xE5",
-    "hex": "1de5",
-    "array": [
-      29,
-      229
-    ]
-  },
-  {
-    "description": "Set printing speed",
-    "code": "GS 0xF0",
-    "hex": "1df0",
-    "array": [
-      29,
-      240
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Set/cancel cpi mode",
-    "code": "ESC 0xC1",
-    "hex": "1bc1",
-    "array": [
-      27,
-      193
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Control beeper tones",
-    "code": "ESC ( A",
-    "hex": "1b2841",
-    "array": [
-      27,
-      40,
-      65
-    ],
-    "params": [
-      {
-        "name": "pL"
-      },
-      {
-        "name": "pH"
-      },
-      {
-        "name": "fn"
-      },
-      {
-        "when": [
-          {
-            "target": "fn",
-            "equal": 48
-          }
-        ],
-        "args": [
-          {
-            "name": "n"
-          },
-          {
-            "name": "c"
-          },
-          {
-            "name": "t"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "description": "Return home",
-    "code": "ESC <",
-    "hex": "1b3c",
-    "array": [
-      27,
-      60
-    ]
-  },
-  {
-    "description": "Print and reverse feed",
-    "code": "ESC K",
-    "hex": "1b4b",
-    "array": [
-      27,
-      75
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Turn unidirectional print mode on/off",
-    "code": "ESC U",
-    "hex": "1b55",
-    "array": [
-      27,
-      85
-    ],
-    "params": [
-      {
-        "name": "n"
-      }
-    ]
-  },
-  {
-    "description": "Select Kanji character style(s)",
-    "code": "FS ( A",
-    "hex": "1d2841",
-    "array": [
-      28,
-      40,
-      65
-    ],
-    "params": [
-      {
-        "name": "pL"
-      },
-      {
-        "name": "pH"
-      },
-      {
-        "name": "fn"
-      },
-      {
-        "when": [
-          {
-            "target": "fn",
-            "equal": 48
-          }
-        ],
-        "args": [
-          {
-            "name": "m"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "description": "Select label and black mark control function(s)",
-    "code": "FS ( L",
-    "hex": "1c284c",
-    "array": [
-      28,
-      40,
-      76
-    ],
-    "params": [
-      {
-        "name": "pL"
-      },
-      {
-        "name": "pH"
-      },
-      {
-        "name": "fn"
-      },
-      {
-        "when": [
-          {
-            "target": "fn",
-            "equal": 33
-          }
-        ],
-        "args": [
-          {
-            "name": "sm"
-          },
-          {
-            "args": [
-              {
-                "name": "sa",
-                "ascii": true
-              },
-              {
-                "name": "sb",
-                "ascii": true
-              },
-              {
-                "name": "sc",
-                "ascii": true
-              },
-              {
-                "name": "sd",
-                "ascii": true
-              },
-              {
-                "name": "se",
-                "ascii": true
-              },
-              {
-                "name": "sf",
-                "ascii": true
-              }
-            ],
-            "delimiter": {
-              "value": 59,
-              "start": false,
-              "end": true
-            }
-          }
-        ]
-      },
-      {
-        "when": [
-          {
-            "target": "fn",
-            "equal": 34
-          }
-        ],
-        "args": [
-          {
-            "name": "n"
-          }
-        ]
-      },
-      {
-        "when": [
-          {
-            "target": "fn",
-            "equal": 48
-          }
-        ],
-        "args": [
-          {
-            "name": "m"
-          }
-        ]
-      },
-      {
-        "when": [
-          {
-            "target": "fn",
-            "equal": 65
-          }
-        ],
-        "args": [
-          {
-            "name": "m"
-          }
-        ]
-      },
-      {
-        "when": [
-          {
-            "target": "fn",
-            "equal": 66
-          }
-        ],
-        "args": [
-          {
-            "name": "m"
-          }
-        ]
-      },
-      {
-        "when": [
-          {
-            "target": "fn",
-            "equal": 67
-          }
-        ],
-        "args": [
-          {
-            "name": "m"
-          }
-        ]
-      },
-      {
-        "when": [
-          {
-            "target": "fn",
-            "equal": 80
-          }
-        ],
-        "args": [
-          {
-            "name": "sn"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "description": "Cancel user-defined Kanji characters",
-    "code": "FS ?",
-    "hex": "1c3f",
-    "array": [
-      28,
-      63
-    ],
-    "params": [
-      {
-        "name": "c1"
-      },
-      {
-        "name": "c2"
-      }
-    ]
-  },
-  {
-    "description": "Request transmission of response or status",
-    "code": "GS ( H",
-    "hex": "1d2848",
-    "array": [
-      29,
-      40,
       72
     ],
     "params": [
       {
-        "name": "pL"
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Printer ID transmission",
+    "code": "GS I",
+    "hex": "1d49",
+    "array": [
+      29,
+      73
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Set left margin",
+    "code": "GS L",
+    "hex": "1d4c",
+    "array": [
+      29,
+      76
+    ],
+    "params": [
+      {
+        "name": "nL"
       },
       {
-        "name": "pH"
+        "name": "nH"
+      }
+    ]
+  },
+  {
+    "description": "Set horizontal and vertical motion units",
+    "code": "GS P",
+    "hex": "1d50",
+    "array": [
+      29,
+      74
+    ],
+    "params": [
+      {
+        "name": "x"
       },
       {
-        "name": "fn"
-      },
-      {
-        "when": [
-          {
-            "target": "fn",
-            "equal": 48
-          }
-        ],
-        "args": [
-          {
-            "name": "d1"
-          },
-          {
-            "name": "d2"
-          },
-          {
-            "name": "d3"
-          },
-          {
-            "name": "d4"
-          }
-        ]
-      },
-      {
-        "when": [
-          {
-            "target": "fn",
-            "equal": 49
-          }
-        ],
-        "args": [
-          {
-            "name": "m"
-          },
-          {
-            "name": "d"
-          }
-        ]
+        "name": "y"
       }
     ]
   },
@@ -5743,6 +5438,184 @@
       {
         "name": "d",
         "count": "(xL + xH * 256) * (yL + yH * 256)"
+      }
+    ]
+  },
+  {
+    "description": "Set print position to the beginning of print line",
+    "code": "GS T",
+    "hex": "1d54",
+    "array": [
+      29,
+      84
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Select cut mode and cut paper",
+    "code": "GS V",
+    "hex": "1d56",
+    "array": [
+      29,
+      86
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "when": [
+          {
+            "target": "m",
+            "equal": [
+              65,
+              66,
+              67,
+              97,
+              98,
+              103,
+              104
+            ]
+          }
+        ],
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Set print range",
+    "code": "GS W",
+    "hex": "1d57",
+    "array": [
+      29,
+      87
+    ],
+    "params": [
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      }
+    ]
+  },
+  {
+    "description": "Sets height in printing",
+    "code": "GS Y",
+    "hex": "1d59",
+    "array": [
+      29,
+      89
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Select the 2D bar code",
+    "code": "GS Z",
+    "hex": "1d5a",
+    "array": [
+      29,
+      90
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Designate the relative position of vertical characters when printing in the page mode",
+    "code": "GS \\",
+    "hex": "1d5c",
+    "array": [
+      29,
+      92
+    ],
+    "params": [
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      }
+    ]
+  },
+  {
+    "description": "Execute macro",
+    "code": "GS ^",
+    "hex": "1d5e",
+    "array": [
+      29,
+      94
+    ],
+    "params": [
+      {
+        "name": "r"
+      },
+      {
+        "name": "t"
+      },
+      {
+        "name": "m"
+      }
+    ]
+  },
+  {
+    "description": "Enable/disable automatic status transmission",
+    "code": "GS a",
+    "hex": "1d61",
+    "array": [
+      29,
+      97
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Specifying/canceling the smoothing",
+    "code": "GS b",
+    "hex": "1d62",
+    "array": [
+      29,
+      98
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Print counter",
+    "code": "GS c",
+    "hex": "1d63",
+    "array": [
+      29,
+      99
+    ]
+  },
+  {
+    "description": "Select HRI character font",
+    "code": "GS f",
+    "hex": "1d66",
+    "array": [
+      29,
+      102
+    ],
+    "params": [
+      {
+        "name": "n"
       }
     ]
   },
@@ -5789,12 +5662,132 @@
     ]
   },
   {
+    "description": "Set bar code height",
+    "code": "GS h",
+    "hex": "1d68",
+    "array": [
+      29,
+      104
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
     "description": "Enable/disable Automatic Status Back (ASB) for ink",
     "code": "GS j",
     "hex": "1d6a",
     "array": [
       29,
       106
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Print bar code",
+    "code": "GS k",
+    "hex": "1d6b",
+    "array": [
+      29,
+      107
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "when": [
+          {
+            "target": "m",
+            "min": 0,
+            "max": 6
+          }
+        ],
+        "args": [
+          {
+            "name": "d",
+            "until": 0
+          }
+        ]
+      },
+      {
+        "when": [
+          {
+            "target": "m",
+            "min": 65,
+            "max": 73
+          }
+        ],
+        "args": [
+          {
+            "name": "n"
+          },
+          {
+            "name": "d",
+            "count": "n"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "Transmission of status",
+    "code": "GS r",
+    "hex": "1d72",
+    "array": [
+      29,
+      114
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Print raster bit image",
+    "code": "GS v 0",
+    "hex": "1d7630",
+    "array": [
+      29,
+      118,
+      48
+    ],
+    "params": [
+      {
+        "name": "m"
+      },
+      {
+        "name": "xL"
+      },
+      {
+        "name": "xH"
+      },
+      {
+        "name": "yL"
+      },
+      {
+        "name": "yH"
+      },
+      {
+        "name": "d",
+        "count": "(xL + xH * 256) * (yL + yH * 256)"
+      }
+    ]
+  },
+  {
+    "description": "Set bar code horizontal size",
+    "code": "GS w",
+    "hex": "1d77",
+    "array": [
+      29,
+      119
     ],
     "params": [
       {
@@ -5821,135 +5814,142 @@
     ]
   },
   {
-    "description": "Commands for drawing graphics",
-    "code": "GS ( Q",
-    "hex": "1d2851",
+    "description": "Set printing density",
+    "code": "GS |",
+    "hex": "1d7c",
     "array": [
       29,
-      40,
-      81
+      124
     ],
     "params": [
       {
-        "name": "pL"
-      },
-      {
-        "name": "pH"
-      },
-      {
-        "name": "fn"
-      },
-      {
-        "when": {
-          "target": "fn",
-          "equal": 48
-        },
-        "args": [
-          {
-            "args": [
-              {
-                "name": "xL"
-              },
-              {
-                "name": "xH"
-              },
-              {
-                "name": "yL"
-              },
-              {
-                "name": "yH"
-              }
-            ],
-            "count": 2
-          },
-          {
-            "name": "c"
-          },
-          {
-            "name": "m1"
-          },
-          {
-            "name": "m2"
-          }
-        ]
-      },
-      {
-        "when": {
-          "target": "fn",
-          "equal": 49
-        },
-        "args": [
-          {
-            "args": [
-              {
-                "name": "xL"
-              },
-              {
-                "name": "xH"
-              },
-              {
-                "name": "yL"
-              },
-              {
-                "name": "yH"
-              }
-            ],
-            "count": 2
-          },
-          {
-            "name": "c"
-          },
-          {
-            "name": "m1"
-          },
-          {
-            "name": "m2"
-          },
-          {
-            "name": "m3"
-          },
-          {
-            "name": "m4"
-          }
-        ]
+        "name": "n"
       }
     ]
   },
   {
-    "description": "Page mode control",
-    "code": "GS ( P",
-    "hex": "1d2850",
+    "description": "Read the printer status",
+    "code": "GS 0x99",
+    "hex": "1d99",
     "array": [
       29,
-      40,
+      153
+    ]
+  },
+  {
+    "description": "Reading of length (cm) of printed paper",
+    "code": "GS 0xE3",
+    "hex": "1de3",
+    "array": [
+      29,
+      227
+    ]
+  },
+  {
+    "description": "Reading number of power up",
+    "code": "GS 0xE5",
+    "hex": "1de5",
+    "array": [
+      29,
+      229
+    ]
+  },
+  {
+    "description": "Set printing speed",
+    "code": "GS 0xF0",
+    "hex": "1df0",
+    "array": [
+      29,
+      240
+    ],
+    "params": [
+      {
+        "name": "n"
+      }
+    ]
+  },
+  {
+    "description": "Beep the buzzer",
+    "code": "RS",
+    "hex": "1e",
+    "array": [
+      30
+    ]
+  },
+  {
+    "description": "In frame mode data transmission",
+    "code": "US f",
+    "hex": "1f66",
+    "array": [
+      31,
+      102
+    ],
+    "params": [
+      {
+        "name": "id"
+      },
+      {
+        "name": "nL"
+      },
+      {
+        "name": "nH"
+      },
+      {
+        "name": "crc16L"
+      },
+      {
+        "name": "crc16H"
+      },
+      {
+        "name": "d",
+        "count": "nL + nH * 256"
+      }
+    ]
+  },
+  {
+    "description": "Frame status query",
+    "code": "US q",
+    "hex": "1f71",
+    "array": [
+      31,
+      113
+    ],
+    "params": [
+      {
+        "name": "id"
+      }
+    ]
+  },
+  {
+    "description": "Read the Bluetooth password",
+    "code": "US s B r P",
+    "hex": "1f73427250",
+    "array": [
+      31,
+      115,
+      66,
+      114,
+      80
+    ]
+  },
+  {
+    "description": "Setup the Bluetooth password",
+    "code": "US s B s P k",
+    "hex": "1f73427250",
+    "array": [
+      31,
+      115,
+      66,
+      114,
       80
     ],
     "params": [
       {
-        "name": "pL"
+        "name": "k"
       },
       {
-        "name": "pH"
-      },
-      {
-        "name": "fn"
-      }
-    ]
-  },
-  {
-    "description": "Adjust label print starting position",
-    "code": "GS A",
-    "hex": "1d41",
-    "array": [
-      29,
-      65
-    ],
-    "params": [
-      {
-        "name": "m"
-      },
-      {
-        "name": "n"
+        "name": "n",
+        "count": "k"
       }
     ]
   }
