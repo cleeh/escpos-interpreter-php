@@ -17,8 +17,8 @@ interface Ascii
 }
 
 class ControlAscii implements Ascii
-{
-    public static function toAsciiCodeString($code)
+{   
+    public static function toAsciiCodeString($code): string
     {
         $index = is_int($code) ? "decimal" : "hex";
         $asciiCodes = File::readJson('../data/ascii.json');

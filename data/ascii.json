@@ -200,7 +200,7 @@
     {
         "description": "ASCII ␠ print character",
         "decimal": 32,
-        "text": " ",
+        "text": "SP",
         "hex": "20"
     },
     {
@@ -296,61 +296,61 @@
     {
         "description": "ASCII 0 print number",
         "decimal": 48,
-        "text": 0,
+        "text": "0",
         "hex": "30"
     },
     {
         "description": "ASCII 1 print number",
         "decimal": 49,
-        "text": 1,
+        "text": "1",
         "hex": "31"
     },
     {
         "description": "ASCII 2 print number",
         "decimal": 50,
-        "text": 2,
+        "text": "2",
         "hex": "32"
     },
     {
         "description": "ASCII 3 print number",
         "decimal": 51,
-        "text": 3,
+        "text": "3",
         "hex": "33"
     },
     {
         "description": "ASCII 4 print number",
         "decimal": 52,
-        "text": 4,
+        "text": "4",
         "hex": "34"
     },
     {
         "description": "ASCII 5 print number",
         "decimal": 53,
-        "text": 5,
+        "text": "5",
         "hex": "35"
     },
     {
         "description": "ASCII 6 print number",
         "decimal": 54,
-        "text": 6,
+        "text": "6",
         "hex": "36"
     },
     {
         "description": "ASCII 7 print number",
         "decimal": 55,
-        "text": 7,
+        "text": "7",
         "hex": "37"
     },
     {
         "description": "ASCII 8 print number",
         "decimal": 56,
-        "text": 8,
+        "text": "8",
         "hex": "38"
     },
     {
         "description": "ASCII 9 print number",
         "decimal": 57,
-        "text": 9,
+        "text": "9",
         "hex": "39"
     },
     {

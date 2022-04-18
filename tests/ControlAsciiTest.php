@@ -44,7 +44,7 @@ class ControlAsciiTest extends TestCase
       "RS"  => 30,
       "US"  => 31,
       "DEL" => 127,
-      " " => 32,
+      "SP" => 32,
       "!" => 33,
       "\"" => 34,
       "#" => 35,
@@ -139,7 +139,9 @@ class ControlAsciiTest extends TestCase
       "|" => 124,
       "}" => 125,
       "~" => 126,
-      " " => "20",
+    );
+    $testCaseHex = array(
+      "SP" => "20",
       "!" => "21",
       "\"" =>"22",
       "#" => "23",
@@ -235,8 +237,13 @@ class ControlAsciiTest extends TestCase
       "}" => "7D",
       "~" => "7E"
     );
+
     foreach ($testCaseDecimal as $asciiString => $decimal) {
-      $this->assertSame($asciiString, ControlAscii::toAsciiCodeString($decimal));
+      $this->assertSame((string)$asciiString, ControlAscii::toAsciiCodeString($decimal));
+    }
+    
+    foreach ($testCaseHex as $asciiString => $hex) {
+      $this->assertSame((string)$asciiString, ControlAscii::toAsciiCodeString($hex));
     }
   }
 }
