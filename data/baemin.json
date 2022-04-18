@@ -1,18 +1,1242 @@
 [
   {
     "hex": "1B40202020202020202020202020202020EBB0B0EB8BAC20ECA3BCEBACB8ECA084ED919C20202020202020202020202020200A0DECA3BCEBACB8EBB288ED98B8203438354C20202020202020202020202020202020202020202020202020202020200A0DEAB2B0ECA09CEBB0A9EC8B9D20ED9B84EBB688ECB9B4EB939C202020202020202020202020202020202020202020202020200A0D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0A0DEBB0B0EB8BACECA3BCEC868C3A0A0DECB6A9EBB68120ECB2ADECA3BCEC8B9C20ED9DA5EB8D95EAB5AC20EAB080EAB2BDEB8F9920313531302031ED98B8EC8BA40A0DECB6A9EBB68120ECB2ADECA3BCEC8B9C20ED9DA5EB8D95EAB5AC20EAB080EAB2BDEBA19C203134302031ED98B8EC8BA40A0D0A0DEC97B0EB9DBDECB2983A0A0D3031302D383537332D323939310A0DEAB3A0EAB09DECA095EBB3B4EBA5BC20EBB0B0EB8BACEBAAA9ECA08120EC99B820EC82ACEC9AA9ED9598EAB1B0EB829820EBB3B4EAB4802C20EAB3B5EAB09CED95A020EAB2BDEC9AB020EBB295ECA081ECB298EBB28CEC9D8420EBB09BEC9D8420EC889820EC9E88EC8AB5EB8B88EB8BA42E0A0D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0A0DEC9A94ECB2ADEC82ACED95AD3A2020202020202020202020202020202020202020202020202020202020202020200A0DEAB080EAB28C203A2028EC8898ECA080ED8FACED81AC2058290A0DEBB0B0EB8BAC203A20ECA1B0EC8BACED9E8820EC9588ECA084ED9598EAB28C20EC9980ECA3BCEC84B8EC9A94203A290A0D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0A0DEBA994EB89B4EBAA85202020202020202020202020202020202020202020EC8898EB9F8920202020202020EAB888EC95A10A0D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0A0DEB9DBCEB96BCEB8A9420EBA790EC9DB4EC95BC2E204C6174746520697320486F7273657E2E20EB9DBCEB96BCEB8A942831EC9E94290A0D20202020202020202020202020202020202020202020202020202031202020202020202020362C3030300A0DEC9584EC958420EB9DBCECA7802028EC9584EC9DB4EC8AA4EC9584EBA994EBA6ACECB9B4EB85B84C290A0D20202020202020202020202020202020202020202020202020202031202020202020202020362C3230300A0DEBB0B0EB8BACED8C8120202020202020202020202020202020202020202020202020202020202020322C3030300A0D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0A0DED95A9EAB38428ED9B84EBB688ECB9B4EB939C292020202020202020202020202020202020202020202031342C3230300A0D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0A0DECA3BCEBACB8EBB288ED98B83A4231364F30303438354C0A0D323032322E30332E31372030393A313220202020202020202020202020202020202020200A0D200A0D200A0D200A0D200A0D1B69",
-    "string": "\\u001b@               배달 주문전표              \\n\\n주문번호 485L                             \\n\\n결제방식 후불카드                         \\n\\n------------------------------------------\\n\\n배달주소:\\n\\n충북 청주시 흥덕구 가경동 1510 1호실\\n\\n충북 청주시 흥덕구 가경로 140 1호실\\n\\n\\n연락처:\\n\\n010-8573-2991\\n\\n고객정보를 배달목적 외 사용하거나 보관, 공개할 경우 법적처벌을 받을 수 있습니다.\\n\\n------------------------------------------\\n\\n요청사항:                                 \\n\\n가게 : (수저포크 X)\\n\\n배달 : 조심히 안전하게 와주세요 :)\\n\\n------------------------------------------\\n\\n메뉴명                     수량       금액\\n\\n------------------------------------------\\n\\n라떼는 말이야. Latte is Horse~. 라떼는(1잔)\\n\\n                           1         6,000\\n\\n아아 라지 (아이스아메리카노L)\\n\\n                           1         6,200\\n\\n배달팁                               2,000\\n\\n------------------------------------------\\n\\n합계(후불카드)                      14,200\\n\\n------------------------------------------\\n\\n주문번호:B16O00485L\\n\\n2022.03.17 09:12                    \\n\\n \\n\\n \\n\\n \\n\\n \\n\\n\\u001bi"
+    "string": "\\u001b@               배달 주문전표              \\n\\n주문번호 485L                             \\n\\n결제방식 후불카드                         \\n\\n------------------------------------------\\n\\n배달주소:\\n\\n충북 청주시 흥덕구 가경동 1510 1호실\\n\\n충북 청주시 흥덕구 가경로 140 1호실\\n\\n\\n연락처:\\n\\n010-8573-2991\\n\\n고객정보를 배달목적 외 사용하거나 보관, 공개할 경우 법적처벌을 받을 수 있습니다.\\n\\n------------------------------------------\\n\\n요청사항:                                 \\n\\n가게 : (수저포크 X)\\n\\n배달 : 조심히 안전하게 와주세요 :)\\n\\n------------------------------------------\\n\\n메뉴명                     수량       금액\\n\\n------------------------------------------\\n\\n라떼는 말이야. Latte is Horse~. 라떼는(1잔)\\n\\n                           1         6,000\\n\\n아아 라지 (아이스아메리카노L)\\n\\n                           1         6,200\\n\\n배달팁                               2,000\\n\\n------------------------------------------\\n\\n합계(후불카드)                      14,200\\n\\n------------------------------------------\\n\\n주문번호:B16O00485L\\n\\n2022.03.17 09:12                    \\n\\n \\n\\n \\n\\n \\n\\n \\n\\n\\u001bi",
+    "label": [
+      {
+        "type": "command",
+        "hex": "1B40"
+      },
+      {
+        "type": "data",
+        "hex": "202020202020202020202020202020EBB0B0EB8BAC20ECA3BCEBACB8ECA084ED919C2020202020202020202020202020"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "ECA3BCEBACB8EBB288ED98B8203438354C2020202020202020202020202020202020202020202020202020202020"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "EAB2B0ECA09CEBB0A9EC8B9D20ED9B84EBB688ECB9B4EB939C20202020202020202020202020202020202020202020202020"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "EBB0B0EB8BACECA3BCEC868C3A"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "ECB6A9EBB68120ECB2ADECA3BCEC8B9C20ED9DA5EB8D95EAB5AC20EAB080EAB2BDEB8F9920313531302031ED98B8EC8BA4"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "ECB6A9EBB68120ECB2ADECA3BCEC8B9C20ED9DA5EB8D95EAB5AC20EAB080EAB2BDEBA19C203134302031ED98B8EC8BA4"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "EC97B0EB9DBDECB2983A"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "3031302D383537332D32393931"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "EAB3A0EAB09DECA095EBB3B4EBA5BC20EBB0B0EB8BACEBAAA9ECA08120EC99B820EC82ACEC9AA9ED9598EAB1B0EB829820EBB3B4EAB4802C20EAB3B5EAB09CED95A020EAB2BDEC9AB020EBB295ECA081ECB298EBB28CEC9D8420EBB09BEC9D8420EC889820EC9E88EC8AB5EB8B88EB8BA42E"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "EC9A94ECB2ADEC82ACED95AD3A202020202020202020202020202020202020202020202020202020202020202020"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "EAB080EAB28C203A2028EC8898ECA080ED8FACED81AC205829"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "EBB0B0EB8BAC203A20ECA1B0EC8BACED9E8820EC9588ECA084ED9598EAB28C20EC9980ECA3BCEC84B8EC9A94203A29"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "EBA994EB89B4EBAA85202020202020202020202020202020202020202020EC8898EB9F8920202020202020EAB888EC95A1"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "EB9DBCEB96BCEB8A9420EBA790EC9DB4EC95BC2E204C6174746520697320486F7273657E2E20EB9DBCEB96BCEB8A942831EC9E9429"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "20202020202020202020202020202020202020202020202020202031202020202020202020362C303030"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "EC9584EC958420EB9DBCECA7802028EC9584EC9DB4EC8AA4EC9584EBA994EBA6ACECB9B4EB85B84C29"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "20202020202020202020202020202020202020202020202020202031202020202020202020362C323030"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "EBB0B0EB8BACED8C8120202020202020202020202020202020202020202020202020202020202020322C303030"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "ED95A9EAB38428ED9B84EBB688ECB9B4EB939C292020202020202020202020202020202020202020202031342C323030"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "ECA3BCEBACB8EBB288ED98B83A4231364F30303438354C"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "323032322E30332E31372030393A31322020202020202020202020202020202020202020"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "20"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "20"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "20"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "20"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "1B69"
+      }
+    ]
   },
   {
     "hex": "1B4020202020202020202020202020202020EBB0B0EB8BAC20ECA3BCEBACB8EC849C2020202020202020202020202020200A0DECA3BCEBACB8EBB288ED98B8203438354C20202020202020202020202020202020202020202020202020202020200A0DEAB2B0ECA09CEBB0A9EC8B9D20ED9B84EBB688ECB9B4EB939C202020202020202020202020202020202020202020202020200A0D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0A0DEC9A94ECB2ADEC82ACED95AD3A2020202020202020202020202020202020202020202020202020202020202020200A0DEAB080EAB28C203A2028EC8898ECA080ED8FACED81AC2058290A0DEBB0B0EB8BAC203A20ECA1B0EC8BACED9E8820EC9588ECA084ED9598EAB28C20EC9980ECA3BCEC84B8EC9A94203A290A0D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0A0DEB9DBCEB96BCEB8A9420EBA790EC9DB4EC95BC2E204C6174746520697320486F7273657E2E20EB9DBCEB96BCEB8A942831EC9E94290A0D2020202020202020202020202020202020202020202020202020202020202020202020202020202020310A0DEC9584EC958420EB9DBCECA7802028EC9584EC9DB4EC8AA4EC9584EBA994EBA6ACECB9B4EB85B84C290A0D2020202020202020202020202020202020202020202020202020202020202020202020202020202020310A0DEBB0B0EB8BACED8C8120202020202020202020202020202020202020202020202020202020202020322C3030300A0D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0A0DED95A9EAB384202020202020202020202020202020202020202020202020202020202020202031342C3230300A0D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0A0D323032322E30332E31372030393A313220202020202020202020202020202020202020200A0D200A0D200A0D200A0D200A0D1B69",
-    "string": "\\u001b@                배달 주문서               \\n\\n주문번호 485L                             \\n\\n결제방식 후불카드                         \\n\\n------------------------------------------\\n\\n요청사항:                                 \\n\\n가게 : (수저포크 X)\\n\\n배달 : 조심히 안전하게 와주세요 :)\\n\\n------------------------------------------\\n\\n라떼는 말이야. Latte is Horse~. 라떼는(1잔)\\n\\n                                         1\\n\\n아아 라지 (아이스아메리카노L)\\n\\n                                         1\\n\\n배달팁                               2,000\\n\\n------------------------------------------\\n\\n합계                                14,200\\n\\n------------------------------------------\\n\\n2022.03.17 09:12                    \\n\\n \\n\\n \\n\\n \\n\\n \\n\\n\\u001bi"
+    "string": "\\u001b@                배달 주문서               \\n\\n주문번호 485L                             \\n\\n결제방식 후불카드                         \\n\\n------------------------------------------\\n\\n요청사항:                                 \\n\\n가게 : (수저포크 X)\\n\\n배달 : 조심히 안전하게 와주세요 :)\\n\\n------------------------------------------\\n\\n라떼는 말이야. Latte is Horse~. 라떼는(1잔)\\n\\n                                         1\\n\\n아아 라지 (아이스아메리카노L)\\n\\n                                         1\\n\\n배달팁                               2,000\\n\\n------------------------------------------\\n\\n합계                                14,200\\n\\n------------------------------------------\\n\\n2022.03.17 09:12                    \\n\\n \\n\\n \\n\\n \\n\\n \\n\\n\\u001bi",
+    "label": [
+      {
+        "type": "command",
+        "hex": "1B40"
+      },
+      {
+        "type": "data",
+        "hex": "20202020202020202020202020202020EBB0B0EB8BAC20ECA3BCEBACB8EC849C202020202020202020202020202020"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "ECA3BCEBACB8EBB288ED98B8203438354C2020202020202020202020202020202020202020202020202020202020"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "EAB2B0ECA09CEBB0A9EC8B9D20ED9B84EBB688ECB9B4EB939C20202020202020202020202020202020202020202020202020"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "EC9A94ECB2ADEC82ACED95AD3A202020202020202020202020202020202020202020202020202020202020202020"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "EAB080EAB28C203A2028EC8898ECA080ED8FACED81AC205829"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "EBB0B0EB8BAC203A20ECA1B0EC8BACED9E8820EC9588ECA084ED9598EAB28C20EC9980ECA3BCEC84B8EC9A94203A29"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "EB9DBCEB96BCEB8A9420EBA790EC9DB4EC95BC2E204C6174746520697320486F7273657E2E20EB9DBCEB96BCEB8A942831EC9E9429"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "202020202020202020202020202020202020202020202020202020202020202020202020202020202031"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "EC9584EC958420EB9DBCECA7802028EC9584EC9DB4EC8AA4EC9584EBA994EBA6ACECB9B4EB85B84C29"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "202020202020202020202020202020202020202020202020202020202020202020202020202020202031"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "EBB0B0EB8BACED8C8120202020202020202020202020202020202020202020202020202020202020322C303030"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "ED95A9EAB384202020202020202020202020202020202020202020202020202020202020202031342C323030"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "323032322E30332E31372030393A31322020202020202020202020202020202020202020"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "20"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "20"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "20"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "20"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "1B69"
+      }
+    ]
   },
   {
     "hex": "1B40202020202020202020202020202020ED8FACEC9EA520ECA3BCEBACB8ECA084ED919C20202020202020202020202020200A0DECA091EC8898EBB288ED98B8203133302020202020202020202020202020202020202020202020202020202020200A0D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0A0DEC97B0EB9DBDECB2983A0A0D3035302D33373537312D323932320A0DEC9588EC8BACEBB288ED98B8EB8A9420ECA3BCEBACB8ECA091EC889820ED9B8420ECB59CEB8C802032EC8B9CEAB08420EB8F99EC958820EC9CA0ED9AA8ED95A9EB8B88EB8BA42E0A0D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0A0DEC9A94ECB2ADEC82ACED95AD3A2020202020202020202020202020202020202020202020202020202020202020200A0D28EC8898ECA080ED8FACED81AC2058290A0D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0A0DEBA994EB89B4EBAA85202020202020202020202020202020202020202020EC8898EB9F8920202020202020EAB888EC95A10A0D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0A0DEC9584EC958420EB9DBCECA7802028EC9584EC9DB4EC8AA4EC9584EBA994EBA6ACECB9B4EB85B84C290A0D20202020202020202020202020202020202020202020202020202031202020202020202020362C3230300A0DEB9CA8EC958420EB9DBCECA7802028EB9CA8EAB1B0EC9AB4EC9584EBA994EBA6ACECB9B4EB85B84C290A0D20202020202020202020202020202020202020202020202020202031202020202020202020352C3930300A0DEB9CA8EC958420EBAFB8EB9494EC9B802028EB9CA8EAB1B0EC9AB4EC9584EBA994EBA6ACECB9B4EB85B84D290A0D20202020202020202020202020202020202020202020202020202031202020202020202020352C3230300A0D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0A0DED95A9EAB38428EAB2B0ECA09CEC9984EBA38C292020202020202020202020202020202020202020202031372C3330300A0D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0A0DECA3BCEBACB8EBB288ED98B83A4231364D3030394647440A0D323032322E30332E31352031303A353420202020202020202020202020202020202020200A0D200A0D200A0D200A0D200A0D1B69",
-    "string": "\\u001b@               포장 주문전표              \\n\\n접수번호 130                              \\n\\n------------------------------------------\\n\\n연락처:\\n\\n050-37571-2922\\n\\n안심번호는 주문접수 후 최대 2시간 동안 유효합니다.\\n\\n------------------------------------------\\n\\n요청사항:                                 \\n\\n(수저포크 X)\\n\\n------------------------------------------\\n\\n메뉴명                     수량       금액\\n\\n------------------------------------------\\n\\n아아 라지 (아이스아메리카노L)\\n\\n                           1         6,200\\n\\n뜨아 라지 (뜨거운아메리카노L)\\n\\n                           1         5,900\\n\\n뜨아 미디움 (뜨거운아메리카노M)\\n\\n                           1         5,200\\n\\n------------------------------------------\\n\\n합계(결제완료)                      17,300\\n\\n------------------------------------------\\n\\n주문번호:B16M009FGD\\n\\n2022.03.15 10:54                    \\n\\n \\n\\n \\n\\n \\n\\n \\n\\n\\u001bi"
+    "string": "\\u001b@               포장 주문전표              \\n\\n접수번호 130                              \\n\\n------------------------------------------\\n\\n연락처:\\n\\n050-37571-2922\\n\\n안심번호는 주문접수 후 최대 2시간 동안 유효합니다.\\n\\n------------------------------------------\\n\\n요청사항:                                 \\n\\n(수저포크 X)\\n\\n------------------------------------------\\n\\n메뉴명                     수량       금액\\n\\n------------------------------------------\\n\\n아아 라지 (아이스아메리카노L)\\n\\n                           1         6,200\\n\\n뜨아 라지 (뜨거운아메리카노L)\\n\\n                           1         5,900\\n\\n뜨아 미디움 (뜨거운아메리카노M)\\n\\n                           1         5,200\\n\\n------------------------------------------\\n\\n합계(결제완료)                      17,300\\n\\n------------------------------------------\\n\\n주문번호:B16M009FGD\\n\\n2022.03.15 10:54                    \\n\\n \\n\\n \\n\\n \\n\\n \\n\\n\\u001bi",
+    "label": [
+      {
+        "type": "command",
+        "hex": "1B40"
+      },
+      {
+        "type": "data",
+        "hex": "202020202020202020202020202020ED8FACEC9EA520ECA3BCEBACB8ECA084ED919C2020202020202020202020202020"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "ECA091EC8898EBB288ED98B820313330202020202020202020202020202020202020202020202020202020202020"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "EC97B0EB9DBDECB2983A"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "3035302D33373537312D32393232"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "EC9588EC8BACEBB288ED98B8EB8A9420ECA3BCEBACB8ECA091EC889820ED9B8420ECB59CEB8C802032EC8B9CEAB08420EB8F99EC958820EC9CA0ED9AA8ED95A9EB8B88EB8BA42E"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "EC9A94ECB2ADEC82ACED95AD3A202020202020202020202020202020202020202020202020202020202020202020"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "28EC8898ECA080ED8FACED81AC205829"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "EBA994EB89B4EBAA85202020202020202020202020202020202020202020EC8898EB9F8920202020202020EAB888EC95A1"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "EC9584EC958420EB9DBCECA7802028EC9584EC9DB4EC8AA4EC9584EBA994EBA6ACECB9B4EB85B84C29"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "20202020202020202020202020202020202020202020202020202031202020202020202020362C323030"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "EB9CA8EC958420EB9DBCECA7802028EB9CA8EAB1B0EC9AB4EC9584EBA994EBA6ACECB9B4EB85B84C29"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "20202020202020202020202020202020202020202020202020202031202020202020202020352C393030"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "EB9CA8EC958420EBAFB8EB9494EC9B802028EB9CA8EAB1B0EC9AB4EC9584EBA994EBA6ACECB9B4EB85B84D29"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "20202020202020202020202020202020202020202020202020202031202020202020202020352C323030"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "ED95A9EAB38428EAB2B0ECA09CEC9984EBA38C292020202020202020202020202020202020202020202031372C333030"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "ECA3BCEBACB8EBB288ED98B83A4231364D303039464744"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "323032322E30332E31352031303A35342020202020202020202020202020202020202020"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "20"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "20"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "20"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "20"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "1B69"
+      }
+    ]
   },
   {
     "hex": "1B4020202020202020202020202020202020ED8FACEC9EA520ECA3BCEBACB8EC849C2020202020202020202020202020200A0DECA091EC8898EBB288ED98B8203133302020202020202020202020202020202020202020202020202020202020200A0D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0A0DEC9A94ECB2ADEC82ACED95AD3A2020202020202020202020202020202020202020202020202020202020202020200A0D28EC8898ECA080ED8FACED81AC2058290A0D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0A0DEC9584EC958420EB9DBCECA7802028EC9584EC9DB4EC8AA4EC9584EBA994EBA6ACECB9B4EB85B84C290A0D2020202020202020202020202020202020202020202020202020202020202020202020202020202020310A0DEB9CA8EC958420EB9DBCECA7802028EB9CA8EAB1B0EC9AB4EC9584EBA994EBA6ACECB9B4EB85B84C290A0D2020202020202020202020202020202020202020202020202020202020202020202020202020202020310A0DEB9CA8EC958420EBAFB8EB9494EC9B802028EB9CA8EAB1B0EC9AB4EC9584EBA994EBA6ACECB9B4EB85B84D290A0D2020202020202020202020202020202020202020202020202020202020202020202020202020202020310A0D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0A0DED95A9EAB384202020202020202020202020202020202020202020202020202020202020202031372C3330300A0D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0A0D323032322E30332E31352031303A353420202020202020202020202020202020202020200A0D200A0D200A0D200A0D200A0D1B69",
-    "string": "\\u001b@                포장 주문서               \\n\\n접수번호 130                              \\n\\n------------------------------------------\\n\\n요청사항:                                 \\n\\n(수저포크 X)\\n\\n------------------------------------------\\n\\n아아 라지 (아이스아메리카노L)\\n\\n                                         1\\n\\n뜨아 라지 (뜨거운아메리카노L)\\n\\n                                         1\\n\\n뜨아 미디움 (뜨거운아메리카노M)\\n\\n                                         1\\n\\n------------------------------------------\\n\\n합계                                17,300\\n\\n------------------------------------------\\n\\n2022.03.15 10:54                    \\n\\n \\n\\n \\n\\n \\n\\n \\n\\n\\u001bi"
+    "string": "\\u001b@                포장 주문서               \\n\\n접수번호 130                              \\n\\n------------------------------------------\\n\\n요청사항:                                 \\n\\n(수저포크 X)\\n\\n------------------------------------------\\n\\n아아 라지 (아이스아메리카노L)\\n\\n                                         1\\n\\n뜨아 라지 (뜨거운아메리카노L)\\n\\n                                         1\\n\\n뜨아 미디움 (뜨거운아메리카노M)\\n\\n                                         1\\n\\n------------------------------------------\\n\\n합계                                17,300\\n\\n------------------------------------------\\n\\n2022.03.15 10:54                    \\n\\n \\n\\n \\n\\n \\n\\n \\n\\n\\u001bi",
+    "label": [
+      {
+        "type": "command",
+        "hex": "1b40"
+      },
+      {
+        "type": "data",
+        "hex": "20202020202020202020202020202020ED8FACEC9EA520ECA3BCEBACB8EC849C202020202020202020202020202020"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "ECA091EC8898EBB288ED98B820313330202020202020202020202020202020202020202020202020202020202020"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "EC9A94ECB2ADEC82ACED95AD3A202020202020202020202020202020202020202020202020202020202020202020"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "28EC8898ECA080ED8FACED81AC205829"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "EC9584EC958420EB9DBCECA7802028EC9584EC9DB4EC8AA4EC9584EBA994EBA6ACECB9B4EB85B84C29"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "202020202020202020202020202020202020202020202020202020202020202020202020202020202031"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "EB9CA8EC958420EB9DBCECA7802028EB9CA8EAB1B0EC9AB4EC9584EBA994EBA6ACECB9B4EB85B84C29"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "202020202020202020202020202020202020202020202020202020202020202020202020202020202031"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "EB9CA8EC958420EBAFB8EB9494EC9B802028EB9CA8EAB1B0EC9AB4EC9584EBA994EBA6ACECB9B4EB85B84D29"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "202020202020202020202020202020202020202020202020202020202020202020202020202020202031"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "ED95A9EAB384202020202020202020202020202020202020202020202020202020202020202031372C333030"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "323032322E30332E31352031303A35342020202020202020202020202020202020202020"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "20"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "20"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "20"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "20"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "1B69"
+      }
+    ]
   }
 ]
