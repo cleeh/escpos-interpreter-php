@@ -59,7 +59,7 @@ abstract class AbstractData implements DataInterface
   {
     $codeString = '';
     foreach ($this->input as $decimal) {
-      $codeString .= ($decimal >= 0 && $decimal <= 31 || $decimal == 127) ? ControlAscii::toAsciiCodeString($decimal) . ' ' : chr($decimal) . ' ';
+      $codeString .= ControlAscii::toAsciiCodeString($decimal) . ' ';
     }
     return trim($codeString);
 
