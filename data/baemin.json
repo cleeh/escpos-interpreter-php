@@ -1003,7 +1003,7 @@
     "label": [
       {
         "type": "command",
-        "hex": "1b40"
+        "hex": "1B40"
       },
       {
         "type": "data",
@@ -1020,6 +1020,18 @@
       {
         "type": "data",
         "hex": "ECA091EC8898EBB288ED98B820313330202020202020202020202020202020202020202020202020202020202020"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
       },
       {
         "type": "command",
