@@ -1,4 +1,5 @@
 <?php
+
 namespace Command;
 
 include_once 'ControlAscii.php';
@@ -99,10 +100,10 @@ abstract class AbstractCommand implements CommandInterface
   {
     $codeString = '';
     foreach ($this->determinant as $decimal) {
-      $codeString .= ($decimal >= 0 && $decimal <= 31 || $decimal == 127) ? ControlAscii::toAsciiCodeString($decimal) . ' ' : chr($decimal) . ' ';
+      $codeString .= ControlAscii::toAsciiCodeString($decimal) . ' ';
     }
     foreach ($this->params as $decimal) {
-      $codeString .= ($decimal >= 0 && $decimal <= 31 || $decimal == 127) ? ControlAscii::toAsciiCodeString($decimal) . ' ' : chr($decimal) . ' ';
+      $codeString .= ControlAscii::toAsciiCodeString($decimal) . ' ';
     }
     return trim($codeString);
   }
