@@ -45,6 +45,10 @@
       },
       {
         "type": "command",
+        "hex": "1B4D00"
+      },
+      {
+        "type": "command",
         "hex": "1D4200"
       },
       {
@@ -66,6 +70,10 @@
       {
         "type": "command",
         "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B4500"
       },
       {
         "type": "command",
@@ -1003,7 +1011,7 @@
       },
       {
         "type": "command",
-        "hex": "1D4D00"
+        "hex": "1B4D00"
       },
       {
         "type": "command",
@@ -1720,14 +1728,6 @@
       {
         "type": "data",
         "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
-      },
-      {
-        "type": "command",
-        "hex": "0D"
-      },
-      {
-        "type": "command",
-        "hex": "0A"
       },
       {
         "type": "command",
