@@ -1,10 +1,838 @@
 [
   {
     "hex": "1B401B61001B2138636F7570616E672065617473202020201B21005BEAB3A0EAB09DEC9AA95D0D0A1B61001B21002D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0D0A1B61001D2111ECBFA0ED8CA1EC9DB4ECB8A02031202830334246383029200D0A1B21000D0A1D210120202020202020202020202020205BEC8898ECA080ED8FACED81AC4F5D2020202020202020202020202020200D0A1B21001D21011B21001B61002D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0D0AEBA994EB89B42020202020202020202020202020202020202020202020EC8898EB9F892020202020EAB888EC95A10D0A2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0D0A1D2101EC9584EC958420EBAFB8EB9494EC9B802028EC9584EC9DB4EC8AA4EC9584EBA994EBA6ACECB9B42020203120202020352C3530300D0A1B21001D2101EB85B84D292020202020202020202020202020202020202020202020201B21000D0A1B21002B20ED8384EC82B0202020202020202020202020202020202020202020202020312020202020203530300D0A0D0A1D2101EB9CA8EC958420EBAFB8EB9494EC9B802028EB9CA8EAB1B0EC9AB4EC9584EBA994EBA6ACECB9B42020203120202020352C3230300D0A1B21001D2101EB85B84D292020202020202020202020202020202020202020202020201B21000D0A2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E0D0AECA3BCEBACB8EAB888EC95A1202020202020202020202020202020202020202020202020202031312C3230300D0A2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E0D0AECB9B4EB939CEAB2B0ECA09C202020202020202020202020202020202020202020202020202031312C3230300D0A2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0D0A1D2101ECB49DEAB2B0ECA09CEAB888EC95A120202020202020202020202020202020202020202020202031312C3230300D0A1B21002D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0D0AEAB1B0EB9E98EC9DBCEC8B9C3A20323032322D30332D32392031353A35343A353020202020202020202020200D0AECA3BCEBACB8EBA7A4EC9EA53A20ECB9B4ED8E98EC9DB8ECB6A9ECA08420202020202020202020202020202020202020200D0AEAB2B0ECA09CEBB0A9EC8B9D3A20ECBFA0ED8E98EC9DB420EC84A0EAB2B0ECA09C20EC9984EBA38C2020202020202020202020200D0AEC9B90EC82B0ECA78020ECA095EBB3B43A20EC9B90EB919028EBB2A0ED8AB8EB82A8EC82B0292CEC839DEC889820202020202020200D0A1B61010D0A1B2110202020202020ECBFA0ED8CA1EC9DB4ECB8A020EAB3A0EAB09DEC84BCED84B020313637302D39383237202020202020200D0A1B21000D0A1B61000D0A0D0A0D0A0D0A1B69",
-    "string": "\\u001b@\\u001ba \\u001b!8coupang eats    \\u001b! [고객용]\\n\\u001ba \\u001b! ----------------------------------------\\n\\u001ba \\u001d!\\u0011쿠팡이츠 1 (03BF80) \\n\\u001b! \\n\\u001d!\\u0001              [수저포크O]               \\n\\u001b! \\u001d!\\u0001\\u001b! \\u001ba ----------------------------------------\\n메뉴                       수량     금액\\n----------------------------------------\\n\\u001d!\\u0001아아 미디움 (아이스아메리카   1    5,500\\n\\u001b! \\u001d!\\u0001노M)                        \\u001b! \\n\\u001b! + 탄산                        1      500\\n\\n\\u001d!\\u0001뜨아 미디움 (뜨거운아메리카   1    5,200\\n\\u001b! \\u001d!\\u0001노M)                        \\u001b! \\n........................................\\n주문금액                          11,200\\n........................................\\n카드결제                          11,200\\n----------------------------------------\\n\\u001d!\\u0001총결제금액                        11,200\\n\\u001b! ----------------------------------------\\n거래일시: 2022-03-29 15:54:50           \\n주문매장: 카페인충전                    \\n결제방식: 쿠페이 선결제 완료            \\n원산지 정보: 원두(베트남산),생수        \\n\\u001ba\\u0001\\n\\u001b!\\u0010      쿠팡이츠 고객센터 1670-9827       \\n\\u001b! \\n\\u001ba \\n\\n\\n\\n\\u001bi"
+    "string": "\\u001b@\\u001ba \\u001b!8coupang eats    \\u001b! [고객용]\\n\\u001ba \\u001b! ----------------------------------------\\n\\u001ba \\u001d!\\u0011쿠팡이츠 1 (03BF80) \\n\\u001b! \\n\\u001d!\\u0001              [수저포크O]               \\n\\u001b! \\u001d!\\u0001\\u001b! \\u001ba ----------------------------------------\\n메뉴                       수량     금액\\n----------------------------------------\\n\\u001d!\\u0001아아 미디움 (아이스아메리카   1    5,500\\n\\u001b! \\u001d!\\u0001노M)                        \\u001b! \\n\\u001b! + 탄산                        1      500\\n\\n\\u001d!\\u0001뜨아 미디움 (뜨거운아메리카   1    5,200\\n\\u001b! \\u001d!\\u0001노M)                        \\u001b! \\n........................................\\n주문금액                          11,200\\n........................................\\n카드결제                          11,200\\n----------------------------------------\\n\\u001d!\\u0001총결제금액                        11,200\\n\\u001b! ----------------------------------------\\n거래일시: 2022-03-29 15:54:50           \\n주문매장: 카페인충전                    \\n결제방식: 쿠페이 선결제 완료            \\n원산지 정보: 원두(베트남산),생수        \\n\\u001ba\\u0001\\n\\u001b!\\u0010      쿠팡이츠 고객센터 1670-9827       \\n\\u001b! \\n\\u001ba \\n\\n\\n\\n\\u001bi",
+    "label": [
+      {
+        "type": "command",
+        "hex": "1B40"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B2138"
+      },
+      {
+        "type": "data",
+        "hex": "636F7570616E67206561747320202020"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "data",
+        "hex": "5BEAB3A0EAB09DEC9AA95D"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1D2111"
+      },
+      {
+        "type": "data",
+        "hex": "ECBFA0ED5CA1EC6DB4ECB5A0203120283033424638302920"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1D2101"
+      },
+      {
+        "type": "data",
+        "hex": "20202020202020202020202020205BEC8898ECA080ED8FACED81AC4F5D202020202020202020202020202020"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1D2101"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "data",
+        "hex": "EBA994EB89B42020202020202020202020202020202020202020202020EC8898EB9F892020202020EAB888EC95A1"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1D2101"
+      },
+      {
+        "type": "data",
+        "hex": "EC9584EC958420EBAFB8EB9494EC9B802028EC9584EC9DB4EC8AA4EC9584EBA994EBA6ACECB9B4202020312020202035EC353030"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1D2101"
+      },
+      {
+        "type": "data",
+        "hex": "EB85B84D29202020202020202020202020202020202020202020202020"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "data",
+        "hex": "2B20ED8384EC82B020202020202020202020202020202020202020202020202031202020202020353030"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1D2101"
+      },
+      {
+        "type": "data",
+        "hex": "EB9CA8EC958420EBAFB8EB9494EC9B802028EB9CA8EAB1B0EC9AB4EC9584EBA994EBA6ACECB9B42020203120202020352C323030"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1D2101"
+      },
+      {
+        "type": "data",
+        "hex": "EB85B84D29202020202020202020202020202020202020202020202020"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "data",
+        "hex": "2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "data",
+        "hex": "ECA3BCEBACB8EAB888EC95A1202020202020202020202020202020202020202020202020202031312C323030"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "data",
+        "hex": "2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "data",
+        "hex": "ECB9B4EB939CEAB2B0ECA09C202020202020202020202020202020202020202020202020202031312C323030"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1D2101"
+      },
+      {
+        "type": "data",
+        "hex": "ECB49DEAB2B0ECA09CEAB888EC95A120202020202020202020202020202020202020202020202031312C323030"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "data",
+        "hex": "EAB1B0EB9E98EC9DBCEC8B9C3A20323032322D30332D32392031353A35343A35302020202020202020202020"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "data",
+        "hex": "ECA3BCEBACB8EBA7A4EC9EA53A20ECB9B4ED8E98EC9DB8ECB6A9ECA0842020202020202020202020202020202020202020"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "data",
+        "hex": "EAB2B0ECA09CEBB0A9EC8B9D3A20ECBFA0ED8E98EC9DB420EC84A0EAB2B0ECA09C20EC9984EBA38C202020202020202020202020"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "data",
+        "hex": "EC9B90EC82B0ECA78020ECA095EBB3B43A20EC9B90EB919028EBB2A0ED8AB8EB82A8EC82B0292CEC839DEC88982020202020202020"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B6101"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B2110"
+      },
+      {
+        "type": "data",
+        "hex": "202020202020ECBFA0ED8CA1EC9DB4ECB8A020EAB3A0EAB09DEC84BCED84B020313637302D3938323720202020202020"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B69"
+      }
+    ]
   },
   {
     "hex": "1B401B61001B2138636F7570616E672065617473202020201B21005BEBA7A4EC9EA5EC9AA95D0D0A1B61001B21002D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0D0A1B61001D2111ECBFA0ED8CA1EC9DB4ECB8A02031202830334246383029200D0A1B21000D0A1D210120202020202020202020202020205BEC8898ECA080ED8FACED81AC4F5D2020202020202020202020202020200D0A1B21001D21011B21001B61002D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0D0AEBA994EB89B42020202020202020202020202020202020202020202020EC8898EB9F892020202020EAB888EC95A10D0A2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0D0A1D2101EC9584EC958420EBAFB8EB9494EC9B802028EC9584EC9DB4EC8AA4EC9584EBA994EBA6ACECB9B42020203120202020352C3530300D0A1B21001D2101EB85B84D292020202020202020202020202020202020202020202020201B21000D0A1B21002B20ED8384EC82B0202020202020202020202020202020202020202020202020312020202020203530300D0A0D0A1D2101EB9CA8EC958420EBAFB8EB9494EC9B802028EB9CA8EAB1B0EC9AB4EC9584EBA994EBA6ACECB9B42020203120202020352C3230300D0A1B21001D2101EB85B84D292020202020202020202020202020202020202020202020201B21000D0A2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0D0A1D2101ECA3BCEBACB8EAB888EC95A1202020202020202020202020202020202020202020202020202031312C3230300D0A1B21002D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D0D0AEAB1B0EB9E98EC9DBCEC8B9C3A20323032322D30332D32392031353A35343A353020202020202020202020200D0A1B61000D0A0D0A0D0A0D0A1B69",
-    "string": "\\u001b@\\u001ba \\u001b!8coupang eats    \\u001b! [매장용]\\n\\u001ba \\u001b! ----------------------------------------\\n\\u001ba \\u001d!\\u0011쿠팡이츠 1 (03BF80) \\n\\u001b! \\n\\u001d!\\u0001              [수저포크O]               \\n\\u001b! \\u001d!\\u0001\\u001b! \\u001ba ----------------------------------------\\n메뉴                       수량     금액\\n----------------------------------------\\n\\u001d!\\u0001아아 미디움 (아이스아메리카   1    5,500\\n\\u001b! \\u001d!\\u0001노M)                        \\u001b! \\n\\u001b! + 탄산                        1      500\\n\\n\\u001d!\\u0001뜨아 미디움 (뜨거운아메리카   1    5,200\\n\\u001b! \\u001d!\\u0001노M)                        \\u001b! \\n----------------------------------------\\n\\u001d!\\u0001주문금액                          11,200\\n\\u001b! ----------------------------------------\\n거래일시: 2022-03-29 15:54:50           \\n\\u001ba \\n\\n\\n\\n\\u001bi"
+    "string": "\\u001b@\\u001ba \\u001b!8coupang eats    \\u001b! [매장용]\\n\\u001ba \\u001b! ----------------------------------------\\n\\u001ba \\u001d!\\u0011쿠팡이츠 1 (03BF80) \\n\\u001b! \\n\\u001d!\\u0001              [수저포크O]               \\n\\u001b! \\u001d!\\u0001\\u001b! \\u001ba ----------------------------------------\\n메뉴                       수량     금액\\n----------------------------------------\\n\\u001d!\\u0001아아 미디움 (아이스아메리카   1    5,500\\n\\u001b! \\u001d!\\u0001노M)                        \\u001b! \\n\\u001b! + 탄산                        1      500\\n\\n\\u001d!\\u0001뜨아 미디움 (뜨거운아메리카   1    5,200\\n\\u001b! \\u001d!\\u0001노M)                        \\u001b! \\n----------------------------------------\\n\\u001d!\\u0001주문금액                          11,200\\n\\u001b! ----------------------------------------\\n거래일시: 2022-03-29 15:54:50           \\n\\u001ba \\n\\n\\n\\n\\u001bi",
+    "label": [
+      {
+        "type": "command",
+        "hex": "1B40"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B2138"
+      },
+      {
+        "type": "data",
+        "hex": "636F7570616E67206561747320202020"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "data",
+        "hex": "5BEBA7A4EC9EA5EC9AA95D"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "1D2111"
+      },
+      {
+        "type": "data",
+        "hex": "ECBFA0ED8CA1EC9DB4ECB8A0203120283033424638302920"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1D2101"
+      },
+      {
+        "type": "data",
+        "hex": "20202020202020202020202020205BEC8898ECA080ED8FACED81AC4F5D202020202020202020202020202020"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1D2101"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "data",
+        "hex": "EBA994EB89B42020202020202020202020202020202020202020202020EC8898EB9F892020202020EAB888EC95A1"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1D2101"
+      },
+      {
+        "type": "data",
+        "hex": "EC9584EC958420EBAFB8EB9494EC9B802028EC9584EC9DB4EC8AA4EC9584EBA994EBA6ACECB9B42020203120202020352C353030"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1D2101"
+      },
+      {
+        "type": "data",
+        "hex": "EB85B84D29202020202020202020202020202020202020202020202020"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "data",
+        "hex": "2B20ED8384EC82B020202020202020202020202020202020202020202020202031202020202020353030"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1D2101"
+      },
+      {
+        "type": "data",
+        "hex": "EB9CA8EC958420EBAFB8EB9494EC9B802028EB9CA8EAB1B0EC9AB4EC9584EBA994EBA6ACECB9B42020203120202020352C323030"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "command",
+        "hex": "1D2101"
+      },
+      {
+        "type": "data",
+        "hex": "EB85B84D292020202020202020202020202020202020202020202020201B2100"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1D2101"
+      },
+      {
+        "type": "data",
+        "hex": "ECA3BCEBACB8EAB888EC95A1202020202020202020202020202020202020202020202020202031312C323030"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B2100"
+      },
+      {
+        "type": "data",
+        "hex": "2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "data",
+        "hex": "EAB1B0EB9E98EC9DBCEC8B9C3A20323032322D30332D32392031353A35343A35302020202020202020202020"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B6100"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "0D"
+      },
+      {
+        "type": "command",
+        "hex": "0A"
+      },
+      {
+        "type": "command",
+        "hex": "1B69"
+      }
+    ]
   }
 ]
