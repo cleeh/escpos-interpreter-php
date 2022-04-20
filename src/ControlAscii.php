@@ -22,7 +22,7 @@ class ControlAscii implements Ascii
     {
         $index = is_int($code) ? "decimal" : "hex";
         $asciiCodes = File::readJson('../data/ascii.json');
-        foreach ($asciiCodes as $key => $value) {
+        foreach ($asciiCodes as $value) {
             if ($value[$index] == $code) {
                 return $value['text'];
             }
