@@ -17,6 +17,11 @@ class CommandTest extends TestCase
     $this->stringDeterminant = '!';
     $this->stringParams = '0';
 
+    $this->hexArrayDeterminant = ['1b', '21'];
+    $this->hexArrayParams = ['30'];
+    $this->hexStringDeterminant = '1b21';
+    $this->hexStringParams = '30';
+
     $this->arrayData = [27, 33, 48];
     $this->stringData = '!0';
     $this->codeString = 'ESC ! 0';
@@ -40,6 +45,22 @@ class CommandTest extends TestCase
     $command = new Command($this->arrayDeterminant, $this->arrayParams);
     $this->assertSame($this->arrayDeterminant, $command->getDeterminant(), '<determinant> of command initialized with <array determinant & array params> is different from the expected value');
     $this->assertSame($this->arrayParams, $command->getParams(), '<params> of command initialized with <array determinant & array params> is different from the expected value');
+
+    $command = new Command($this->hexStringDeterminant, $this->hexStringParams, true);
+    $this->assertSame($this->arrayDeterminant, $command->getDeterminant(), '<determinant> of command initialized with <hex string determinant & hex string params> is different from the expected value');
+    $this->assertSame($this->arrayParams, $command->getParams(), '<params> of command initialized with <hex string determinant & hex string params> is different from the expected value');
+    
+    $command = new Command($this->hexStringDeterminant, $this->hexArrayParams, true);
+    $this->assertSame($this->arrayDeterminant, $command->getDeterminant(), '<determinant> of command initialized with <hex string determinant & hex array params> is different from the expected value');
+    $this->assertSame($this->arrayParams, $command->getParams(), '<params> of command initialized with <hex string determinant & hex array params> is different from the expected value');
+
+    $command = new Command($this->hexArrayDeterminant, $this->hexStringParams, true);
+    $this->assertSame($this->arrayDeterminant, $command->getDeterminant(), '<determinant> of command initialized with <hex array determinant & hex string params> is different from the expected value');
+    $this->assertSame($this->arrayParams, $command->getParams(), '<params> of command initialized with <hex array determinant & hex string params> is different from the expected value');
+
+    $command = new Command($this->hexArrayDeterminant, $this->hexArrayParams, true);
+    $this->assertSame($this->arrayDeterminant, $command->getDeterminant(), '<determinant> of command initialized with <hex array determinant & hex array params> is different from the expected value');
+    $this->assertSame($this->arrayParams, $command->getParams(), '<params> of command initialized with <hex array determinant & hex array params> is different from the expected value');
   }
 
   public function testGetDeterminant()

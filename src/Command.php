@@ -4,7 +4,6 @@ namespace Command;
 
 include_once 'ControlAscii.php';
 
-use Error;
 use TypeError;
 use Ascii\ControlAscii;
 
@@ -26,22 +25,30 @@ abstract class AbstractCommand implements CommandInterface
   protected $determinant = [];
   protected $params = [];
 
-  public function __construct($determinant, $params)
+  public function __construct($determinant, $params, $isHex = false)
   {
     $determinantType = gettype($determinant);
     if ($determinantType == 'string') {
-      $this->determinant = array_values(unpack('C*', $determinant));
+      $this->determinant = $isHex ? array_map(function ($hex) {
+        return hexdec($hex);
+      }, str_split($determinant, 2)) : array_values(unpack('C*', $determinant));
     } else if ($determinantType == 'array') {
-      $this->determinant = $determinant;
+      $this->determinant = $isHex ? array_map(function ($hex) {
+        return hexdec($hex);
+      }, $determinant) : $determinant;
     } else {
       throw new TypeError('Command determinant should be initialized with array<int> or string type data.');
     }
 
     $paramsType = gettype($params);
     if ($paramsType == 'string') {
-      $this->params = array_values(unpack('C*', $params));
+      $this->params = $isHex ? array_map(function ($hex) {
+        return hexdec($hex);
+      }, str_split($params, 2)) : array_values(unpack('C*', $params));
     } else if ($paramsType == 'array') {
-      $this->params = $params;
+      $this->params = $isHex ? array_map(function ($hex) {
+        return hexdec($hex);
+      }, $params) : $params;
     } else {
       throw new TypeError('Command params should be initialized with array<int> or string type data.');
     }

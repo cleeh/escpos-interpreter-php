@@ -20,13 +20,17 @@ abstract class AbstractData implements DataInterface
 {
   protected $input;
 
-  public function __construct($input)
+  public function __construct($input, $isHex = false)
   {
     $inputType = gettype($input);
     if ($inputType == 'string') {
-      $this->input = array_values(unpack('C*', $input));
+      $this->input = $isHex ? array_map(function ($hex) {
+        return hexdec($hex);
+      }, str_split($input, 2)) : array_values(unpack('C*', $input));
     } else if ($inputType == 'array') {
-      $this->input = $input;
+      $this->input = $isHex ? array_map(function ($hex) {
+        return hexdec($hex);
+      }, $input) : $input;
     } else {
       throw new TypeError('Data input should be initialized with array<int> or string type data.');
     }
