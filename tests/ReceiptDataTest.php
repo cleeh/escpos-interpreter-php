@@ -15,6 +15,7 @@ class ReceiptDataTest extends TestCase
         $concatenated .= $label['hex'];
         $this->assertTrue($label['type'] == 'command' || $label['type'] == 'data', 'label type should be `command` or `data`');
       }
+      $this->assertTrue((bool)preg_match("/^[a-zA-Z0-9]*$/", $baemin['hex']), 'hex should consists of [a-zA-Z0-9] values');
       $this->assertSame(strtoupper($baemin['hex']), strtoupper($concatenated), 'labeled wrong hex');
     }
   }
@@ -28,6 +29,7 @@ class ReceiptDataTest extends TestCase
         $concatenated .= $label['hex'];
         $this->assertTrue($label['type'] == 'command' || $label['type'] == 'data', 'label type should be `command` or `data`');
       }
+      $this->assertTrue((bool)preg_match("/^[a-zA-Z0-9]*$/", $yogiyo['hex']), 'hex should consists of [a-zA-Z0-9] values');
       $this->assertSame(strtoupper($yogiyo['hex']), strtoupper($concatenated), 'labeled wrong hex');
     }
   }
@@ -41,6 +43,7 @@ class ReceiptDataTest extends TestCase
         $concatenated .= $label['hex'];
         $this->assertTrue($label['type'] == 'command' || $label['type'] == 'data', 'label type should be `command` or `data`');
       }
+      $this->assertTrue((bool)preg_match("/^[a-zA-Z0-9]*$/", $coupang['hex']), 'hex should consists of [a-zA-Z0-9] values');
       $this->assertSame(strtoupper($coupang['hex']), strtoupper($concatenated), 'labeled wrong hex');
     }
   }
