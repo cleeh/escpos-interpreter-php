@@ -4,7 +4,6 @@ namespace Data;
 
 include_once '../src/ControlAscii.php';
 
-use Error;
 use TypeError;
 use Ascii\ControlAscii;
 
@@ -66,8 +65,6 @@ abstract class AbstractData implements DataInterface
       $codeString .= ControlAscii::toAsciiCodeString($decimal) . ' ';
     }
     return trim($codeString);
-
-    throw new Error('Not implemented');
   }
 }
 
