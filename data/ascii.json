@@ -1,0 +1,770 @@
+[
+    {
+        "description": "ASCII null control character",
+        "decimal": 0,
+        "text": "NUL",
+        "hex": "00"
+    },
+    {
+        "description": "ASCII start header control character",
+        "decimal": 1,
+        "text": "SOH",
+        "hex": "01"
+    },
+    {
+        "description": "ASCII start Text control character",
+        "decimal": 2,
+        "text": "STX",
+        "hex": "02"
+    },
+    {
+        "description": "ASCII end Text control character",
+        "decimal": 3,
+        "text": "ETX",
+        "hex": "03"
+    },
+    {
+        "description": "ASCII end transmission control character",
+        "decimal": 4,
+        "text": "EOT",
+        "hex": "04"
+    },
+    {
+        "description": "ASCII Enquiry control character",
+        "decimal": 5,
+        "text": "ENQ",
+        "hex": "05"
+    },
+    {
+        "description": "ASCII Acknowledgment control character",
+        "decimal": 6,
+        "text": "ACK",
+        "hex": "06"
+    },
+    {
+        "description": "ASCII Bell control character",
+        "decimal": 7,
+        "text": "BEL",
+        "hex": "07"
+    },
+    {
+        "description": "ASCII Backspace control character",
+        "decimal": 8,
+        "text": "BS",
+        "hex": "08"
+    },
+    {
+        "description": "ASCII Horizontal Tab control character",
+        "decimal": 9,
+        "text": "HT",
+        "hex": "09"
+    },
+    {
+        "description": "ASCII Line feed Tab control character",
+        "decimal": 10,
+        "text": "LF",
+        "hex": "0A"
+    },
+    {
+        "description": "ASCII Vertical Tab control character",
+        "decimal": 11,
+        "text": "VT",
+        "hex": "0B"
+    },
+    {
+        "description": "ASCII Form feed control character",
+        "decimal": 12,
+        "text": "FF",
+        "hex": "0C"
+    },
+    {
+        "description": "ASCII Carriage return control character",
+        "decimal": 13,
+        "text": "CR",
+        "hex": "0D"
+    },
+    {
+        "description": "ASCII Shift Out control character",
+        "decimal": 14,
+        "text": "SO",
+        "hex": "0E"
+    },
+    {
+        "description": "ASCII Shift In control character",
+        "decimal": 15,
+        "text": "SI",
+        "hex": "0F"
+    },
+    {
+        "description": "ASCII Data Link Escape control character",
+        "decimal": 16,
+        "text": "DLE",
+        "hex": "10"
+    },
+    {
+        "description": "ASCII Device Control 1 control character",
+        "decimal": 17,
+        "text": "DC1",
+        "hex": "11"
+    },
+    {
+        "description": "ASCII Device Control 2 control character",
+        "decimal": 18,
+        "text": "DC2",
+        "hex": "12"
+    },
+    {
+        "description": "ASCII Device Control 3 control character",
+        "decimal": 19,
+        "text": "DC3",
+        "hex": "13"
+    },
+    {
+        "description": "ASCII Device Control 4 control character",
+        "decimal": 20,
+        "text": "DC4",
+        "hex": "14"
+    },
+    {
+        "description": "ASCII Negative Acknowledgement control character",
+        "decimal": 21,
+        "text": "NAK",
+        "hex": "15"
+    },
+    {
+        "description": "ASCII Synchronous idle control character",
+        "decimal": 22,
+        "text": "SYN",
+        "hex": "16"
+    },
+    {
+        "description": "ASCII End of Transmission Block control character",
+        "decimal": 23,
+        "text": "ETB",
+        "hex": "17"
+    },
+    {
+        "description": "ASCII Cancel control character",
+        "decimal": 24,
+        "text": "CAN",
+        "hex": "18"
+    },
+    {
+        "description": "ASCII End of Medium control character",
+        "decimal": 25,
+        "text": "EM",
+        "hex": "19"
+    },
+    {
+        "description": "ASCII Substitute control character",
+        "decimal": 26,
+        "text": "SUB",
+        "hex": "1A"
+    },
+    {
+        "description": "ASCII Escape control character",
+        "decimal": 27,
+        "text": "ESC",
+        "hex": "1B"
+    },
+    {
+        "description": "ASCII File Separator control character",
+        "decimal": 28,
+        "text": "FS",
+        "hex": "1C"
+    },
+    {
+        "description": "ASCII Group Separator control character",
+        "decimal": 29,
+        "text": "GS",
+        "hex": "1D"
+    },
+    {
+        "description": "ASCII Record Separator control character",
+        "decimal": 30,
+        "text": "RS",
+        "hex": "1E"
+    },
+    {
+        "description": "ASCII Unit Separator control character",
+        "decimal": 31,
+        "text": "US",
+        "hex": "1F"
+    },
+    {
+        "description": "ASCII DEL control character",
+        "decimal": 127,
+        "text": "DEL",
+        "hex": "7F"
+    },
+    {
+        "description": "ASCII ␠ print character",
+        "decimal": 32,
+        "text": "SP",
+        "hex": "20"
+    },
+    {
+        "description": "ASCII ! print character",
+        "decimal": 33,
+        "text": "!",
+        "hex": "21"
+    },
+    {
+        "description": "ASCII \" print character",
+        "decimal": 34,
+        "text": "\"",
+        "hex": "22"
+    },
+    {
+        "description": "ASCII # print character",
+        "decimal": 35,
+        "text": "#",
+        "hex": "23"
+    },
+    {
+        "description": "ASCII $ print character",
+        "decimal": 36,
+        "text": "$",
+        "hex": "24"
+    },
+    {
+        "description": "ASCII % print character",
+        "decimal": 37,
+        "text": "%",
+        "hex": "25"
+    },
+    {
+        "description": "ASCII & print character",
+        "decimal": 38,
+        "text": "&",
+        "hex": "26"
+    },
+    {
+        "description": "ASCII ' print character",
+        "decimal": 39,
+        "text": "'",
+        "hex": "27"
+    },
+    {
+        "description": "ASCII ( print character",
+        "decimal": 40,
+        "text": "(",
+        "hex": "28"
+    },
+    {
+        "description": "ASCII ) print character",
+        "decimal": 41,
+        "text": ")",
+        "hex": "29"
+    },
+    {
+        "description": "ASCII * print character",
+        "decimal": 42,
+        "text": "*",
+        "hex": "2A"
+    },
+    {
+        "description": "ASCII + print character",
+        "decimal": 43,
+        "text": "+",
+        "hex": "2B"
+    },
+    {
+        "description": "ASCII , print character",
+        "decimal": 44,
+        "text": ",",
+        "hex": "2C"
+    },
+    {
+        "description": "ASCII - print character",
+        "decimal": 45,
+        "text": "-",
+        "hex": "2D"
+    },
+    {
+        "description": "ASCII . print character",
+        "decimal": 46,
+        "text": ".",
+        "hex": "2E"
+    },
+    {
+        "description": "ASCII / print character",
+        "decimal": 47,
+        "text": "/",
+        "hex": "2F"
+    },
+    {
+        "description": "ASCII 0 print number",
+        "decimal": 48,
+        "text": "0",
+        "hex": "30"
+    },
+    {
+        "description": "ASCII 1 print number",
+        "decimal": 49,
+        "text": "1",
+        "hex": "31"
+    },
+    {
+        "description": "ASCII 2 print number",
+        "decimal": 50,
+        "text": "2",
+        "hex": "32"
+    },
+    {
+        "description": "ASCII 3 print number",
+        "decimal": 51,
+        "text": "3",
+        "hex": "33"
+    },
+    {
+        "description": "ASCII 4 print number",
+        "decimal": 52,
+        "text": "4",
+        "hex": "34"
+    },
+    {
+        "description": "ASCII 5 print number",
+        "decimal": 53,
+        "text": "5",
+        "hex": "35"
+    },
+    {
+        "description": "ASCII 6 print number",
+        "decimal": 54,
+        "text": "6",
+        "hex": "36"
+    },
+    {
+        "description": "ASCII 7 print number",
+        "decimal": 55,
+        "text": "7",
+        "hex": "37"
+    },
+    {
+        "description": "ASCII 8 print number",
+        "decimal": 56,
+        "text": "8",
+        "hex": "38"
+    },
+    {
+        "description": "ASCII 9 print number",
+        "decimal": 57,
+        "text": "9",
+        "hex": "39"
+    },
+    {
+        "description": "ASCII : print character",
+        "decimal": 58,
+        "text": ":",
+        "hex": "3A"
+    },
+    {
+        "description": "ASCII ; print character",
+        "decimal": 59,
+        "text": ";",
+        "hex": "3B"
+    },
+    {
+        "description": "ASCII < print character",
+        "decimal": 60,
+        "text": "<",
+        "hex": "3C"
+    },
+    {
+        "description": "ASCII = print character",
+        "decimal": 61,
+        "text": "=",
+        "hex": "3D"
+    },
+    {
+        "description": "ASCII > print character",
+        "decimal": 62,
+        "text": ">",
+        "hex": "3E"
+    },
+    {
+        "description": "ASCII ? print character",
+        "decimal": 63,
+        "text": "?",
+        "hex": "3F"
+    },
+    {
+        "description": "ASCII @ print character",
+        "decimal": 64,
+        "text": "@",
+        "hex": "40"
+    },
+    {
+        "description": "ASCII A print character",
+        "decimal": 65,
+        "text": "A",
+        "hex": "41"
+    },
+    {
+        "description": "ASCII B print number",
+        "decimal": 66,
+        "text": "B",
+        "hex": "42"
+    },
+    {
+        "description": "ASCII C print number",
+        "decimal": 67,
+        "text": "C",
+        "hex": "43"
+    },
+    {
+        "description": "ASCII D print number",
+        "decimal": 68,
+        "text": "D",
+        "hex": "44"
+    },
+    {
+        "description": "ASCII E print character",
+        "decimal": 69,
+        "text": "E",
+        "hex": "45"
+    },
+    {
+        "description": "ASCII F print character",
+        "decimal": 70,
+        "text": "F",
+        "hex": "46"
+    },
+    {
+        "description": "ASCII G print character",
+        "decimal": 71,
+        "text": "G",
+        "hex": "47"
+    },
+    {
+        "description": "ASCII H print character",
+        "decimal": 72,
+        "text": "H",
+        "hex": "48"
+    },
+    {
+        "description": "ASCII I print character",
+        "decimal": 73,
+        "text": "I",
+        "hex": "49"
+    },
+    {
+        "description": "ASCII J print character",
+        "decimal": 74,
+        "text": "J",
+        "hex": "4A"
+    },
+    {
+        "description": "ASCII K print character",
+        "decimal": 75,
+        "text": "K",
+        "hex": "4B"
+    },
+    {
+        "description": "ASCII L print character",
+        "decimal": 76,
+        "text": "L",
+        "hex": "4C"
+    },
+    {
+        "description": "ASCII M print character",
+        "decimal": 77,
+        "text": "M",
+        "hex": "4D"
+    },
+    {
+        "description": "ASCII N print character",
+        "decimal": 78,
+        "text": "N",
+        "hex": "4E"
+    },
+    {
+        "description": "ASCII O print character",
+        "decimal": 79,
+        "text": "O",
+        "hex": "4F"
+    },
+    {
+        "description": "ASCII P print character",
+        "decimal": 80,
+        "text": "P",
+        "hex": "50"
+    },
+    {
+        "description": "ASCII Q print character",
+        "decimal": 81,
+        "text": "Q",
+        "hex": "51"
+    },
+    {
+        "description": "ASCII R print character",
+        "decimal": 82,
+        "text": "R",
+        "hex": "52"
+    },
+    {
+        "description": "ASCII S print character",
+        "decimal": 83,
+        "text": "S",
+        "hex": "53"
+    },
+    {
+        "description": "ASCII T print character",
+        "decimal": 84,
+        "text": "T",
+        "hex": "54"
+    },
+    {
+        "description": "ASCII U print character",
+        "decimal": 85,
+        "text": "U",
+        "hex": "55"
+    },
+    {
+        "description": "ASCII V print character",
+        "decimal": 86,
+        "text": "V",
+        "hex": "56"
+    },
+    {
+        "description": "ASCII W print character",
+        "decimal": 87,
+        "text": "W",
+        "hex": "57"
+    },
+    {
+        "description": "ASCII X print character",
+        "decimal": 88,
+        "text": "X",
+        "hex": "58"
+    },
+    {
+        "description": "ASCII Y print character",
+        "decimal": 89,
+        "text": "Y",
+        "hex": "59"
+    },
+    {
+        "description": "ASCII Z print character",
+        "decimal": 90,
+        "text": "Z",
+        "hex": "5A"
+    },
+    {
+        "description": "ASCII [ print character",
+        "decimal": 91,
+        "text": "[",
+        "hex": "5B"
+    },
+    {
+        "description": "ASCII \\ print character",
+        "decimal": 92,
+        "text": "\\",
+        "hex": "5C"
+    },
+    {
+        "description": "ASCII ] print character",
+        "decimal": 93,
+        "text": "]",
+        "hex": "5D"
+    },
+    {
+        "description": "ASCII ^ print character",
+        "decimal": 94,
+        "text": "^",
+        "hex": "5E"
+    },
+    {
+        "description": "ASCII _ print character",
+        "decimal": 95,
+        "text": "_",
+        "hex": "5F"
+    },
+    {
+        "description": "ASCII ` print character",
+        "decimal": 96,
+        "text": "`",
+        "hex": "60"
+    },
+    {
+        "description": "ASCII a print character",
+        "decimal": 97,
+        "text": "a",
+        "hex": "61"
+    },
+    {
+        "description": "ASCII b print character",
+        "decimal": 98,
+        "text": "b",
+        "hex": "62"
+    },
+    {
+        "description": "ASCII c print character",
+        "decimal": 99,
+        "text": "c",
+        "hex": "63"
+    },
+    {
+        "description": "ASCII D print character",
+        "decimal": 100,
+        "text": "d",
+        "hex": "64"
+    },
+    {
+        "description": "ASCII e print character",
+        "decimal": 101,
+        "text": "e",
+        "hex": "65"
+    },
+    {
+        "description": "ASCII f print character",
+        "decimal": 102,
+        "text": "f",
+        "hex": "66"
+    },
+    {
+        "description": "ASCII g print character",
+        "decimal": 103,
+        "text": "g",
+        "hex": "67"
+    },
+    {
+        "description": "ASCII h print character",
+        "decimal": 104,
+        "text": "h",
+        "hex": "68"
+    },
+    {
+        "description": "ASCII i print character",
+        "decimal": 105,
+        "text": "i",
+        "hex": "69"
+    },
+    {
+        "description": "ASCII j print character",
+        "decimal": 106,
+        "text": "j",
+        "hex": "6A"
+    },
+    {
+        "description": "ASCII k print character",
+        "decimal": 107,
+        "text": "k",
+        "hex": "6B"
+    },
+    {
+        "description": "ASCII l print character",
+        "decimal": 108,
+        "text": "l",
+        "hex": "6C"
+    },
+    {
+        "description": "ASCII m print character",
+        "decimal": 109,
+        "text": "m",
+        "hex": "6D"
+    },
+    {
+        "description": "ASCII n print character",
+        "decimal": 110,
+        "text": "n",
+        "hex": "6E"
+    },
+    {
+        "description": "ASCII o print character",
+        "decimal": 111,
+        "text": "o",
+        "hex": "6F"
+    },
+    {
+        "description": "ASCII p print character",
+        "decimal": 112,
+        "text": "p",
+        "hex": "70"
+    },
+    {
+        "description": "ASCII q print character",
+        "decimal": 113,
+        "text": "q",
+        "hex": "71"
+    },
+    {
+        "description": "ASCII r print character",
+        "decimal": 114,
+        "text": "r",
+        "hex": "72"
+    },
+    {
+        "description": "ASCII s print character",
+        "decimal": 115,
+        "text": "s",
+        "hex": "73"
+    },
+    {
+        "description": "ASCII t print character",
+        "decimal": 116,
+        "text": "t",
+        "hex": "74"
+    },
+    {
+        "description": "ASCII u print character",
+        "decimal": 117,
+        "text": "u",
+        "hex": "75"
+    },
+    {
+        "description": "ASCII v print character",
+        "decimal": 118,
+        "text": "v",
+        "hex": "76"
+    },
+    {
+        "description": "ASCII w print character",
+        "decimal": 119,
+        "text": "w",
+        "hex": "77"
+    },
+    {
+        "description": "ASCII x print character",
+        "decimal": 120,
+        "text": "x",
+        "hex": "78"
+    },
+    {
+        "description": "ASCII y print character",
+        "decimal": 121,
+        "text": "y",
+        "hex": "79"
+    },
+    {
+        "description": "ASCII z print character",
+        "decimal": 122,
+        "text": "z",
+        "hex": "7A"
+    },
+    {
+        "description": "ASCII { print character",
+        "decimal": 123,
+        "text": "{",
+        "hex": "7B"
+    },
+    {
+        "description": "ASCII | print character",
+        "decimal": 124,
+        "text": "|",
+        "hex": "7C"
+    },
+    {
+        "description": "ASCII } print character",
+        "decimal": 125,
+        "text": "}",
+        "hex": "7D"
+    },
+    {
+        "description": "ASCII ~ print character",
+        "decimal": 126,
+        "text": "~",
+        "hex": "7E"
+    }
+]

@@ -2,8 +2,11 @@
 
 namespace Data;
 
+include_once '../src/ControlAscii.php';
+
 use Error;
 use TypeError;
+use Ascii\ControlAscii;
 
 interface DataInterface
 {
@@ -28,27 +31,42 @@ abstract class AbstractData implements DataInterface
       throw new TypeError('Data input should be initialized with array<int> or string type data.');
     }
   }
-}
 
-class Data extends AbstractData
-{
   public function toIntArray()
   {
-    throw new Error('Not implemented');
+    return $this->input;
   }
 
   public function __toString()
   {
-    throw new Error('Not implemented');
+    $ascii = '';
+    foreach ($this->input as $decimal) {
+      $ascii .= chr($decimal);
+    }
+    return $ascii;
   }
 
   public function toHexString()
   {
-    throw new Error('Not implemented');
+    $hexString = '';
+    foreach ($this->input as $decimal) {
+      $hexString .= dechex($decimal);
+    }
+    return $hexString;
   }
 
   public function toCodeString()
   {
+    $codeString = '';
+    foreach ($this->input as $decimal) {
+      $codeString .= ControlAscii::toAsciiCodeString($decimal) . ' ';
+    }
+    return trim($codeString);
+
     throw new Error('Not implemented');
   }
+}
+
+class Data extends AbstractData
+{
 }

@@ -13,10 +13,19 @@ class DataTest extends TestCase
 
   public function setUp(): void
   {
-    $this->arrayData = [1, 2, 3];
-    $this->stringData = 'Need to be filled in';
-    $this->hexString = 'Need to be filled in';
-    $this->codeString = 'Need to be filled in';
+    $this->arrayData = [97, 98, 99, 32, 100, 101, 102];
+    $this->stringData = 'abc def';
+    $this->hexString = '61626320646566';
+    $this->codeString = 'a b c SP d e f';
+  }
+
+  public function testInitializeData()
+  {
+    $data = new Data($this->arrayData);
+    $this->assertSame($this->arrayData, $data->toIntArray(), 'data initialized with array data is different from the expected value');
+
+    $data = new Data($this->stringData);
+    $this->assertSame($this->arrayData, $data->toIntArray(), 'data initialized with string data is different from the expected value');
   }
 
   public function testToIntArray()
